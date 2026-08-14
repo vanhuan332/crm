@@ -11,10 +11,9 @@ public class Claim {
     @Column(nullable = false) private String summary;
     @Enumerated(EnumType.STRING) @Column(nullable = false) private SignalType signalType;
     @Enumerated(EnumType.STRING) @Column(nullable = false) private Confidence confidence;
-    @Lob @Column(nullable = false) private String quote;
+    @Column(nullable = false, columnDefinition = "TEXT") private String quote;
     @Column(nullable = false) private int quoteStart;
     @Column(nullable = false) private int quoteEnd;
     @Column(nullable = false) private Instant createdAt = Instant.now();
     protected Claim() { }
 }
-
