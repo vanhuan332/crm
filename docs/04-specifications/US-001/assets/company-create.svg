@@ -12,7 +12,7 @@
 
   <rect x="202" y="496" width="796" height="292" rx="14" class="card"/>
   <rect x="236" y="528" width="5" height="25" rx="3" fill="#d8e1ec"/><text x="254" y="547" class="section">THÔNG TIN BỔ SUNG</text><text x="456" y="547" class="hint">(tùy chọn)</text>
-  <text x="236" y="594" class="label">Quốc gia</text><text x="612" y="594" class="label">Điện thoại</text><rect x="236" y="609" width="352" height="45" rx="6" class="input"/><rect x="612" y="609" width="352" height="45" rx="6" class="input"/><text x="252" y="637" class="placeholder">Ví dụ: Việt Nam</text><text x="628" y="637" class="placeholder">Nhập số điện thoại</text>
+  <text x="236" y="594" class="label">Quốc gia</text><text x="612" y="594" class="label">Quy mô</text><rect x="236" y="609" width="352" height="45" rx="6" class="input"/><rect x="612" y="609" width="352" height="45" rx="6" class="input"/><text x="252" y="637" class="placeholder">Ví dụ: Việt Nam</text><text x="628" y="637" class="placeholder">Ví dụ: 1.000+ nhân sự</text>
   <text x="236" y="694" class="label">Website</text><rect x="236" y="709" width="728" height="45" rx="6" class="input"/><text x="252" y="737" class="placeholder">https://example.com</text>
   <text x="202" y="821" class="hint"><tspan fill="#dc2626">*</tspan> Bắt buộc</text><rect x="786" y="804" width="84" height="46" rx="7" fill="#fff" stroke="#bfcee0"/><text x="811" y="833" class="btn" fill="#263a59">Hủy</text><rect x="884" y="804" width="114" height="46" rx="7" fill="#5236f5"/><text x="909" y="833" class="btn" fill="#fff">Tạo công ty</text>
   <text x="24" y="884" class="hint">SCR-US001-03 · US-001 · AC-001, AC-003 · Các trường bổ sung có thể để trống.</text>

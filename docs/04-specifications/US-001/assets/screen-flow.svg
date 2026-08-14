@@ -35,7 +35,7 @@
 <circle cx="244" cy="278" r="5" fill="#2563EB"/>
 <text x="260" y="284" class="body">Tạo công ty</text>
 <circle cx="244" cy="336" r="5" fill="#2563EB"/>
-<text x="260" y="342" class="body">Bảng: Tên · Ngành · Loại · Quốc gia</text>
+<text x="260" y="342" class="body">Bảng: Tên · Ngành · Loại · Quốc gia · Quy mô · Website</text>
 <circle cx="244" cy="394" r="5" fill="#2563EB"/>
 <text x="260" y="400" class="body">Xem · Chỉnh sửa · Xóa</text>
 <circle cx="244" cy="452" r="5" fill="#2563EB"/>

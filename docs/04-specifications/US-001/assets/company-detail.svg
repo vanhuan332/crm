@@ -14,9 +14,7 @@
   <text x="66" y="322" class="label">NGÀNH</text><text x="66" y="350" class="body">Phát triển phần mềm</text>
   <text x="602" y="322" class="label">QUỐC GIA</text><text x="602" y="350" class="body">Việt Nam</text>
   <text x="66" y="402" class="label">WEBSITE</text><text x="66" y="430" class="body">https://www.fpt-software.com</text>
-  <text x="602" y="402" class="label">ĐIỆN THOẠI</text><text x="602" y="430" class="body">+84 24 7300 7300</text>
-  <text x="66" y="482" class="label">ĐỊA CHỈ</text><text x="66" y="510" class="body">17 Duy Tân, Cầu Giấy, Hà Nội</text>
-  <text x="66" y="542" class="label">MÔ TẢ / GHI CHÚ</text><text x="244" y="542" class="body">Công ty IT hàng đầu Việt Nam, chuyên về outsourcing và chuyển đổi số.</text>
+  <text x="602" y="402" class="label">QUY MÔ</text><text x="602" y="430" class="body">1.000+ nhân sự</text>
 
   <rect x="28" y="598" width="1144" height="132" rx="14" class="card"/>
   <rect x="60" y="628" width="5" height="25" rx="3" fill="#d8e1ec"/><text x="78" y="647" class="section">METADATA</text>
