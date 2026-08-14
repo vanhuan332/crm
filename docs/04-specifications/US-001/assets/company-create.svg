@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US001-03 — Tạo Công ty</title>
+  <desc id="desc">Biểu mẫu tạo công ty với ba trường bắt buộc và nhóm thông tin bổ sung tùy chọn.</desc>
+  <style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 27px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.crumb{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f}.section{font:700 15px Inter,'Segoe UI',Arial,sans-serif;fill:#263a59;letter-spacing:.3px}.label{font:500 14px Inter,'Segoe UI',Arial,sans-serif;fill:#14233e}.hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}.input{fill:#fff;stroke:#becde1}.placeholder{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#9aabc5}.btn{font:600 14px Inter,'Segoe UI',Arial,sans-serif}</style>
+  <rect width="1200" height="900" class="bg"/>
+  <text x="24" y="34" class="crumb">Công ty  ›  Tạo công ty</text><text x="24" y="82" class="h1">Tạo công ty</text>
+  <rect x="202" y="114" width="796" height="372" rx="14" class="card"/>
+  <rect x="236" y="146" width="5" height="25" rx="3" fill="#695cff"/><text x="254" y="165" class="section">THÔNG TIN BẮT BUỘC</text>
+  <text x="236" y="210" class="label">Tên công ty <tspan fill="#dc2626">*</tspan></text><rect x="236" y="225" width="728" height="45" rx="6" class="input"/><text x="252" y="253" class="placeholder">Nhập tên công ty</text>
+  <text x="236" y="310" class="label">Ngành <tspan fill="#dc2626">*</tspan></text><rect x="236" y="325" width="728" height="45" rx="6" class="input"/><text x="252" y="353" class="placeholder">Nhập ngành hoạt động</text>
+  <text x="236" y="410" class="label">Loại công ty <tspan fill="#dc2626">*</tspan></text><rect x="236" y="425" width="728" height="45" rx="6" class="input"/><text x="252" y="453" class="placeholder">Chọn một trong 5 loại công ty</text><text x="936" y="453" class="label">⌄</text>
+
+  <rect x="202" y="496" width="796" height="292" rx="14" class="card"/>
+  <rect x="236" y="528" width="5" height="25" rx="3" fill="#d8e1ec"/><text x="254" y="547" class="section">THÔNG TIN BỔ SUNG</text><text x="456" y="547" class="hint">(tùy chọn)</text>
+  <text x="236" y="594" class="label">Quốc gia</text><text x="612" y="594" class="label">Điện thoại</text><rect x="236" y="609" width="352" height="45" rx="6" class="input"/><rect x="612" y="609" width="352" height="45" rx="6" class="input"/><text x="252" y="637" class="placeholder">Ví dụ: Việt Nam</text><text x="628" y="637" class="placeholder">Nhập số điện thoại</text>
+  <text x="236" y="694" class="label">Website</text><rect x="236" y="709" width="728" height="45" rx="6" class="input"/><text x="252" y="737" class="placeholder">https://example.com</text>
+  <text x="202" y="821" class="hint"><tspan fill="#dc2626">*</tspan> Bắt buộc</text><rect x="786" y="804" width="84" height="46" rx="7" fill="#fff" stroke="#bfcee0"/><text x="811" y="833" class="btn" fill="#263a59">Hủy</text><rect x="884" y="804" width="114" height="46" rx="7" fill="#5236f5"/><text x="909" y="833" class="btn" fill="#fff">Tạo công ty</text>
+  <text x="24" y="884" class="hint">SCR-US001-03 · US-001 · AC-001, AC-003 · Các trường bổ sung có thể để trống.</text>
+</svg>

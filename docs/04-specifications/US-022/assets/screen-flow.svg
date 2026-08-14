@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-labelledby="title desc">
+<title id="title">US-022 — Nhật ký quyết định Gợi ý</title>
+<desc id="desc">Wireframe nghiệp vụ cho US-022, truy vết AC-043.</desc>
+<style>
+.bg{fill:#F8FAFC}.sidebar{fill:#FFFFFF;stroke:#E2E8F0}.panel{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:1.5}.nav{font:500 15px 'Segoe UI',Arial,sans-serif;fill:#475569}.active{fill:#1D4ED8;font-weight:700}.eyebrow{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#2563EB;letter-spacing:1.2px}.h1{font:700 28px 'Segoe UI',Arial,sans-serif;fill:#0F172A}.meta{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#64748B}.paneltitle{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#1E3A8A}.body{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#334155}.chip{fill:#E0E7FF}.chiptext{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#3730A3}.note{font:500 12px 'Segoe UI',Arial,sans-serif;fill:#64748B}
+</style>
+<rect width="1440" height="820" class="bg"/>
+<rect x="0" y="0" width="190" height="820" class="sidebar"/>
+<rect x="18" y="24" width="40" height="40" rx="12" fill="#2563EB"/>
+<text x="70" y="50" class="paneltitle">AI Native CRM</text>
+<rect x="18" y="128" width="154" height="36" rx="9" fill="transparent"/>
+<text x="34" y="151" class="nav">Dashboard</text>
+<rect x="18" y="175" width="154" height="36" rx="9" fill="transparent"/>
+<text x="34" y="198" class="nav">Công ty</text>
+<rect x="18" y="222" width="154" height="36" rx="9" fill="transparent"/>
+<text x="34" y="245" class="nav">Pipeline</text>
+<rect x="18" y="269" width="154" height="36" rx="9" fill="transparent"/>
+<text x="34" y="292" class="nav">Timeline</text>
+<rect x="18" y="316" width="154" height="36" rx="9" fill="transparent"/>
+<text x="34" y="339" class="nav">AI Insight</text>
+<rect x="18" y="363" width="154" height="36" rx="9" fill="transparent"/>
+<text x="34" y="386" class="nav">Gợi ý</text>
+<rect x="18" y="410" width="154" height="36" rx="9" fill="#DBEAFE"/>
+<text x="34" y="433" class="nav active">Admin</text>
+<text x="22" y="782" class="note">Wireframe BA · không phải UI final</text>
+<text x="216" y="44" class="eyebrow">US-022 · Admin</text>
+<text x="216" y="84" class="h1">Nhật ký quyết định Gợi ý</text>
+<rect x="216" y="108" width="430" height="34" rx="17" class="chip"/>
+<text x="234" y="130" class="chiptext">AC-043</text>
+<text x="216" y="174" class="meta">Luồng màn hình và trạng thái nghiệp vụ</text>
+<rect x="216" y="196" width="372" height="506" rx="16" class="panel"/>
+<rect x="216" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
+<rect x="216" y="244" width="372" height="16" fill="#EFF6FF"/>
+<text x="238" y="234" class="paneltitle">SCR-US022-01 · Nhật ký quyết định</text>
+<circle cx="244" cy="278" r="5" fill="#2563EB"/>
+<text x="260" y="284" class="body">Người quyết định</text>
+<circle cx="244" cy="336" r="5" fill="#2563EB"/>
+<text x="260" y="342" class="body">Thời điểm</text>
+<circle cx="244" cy="394" r="5" fill="#2563EB"/>
+<text x="260" y="400" class="body">Quyết định</text>
+<circle cx="244" cy="452" r="5" fill="#2563EB"/>
+<text x="260" y="458" class="body">Số giây quyết định</text>
+<circle cx="244" cy="510" r="5" fill="#2563EB"/>
+<text x="260" y="516" class="body">Gợi ý liên quan</text>
+<rect x="612" y="196" width="372" height="506" rx="16" class="panel"/>
+<rect x="612" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
+<rect x="612" y="244" width="372" height="16" fill="#EFF6FF"/>
+<text x="634" y="234" class="paneltitle">SCR-US022-02 · Chi tiết bản ghi</text>
+<circle cx="640" cy="278" r="5" fill="#2563EB"/>
+<text x="656" y="284" class="body">Giá trị trước → đề nghị</text>
+<circle cx="640" cy="336" r="5" fill="#2563EB"/>
+<text x="656" y="342" class="body">Kết quả duyệt/sửa/bỏ</text>
+<circle cx="640" cy="394" r="5" fill="#2563EB"/>
+<text x="656" y="400" class="body">Lý do bỏ nếu có</text>
+<circle cx="640" cy="452" r="5" fill="#2563EB"/>
+<text x="656" y="458" class="body">Chỉ đọc</text>
+<circle cx="640" cy="510" r="5" fill="#2563EB"/>
+<text x="656" y="516" class="body">Truy vết tới Phát hiện</text>
+<rect x="1008" y="196" width="372" height="506" rx="16" class="panel"/>
+<rect x="1008" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
+<rect x="1008" y="244" width="372" height="16" fill="#EFF6FF"/>
+<text x="1030" y="234" class="paneltitle">SCR-US022-03 · Trạng thái</text>
+<circle cx="1036" cy="278" r="5" fill="#2563EB"/>
+<text x="1052" y="284" class="body">Loading nhật ký</text>
+<circle cx="1036" cy="336" r="5" fill="#2563EB"/>
+<text x="1052" y="342" class="body">Empty: Chưa có quyết định</text>
+<circle cx="1036" cy="394" r="5" fill="#2563EB"/>
+<text x="1052" y="400" class="body">Error có Thử lại</text>
+<circle cx="1036" cy="452" r="5" fill="#2563EB"/>
+<text x="1052" y="458" class="body">Permission: Admin</text>
+<circle cx="1036" cy="510" r="5" fill="#2563EB"/>
+<text x="1052" y="516" class="body">Không cho sửa audit</text>
+<rect x="216" y="728" width="1164" height="58" rx="12" fill="#F1F5F9"/>
+<text x="238" y="752" class="note">Bao phủ: loading · empty · validation · permission · not-found · recoverable error khi được yêu cầu.</text>
+<text x="238" y="772" class="note">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai.</text>
+</svg>

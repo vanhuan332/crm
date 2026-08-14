@@ -1,0 +1,15 @@
+ALTER TABLE companies
+  ADD COLUMN phone VARCHAR(30),
+  ADD COLUMN address VARCHAR(500),
+  ADD COLUMN description VARCHAR(2000),
+  ADD COLUMN created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  ADD COLUMN updated_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  ADD COLUMN deleted_at TIMESTAMPTZ,
+  ADD COLUMN version BIGINT NOT NULL DEFAULT 0;
+
+UPDATE companies
+SET company_type = 'TECH_STARTUP'
+WHERE company_type = 'TECH_BASED_STARTUP';
+
+CREATE UNIQUE INDEX uq_companies_active_normalized_name
+  ON companies (lower(btrim(name))) WHERE deleted_at IS NULL;

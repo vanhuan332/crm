@@ -1,0 +1,7 @@
+# Maven build output and local dependency cache do not belong in the Docker build context.
+target/
+.m2/
+
+# Local repository metadata is not needed by the backend image build.
+.git/
+.idea/

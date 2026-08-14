@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: ai-native-crm
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/ai_native_crm}
+    username: ${DATABASE_USERNAME:crm}
+    password: ${DATABASE_PASSWORD:crm}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  flyway:
+    enabled: true
+
+crm:
+  ai:
+    enabled: ${AI_ENABLED:true}
+    scan-interval-seconds: ${SCAN_INTERVAL_SECONDS:60}
+

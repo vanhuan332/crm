@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-labelledby="title desc">
+<title id="title">US-030 — Công ty Đang theo dõi</title>
+<desc id="desc">Wireframe nghiệp vụ cho US-030, truy vết AC-058 · AC-059.</desc>
+<style>
+.bg{fill:#F8FAFC}.sidebar{fill:#FFFFFF;stroke:#E2E8F0}.panel{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:1.5}.nav{font:500 15px 'Segoe UI',Arial,sans-serif;fill:#475569}.active{fill:#1D4ED8;font-weight:700}.eyebrow{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#2563EB;letter-spacing:1.2px}.h1{font:700 28px 'Segoe UI',Arial,sans-serif;fill:#0F172A}.meta{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#64748B}.paneltitle{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#1E3A8A}.body{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#334155}.chip{fill:#E0E7FF}.chiptext{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#3730A3}.note{font:500 12px 'Segoe UI',Arial,sans-serif;fill:#64748B}
+</style>
+<rect width="1440" height="820" class="bg"/>
+<rect x="0" y="0" width="190" height="820" class="sidebar"/>
+<rect x="18" y="24" width="40" height="40" rx="12" fill="#2563EB"/>
+<text x="70" y="50" class="paneltitle">AI Native CRM</text>
+<rect x="18" y="128" width="154" height="36" rx="9" fill="transparent"/>
+<text x="34" y="151" class="nav">Dashboard</text>
+<rect x="18" y="175" width="154" height="36" rx="9" fill="#DBEAFE"/>
+<text x="34" y="198" class="nav active">Công ty</text>
+<rect x="18" y="222" width="154" height="36" rx="9" fill="transparent"/>
+<text x="34" y="245" class="nav">Pipeline</text>
+<rect x="18" y="269" width="154" height="36" rx="9" fill="transparent"/>
+<text x="34" y="292" class="nav">Timeline</text>
+<rect x="18" y="316" width="154" height="36" rx="9" fill="transparent"/>
+<text x="34" y="339" class="nav">AI Insight</text>
+<rect x="18" y="363" width="154" height="36" rx="9" fill="transparent"/>
+<text x="34" y="386" class="nav">Gợi ý</text>
+<rect x="18" y="410" width="154" height="36" rx="9" fill="transparent"/>
+<text x="34" y="433" class="nav">Admin</text>
+<text x="22" y="782" class="note">Wireframe BA · không phải UI final</text>
+<text x="216" y="44" class="eyebrow">US-030 · Sales</text>
+<text x="216" y="84" class="h1">Công ty Đang theo dõi</text>
+<rect x="216" y="108" width="430" height="34" rx="17" class="chip"/>
+<text x="234" y="130" class="chiptext">AC-058 · AC-059</text>
+<text x="216" y="174" class="meta">Luồng màn hình và trạng thái nghiệp vụ</text>
+<rect x="216" y="196" width="372" height="506" rx="16" class="panel"/>
+<rect x="216" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
+<rect x="216" y="244" width="372" height="16" fill="#EFF6FF"/>
+<text x="238" y="234" class="paneltitle">SCR-US030-01 · Nút Theo dõi</text>
+<circle cx="244" cy="278" r="5" fill="#2563EB"/>
+<text x="260" y="284" class="body">Trạng thái đang bật/tắt</text>
+<circle cx="244" cy="336" r="5" fill="#2563EB"/>
+<text x="260" y="342" class="body">Một thao tác thay đổi</text>
+<circle cx="244" cy="394" r="5" fill="#2563EB"/>
+<text x="260" y="400" class="body">Nhãn rõ bằng text</text>
+<circle cx="244" cy="452" r="5" fill="#2563EB"/>
+<text x="260" y="458" class="body">Ngữ cảnh chi tiết Công ty</text>
+<circle cx="244" cy="510" r="5" fill="#2563EB"/>
+<text x="260" y="516" class="body">Loading khi đang lưu</text>
+<rect x="612" y="196" width="372" height="506" rx="16" class="panel"/>
+<rect x="612" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
+<rect x="612" y="244" width="372" height="16" fill="#EFF6FF"/>
+<text x="634" y="234" class="paneltitle">SCR-US030-02 · Danh sách Theo dõi</text>
+<circle cx="640" cy="278" r="5" fill="#2563EB"/>
+<text x="656" y="284" class="body">Chỉ Công ty đang theo dõi</text>
+<circle cx="640" cy="336" r="5" fill="#2563EB"/>
+<text x="656" y="342" class="body">Tên · Ngành · Quốc gia</text>
+<circle cx="640" cy="394" r="5" fill="#2563EB"/>
+<text x="656" y="400" class="body">Đi tới chi tiết</text>
+<circle cx="640" cy="452" r="5" fill="#2563EB"/>
+<text x="656" y="458" class="body">Bỏ theo dõi một thao tác</text>
+<circle cx="640" cy="510" r="5" fill="#2563EB"/>
+<text x="656" y="516" class="body">Empty: Chưa theo dõi Công ty</text>
+<rect x="1008" y="196" width="372" height="506" rx="16" class="panel"/>
+<rect x="1008" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
+<rect x="1008" y="244" width="372" height="16" fill="#EFF6FF"/>
+<text x="1030" y="234" class="paneltitle">SCR-US030-03 · Trạng thái</text>
+<circle cx="1036" cy="278" r="5" fill="#2563EB"/>
+<text x="1052" y="284" class="body">Bật thành công</text>
+<circle cx="1036" cy="336" r="5" fill="#2563EB"/>
+<text x="1052" y="342" class="body">Tắt thành công</text>
+<circle cx="1036" cy="394" r="5" fill="#2563EB"/>
+<text x="1052" y="400" class="body">Lỗi: giữ trạng thái trước</text>
+<circle cx="1036" cy="452" r="5" fill="#2563EB"/>
+<text x="1052" y="458" class="body">Permission: Sales</text>
+<circle cx="1036" cy="510" r="5" fill="#2563EB"/>
+<text x="1052" y="516" class="body">AI tắt không xóa nhãn</text>
+<rect x="216" y="728" width="1164" height="58" rx="12" fill="#F1F5F9"/>
+<text x="238" y="752" class="note">Bao phủ: loading · empty · validation · permission · not-found · recoverable error khi được yêu cầu.</text>
+<text x="238" y="772" class="note">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai.</text>
+</svg>

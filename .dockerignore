@@ -1,0 +1,12 @@
+.git
+.idea
+.claude
+.m2
+.npm-cache
+target
+frontend/node_modules
+frontend/dist
+.env
+*.md
+docs
+
