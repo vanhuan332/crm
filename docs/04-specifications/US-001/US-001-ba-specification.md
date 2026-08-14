@@ -7,7 +7,7 @@
 | Story | `US-001` — Quản lý Công ty (CRUD + chi tiết) |
 | Feature / domain | `FEAT-001` / `D1 — CRM lõi làm tay` / `EPIC-01` |
 | Version | `1.2` |
-| Status | `AWAITING_SPECIFICATION_APPROVAL` |
+| Status | `SPECIFICATION_APPROVED` |
 | Date | `2026-08-14` |
 | Priority | Must (17) |
 | Sources | `REQ-101`, `BR-001`; `US-001`, `AC-001..004`; `T-1`; DoR review; architect handoff |
@@ -320,6 +320,6 @@ Không còn câu hỏi nghiệp vụ mở cho phạm vi US-001. Sáu câu hỏi 
 
 | Version | Date | Change | Author/Approver |
 |---|---|---|---|
-| 1.2 | 2026-08-14 | Chốt sáu câu hỏi mở: trường tùy chọn, loại không hợp lệ, xoá mềm, validation khi sửa, quyền Quản trị và NFR; bổ sung tên công ty duy nhất, AC/test truy vết và đồng bộ SVG theo sáu trường MVP. | Codex — design approved by user; awaiting written specification approval |
+| 1.2 | 2026-08-14 | Chốt sáu câu hỏi mở: trường tùy chọn, loại không hợp lệ, xoá mềm, validation khi sửa, quyền Quản trị và NFR; bổ sung tên công ty duy nhất, AC/test truy vết và đồng bộ SVG theo sáu trường MVP. | Codex — design and written specification approved by user |
 | 1.1 | 2026-08-14 | Bổ sung năm màn hình SVG chi tiết `SCR-US001-01..05`, liên kết trực tiếp trong specification và truy vết trạng thái tới AC-001..004; giữ các trường tùy chọn ở mức minh hoạ do Q-001-01 còn mở. | Codex — UI direction approved by user; specification approval unchanged |
 | 1.0 | 2026-08-14 | Chuẩn hoá theo template 24 mục; bảo toàn US-001 / FEAT-001 / REQ-101 / BR-001 / AC-001..004 / T-1; loại nội dung kỹ thuật và chuyển quyết định chưa có nguồn thành câu hỏi nghiệp vụ. | Codex — awaiting human specification approval |
