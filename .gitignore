@@ -16,3 +16,4 @@ frontend/verification-dist/
 frontend/test-results/
 frontend/.task*-verify-dist/
 .codegraph/
+.worktrees/
