@@ -1,4 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">SCR-US008-02 — Danh sách Việc phải làm</title><desc id="desc">Danh sách chỉ gồm Cơ hội mở có đủ Việc tiếp theo và ngày hạn.</desc><style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.line{stroke:#e7edf4}.h1{font:700 25px Inter,'Segoe UI',Arial;fill:#07152f}.sub{font:400 14px Inter,'Segoe UI',Arial;fill:#64748b}.th{font:700 12px Inter,'Segoe UI',Arial;fill:#60718f}.body{font:400 14px Inter,'Segoe UI',Arial;fill:#3f526f}.strong{font:700 14px Inter,'Segoe UI',Arial;fill:#07152f}.tag{font:600 11px Inter,'Segoe UI',Arial}</style><rect width="1200" height="760" class="bg"/><text x="32" y="48" class="h1">Việc phải làm</text><text x="32" y="75" class="sub">Cơ hội mở đã có đủ Việc tiếp theo và ngày hạn</text><rect x="32" y="112" width="1136" height="450" rx="14" class="card"/><rect x="33" y="113" width="1134" height="64" rx="13" fill="#fbfcfe"/><text x="58" y="151" class="th">NGÀY HẠN</text><text x="220" y="151" class="th">VIỆC TIẾP THEO</text><text x="650" y="151" class="th">CƠ HỘI</text><text x="900" y="151" class="th">CÔNG TY</text>
-<g><line x1="32" y1="177" x2="1168" y2="177" class="line"/><rect x="58" y="208" width="112" height="30" rx="15" fill="#fff8e8"/><text x="76" y="228" class="tag" fill="#9a5a00">18/08/2026</text><text x="220" y="228" class="strong">Chuẩn bị agenda workshop</text><text x="650" y="228" class="body">Cloud Migration</text><text x="900" y="228" class="body">FPT Software</text></g>
-<g><line x1="32" y1="263" x2="1168" y2="263" class="line"/><rect x="58" y="294" width="112" height="30" rx="15" fill="#eef6ff"/><text x="76" y="314" class="tag" fill="#1d4ed8">20/08/2026</text><text x="220" y="314" class="strong">Gửi bản đề xuất vòng 2</text><text x="650" y="314" class="body">ERP Transformation</text><text x="900" y="314" class="body">FPT Software</text></g>
-<g><line x1="32" y1="349" x2="1168" y2="349" class="line"/><rect x="58" y="380" width="112" height="30" rx="15" fill="#eef6ff"/><text x="76" y="400" class="tag" fill="#1d4ed8">25/08/2026</text><text x="220" y="400" class="strong">Xác nhận phạm vi kiểm thử</text><text x="650" y="400" class="body">QA Service 2027</text><text x="900" y="400" class="body">KMS Technology</text></g><rect x="32" y="596" width="1136" height="70" rx="12" fill="#eef6ff"/><text x="58" y="625" class="strong" fill="#1d4ed8">Điều kiện xuất hiện</text><text x="58" y="650" class="body">Cơ hội mở phải có cả Việc tiếp theo và ngày hạn; thiếu một ô sẽ không có trong danh sách.</text><text x="32" y="736" class="sub">SCR-US008-02 · US-008 · AC-019, AC-020</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US008-02 — Danh sách Việc phải làm</title>
+  <desc id="desc">Danh sách chỉ gồm Cơ hội mở có đủ Việc tiếp theo và ngày hạn, xem/sắp theo ngày hạn.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.line{stroke:#e6ebf2}
+    .h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .sub{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}
+    .th{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f;letter-spacing:.4px}
+    .body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#3f526f}
+    .strong{font:700 14px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .tag{font:600 11px Inter,'Segoe UI',Arial,sans-serif}
+    .hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+  </style>
+  <rect width="1200" height="820" class="bg"/>
+  <text x="32" y="48" class="h1">Việc phải làm</text>
+  <text x="32" y="75" class="sub">Cơ hội mở đã có đủ Việc tiếp theo và ngày hạn · sắp theo ngày hạn gần nhất</text>
+
+  <rect x="32" y="112" width="1136" height="450" rx="14" class="card"/>
+  <rect x="33" y="113" width="1134" height="64" rx="13" fill="#fbfcfe"/>
+  <text x="58" y="151" class="th">NGÀY HẠN</text>
+  <text x="220" y="151" class="th">VIỆC TIẾP THEO</text>
+  <text x="650" y="151" class="th">CƠ HỘI</text>
+  <text x="900" y="151" class="th">CÔNG TY</text>
+
+  <line x1="32" y1="177" x2="1168" y2="177" class="line"/>
+  <g><rect x="58" y="208" width="104" height="30" rx="15" fill="#fff1f2"/><text x="74" y="228" class="tag" fill="#dc2626">05/08/2026</text><text x="220" y="228" class="strong">Gửi lại hợp đồng đã chỉnh sửa</text><text x="650" y="228" class="body">Data Platform 2.0</text><text x="900" y="228" class="body">Viettel Digital</text></g>
+
+  <line x1="32" y1="263" x2="1168" y2="263" class="line"/>
+  <g><rect x="58" y="294" width="112" height="30" rx="15" fill="#fff8e8"/><text x="76" y="314" class="tag" fill="#9a5a00">18/08/2026</text><text x="220" y="314" class="strong">Chuẩn bị agenda workshop</text><text x="650" y="314" class="body">Cloud Migration</text><text x="900" y="314" class="body">FPT Software</text></g>
+
+  <line x1="32" y1="349" x2="1168" y2="349" class="line"/>
+  <g><rect x="58" y="380" width="112" height="30" rx="15" fill="#eef6ff"/><text x="76" y="400" class="tag" fill="#1d4ed8">20/08/2026</text><text x="220" y="400" class="strong">Gửi bản đề xuất vòng 2</text><text x="650" y="400" class="body">ERP Transformation</text><text x="900" y="400" class="body">FPT Software</text></g>
+
+  <line x1="32" y1="435" x2="1168" y2="435" class="line"/>
+  <g><rect x="58" y="466" width="112" height="30" rx="15" fill="#eef6ff"/><text x="76" y="486" class="tag" fill="#1d4ed8">25/08/2026</text><text x="220" y="486" class="strong">Xác nhận phạm vi kiểm thử</text><text x="650" y="486" class="body">QA Service 2027</text><text x="900" y="486" class="body">KMS Technology</text></g>
+
+  <rect x="32" y="596" width="1136" height="70" rx="12" fill="#eef6ff"/>
+  <text x="58" y="625" class="strong" fill="#1d4ed8">Điều kiện xuất hiện</text>
+  <text x="58" y="650" class="body">Cơ hội mở phải có cả Việc tiếp theo và ngày hạn; thiếu một ô sẽ không có trong danh sách này (AC-020).</text>
+
+  <rect x="32" y="682" width="1136" height="58" rx="12" fill="#f1f5f9"/>
+  <text x="58" y="716" class="hint">Nhãn "quá hạn" (đỏ) chỉ minh hoạ trực quan; định nghĩa/bộ lọc quá hạn thuộc phạm vi US-009, không phải quy tắc của US-008.</text>
+
+  <text x="32" y="784" class="sub">SCR-US008-02 · US-008 · AC-019, AC-020</text>
+</svg>

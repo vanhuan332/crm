@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US013-01 — Vùng đọc: Danh sách Phát hiện</title>
+  <desc id="desc">Màn hình chỉ đọc liệt kê các Phát hiện (Claim) do A-AI rút ra, mỗi hàng có nhận định, loại tin, mức chắc chắn, câu trích và Công ty thừa kế qua Bản lưu.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.line{stroke:#e6ebf2}
+    .h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .sub{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}
+    .th{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f;letter-spacing:.45px}
+    .body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#3f526f}
+    .strong{font:700 14px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .mono{font:400 12px 'SFMono-Regular',Consolas,monospace;fill:#8ca0c4}
+    .tag{font:600 11px Inter,'Segoe UI',Arial,sans-serif}
+    .action{font:500 12px Inter,'Segoe UI',Arial,sans-serif}
+    .pill{font:600 12px Inter,'Segoe UI',Arial,sans-serif}
+  </style>
+  <rect width="1200" height="760" class="bg"/>
+  <text x="32" y="48" class="h1">Vùng đọc — Phát hiện</text>
+  <text x="32" y="73" class="sub">6 phát hiện · từ 3 bản lưu</text>
+  <rect x="936" y="29" width="232" height="34" rx="17" fill="#eef3f8" stroke="#d4deea"/>
+  <text x="956" y="51" class="pill" fill="#47627e">🔒 Chỉ đọc · A-AI tự cập nhật</text>
+
+  <rect x="32" y="108" width="1136" height="606" rx="14" class="card"/>
+  <rect x="33" y="109" width="1134" height="66" rx="13" fill="#fbfcfe"/>
+  <line x1="32" y1="175" x2="1168" y2="175" class="line"/>
+  <text x="57" y="148" class="th">#</text>
+  <text x="118" y="148" class="th">NHẬN ĐỊNH NGẮN</text>
+  <text x="410" y="148" class="th">LOẠI TIN</text>
+  <text x="560" y="148" class="th">MỨC</text>
+  <text x="660" y="148" class="th">CÂU TRÍCH</text>
+  <text x="960" y="148" class="th">CÔNG TY</text>
+  <text x="1080" y="148" class="th">THAO TÁC</text>
+
+  <!-- Row 1 -->
+  <text x="57" y="214" class="mono">01</text>
+  <text x="118" y="214" class="strong">Vừa công bố vòng gọi vốn mới</text>
+  <rect x="410" y="196" width="92" height="27" rx="6" fill="#eef0ff" stroke="#c4c8ff"/><text x="422" y="214" class="tag" fill="#4634f2">Gọi vốn</text>
+  <rect x="560" y="196" width="70" height="27" rx="6" fill="#edfff7" stroke="#7ee8b6"/><text x="573" y="214" class="tag" fill="#047857">Chắc</text>
+  <text x="660" y="214" class="mono">"…huy động 20 triệu USD…"</text>
+  <text x="960" y="214" class="body">FPT Software</text>
+  <text x="1080" y="214" class="action" fill="#60718f">› Xem</text>
+  <line x1="32" y1="241" x2="1168" y2="241" class="line"/>
+
+  <!-- Row 2 -->
+  <text x="57" y="280" class="mono">02</text>
+  <text x="118" y="280" class="strong">Bổ nhiệm CIO mới</text>
+  <rect x="410" y="262" width="150" height="27" rx="6" fill="#f5edff" stroke="#d9b8ff"/><text x="422" y="280" class="tag" fill="#6d28d9">Nhân sự cấp cao</text>
+  <rect x="560" y="262" width="70" height="27" rx="6" fill="#edfff7" stroke="#7ee8b6"/><text x="573" y="280" class="tag" fill="#047857">Chắc</text>
+  <text x="660" y="280" class="mono">"…bổ nhiệm CIO kể từ tháng 8…"</text>
+  <text x="960" y="280" class="body">VNG Corporation</text>
+  <text x="1080" y="280" class="action" fill="#60718f">› Xem</text>
+  <line x1="32" y1="307" x2="1168" y2="307" class="line"/>
+
+  <!-- Row 3 -->
+  <text x="57" y="346" class="mono">03</text>
+  <text x="118" y="346" class="strong">Mở rộng văn phòng Đà Nẵng</text>
+  <rect x="410" y="328" width="88" height="27" rx="6" fill="#eaf6ff" stroke="#b8e0ff"/><text x="422" y="346" class="tag" fill="#0369a1">Mở rộng</text>
+  <rect x="560" y="328" width="92" height="27" rx="6" fill="#fff9e9" stroke="#f5c84b"/><text x="573" y="346" class="tag" fill="#c45b00">Có thể</text>
+  <text x="660" y="346" class="mono">"…mở thêm văn phòng tại…"</text>
+  <text x="960" y="346" class="body">TMA Solutions</text>
+  <text x="1080" y="346" class="action" fill="#60718f">› Xem</text>
+  <line x1="32" y1="373" x2="1168" y2="373" class="line"/>
+
+  <!-- Row 4 -->
+  <text x="57" y="412" class="mono">04</text>
+  <text x="118" y="412" class="strong">Đăng tuyển 50 vị trí kỹ sư</text>
+  <rect x="410" y="394" width="100" height="27" rx="6" fill="#e6fbf7" stroke="#99e6d9"/><text x="422" y="412" class="tag" fill="#0f766e">Tuyển dụng</text>
+  <rect x="560" y="394" width="70" height="27" rx="6" fill="#edfff7" stroke="#7ee8b6"/><text x="573" y="412" class="tag" fill="#047857">Chắc</text>
+  <text x="660" y="412" class="mono">"…tuyển 50 kỹ sư phần mềm…"</text>
+  <text x="960" y="412" class="body">Viettel Digital</text>
+  <text x="1080" y="412" class="action" fill="#60718f">› Xem</text>
+  <line x1="32" y1="439" x2="1168" y2="439" class="line"/>
+
+  <!-- Row 5 -->
+  <text x="57" y="478" class="mono">05</text>
+  <text x="118" y="478" class="strong">Có dấu hiệu lấn sang mảng AI</text>
+  <rect x="410" y="460" width="132" height="27" rx="6" fill="#fff1e6" stroke="#fecba1"/><text x="422" y="478" class="tag" fill="#c2410c">Mảng KD mới</text>
+  <rect x="560" y="460" width="70" height="27" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/><text x="573" y="478" class="tag" fill="#64748b">Đoán</text>
+  <text x="660" y="478" class="mono">"…chưa có bằng chứng trực tiếp…"</text>
+  <text x="960" y="478" class="body">Nashtech Vietnam</text>
+  <text x="1080" y="478" class="action" fill="#60718f">› Xem</text>
+  <line x1="32" y1="505" x2="1168" y2="505" class="line"/>
+
+  <!-- Row 6 -->
+  <text x="57" y="544" class="mono">06</text>
+  <text x="118" y="544" class="strong">Tín hiệu chưa phân loại rõ</text>
+  <rect x="410" y="526" width="64" height="27" rx="6" fill="#eef3f8" stroke="#d4deea"/><text x="422" y="544" class="tag" fill="#47627e">Khác</text>
+  <rect x="560" y="526" width="92" height="27" rx="6" fill="#fff9e9" stroke="#f5c84b"/><text x="573" y="544" class="tag" fill="#c45b00">Có thể</text>
+  <text x="660" y="544" class="mono">"…đề cập ngắn gọn, chưa rõ nghĩa…"</text>
+  <text x="960" y="544" class="body">CMC Technology</text>
+  <text x="1080" y="544" class="action" fill="#60718f">› Xem</text>
+
+  <text x="32" y="700" class="sub">Wireframe BA · không phải UI final · Tên công ty và câu trích chỉ minh hoạ.</text>
+  <text x="32" y="724" class="sub">SCR-US013-01 · US-013 · AC-028 · Chỉ đọc — không có nút tạo/sửa/xoá Phát hiện.</text>
+</svg>

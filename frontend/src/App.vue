@@ -7,8 +7,8 @@ const navigation = [
 
 <template>
   <main>
-    <header><div><strong>AI-NATIVE CRM</strong><span>HBLAB</span></div><small>Vue.js 3 SPA</small></header>
-    <nav><RouterLink v-for="[to, label] in navigation" :key="to" :to="to">{{ label }}</RouterLink></nav>
+    <header class="app-header"><div class="brand"><strong>AI-NATIVE CRM</strong><span>HBLAB</span></div><small>Vue.js 3 SPA</small></header>
+    <nav class="app-nav"><RouterLink v-for="[to, label] in navigation" :key="to" :to="to">{{ label }}</RouterLink></nav>
     <RouterView />
   </main>
 </template>

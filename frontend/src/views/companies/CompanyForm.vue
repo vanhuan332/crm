@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { nextTick, ref, watch } from 'vue'
-import type { CompanyInput, CompanyType } from '../../api/companies'
+import type { CompanyInput } from '../../api/companies'
+import { companyTypeOptions } from '../../utils/companyType'
 
 const props = withDefaults(defineProps<{
   initialValues?: Partial<CompanyInput>
@@ -74,37 +75,83 @@ function submit() {
 }
 
 const errorFor = (field: string) => clientErrors.value[field] || props.fieldErrors[field]
-const companyTypes: { value: CompanyType, label: string }[] = [
-  { value: 'TRADITIONAL', label: 'Truyền thống' }, { value: 'IT_SOLUTION', label: 'Giải pháp CNTT' },
-  { value: 'IT_PRODUCT', label: 'Sản phẩm CNTT' }, { value: 'TECH_STARTUP', label: 'Khởi nghiệp công nghệ' },
-  { value: 'OTHER_ITO', label: 'ITO khác' }
-]
 </script>
 
 <template>
   <form novalidate @submit.prevent="submit">
-    <p v-if="fieldErrors._global" role="alert">{{ fieldErrors._global }}</p>
-    <p><label for="company-name">Tên công ty <span aria-hidden="true">*</span></label><br>
-      <input id="company-name" ref="nameInput" v-model="form.name" :aria-invalid="Boolean(errorFor('name'))" :aria-describedby="errorFor('name') ? 'company-name-error' : undefined">
-      <span v-if="errorFor('name')" id="company-name-error" role="alert">{{ errorFor('name') }}</span></p>
-    <p><label for="company-industry">Ngành <span aria-hidden="true">*</span></label><br>
-      <input id="company-industry" ref="industryInput" v-model="form.industry" :aria-invalid="Boolean(errorFor('industry'))" :aria-describedby="errorFor('industry') ? 'company-industry-error' : undefined">
-      <span v-if="errorFor('industry')" id="company-industry-error" role="alert">{{ errorFor('industry') }}</span></p>
-    <p><label for="company-type">Loại công ty <span aria-hidden="true">*</span></label><br>
-      <select id="company-type" ref="companyTypeInput" v-model="form.companyType" :aria-invalid="Boolean(errorFor('companyType'))" :aria-describedby="errorFor('companyType') ? 'company-type-error' : undefined"><option v-for="type in companyTypes" :key="type.value" :value="type.value">{{ type.label }}</option></select>
-      <span v-if="errorFor('companyType')" id="company-type-error" role="alert">{{ errorFor('companyType') }}</span></p>
-    <p><label for="company-country">Quốc gia</label><br><input id="company-country" ref="countryInput" v-model="form.country" :aria-invalid="Boolean(errorFor('country'))" :aria-describedby="errorFor('country') ? 'company-country-error' : undefined">
-      <span v-if="errorFor('country')" id="company-country-error" role="alert">{{ errorFor('country') }}</span></p>
-    <p><label for="company-website">Website</label><br><input id="company-website" ref="websiteInput" v-model="form.website" :aria-invalid="Boolean(errorFor('website'))" :aria-describedby="errorFor('website') ? 'company-website-error' : undefined">
-      <span v-if="errorFor('website')" id="company-website-error" role="alert">{{ errorFor('website') }}</span></p>
-    <p><label for="company-phone">Điện thoại</label><br><input id="company-phone" ref="phoneInput" v-model="form.phone" :aria-invalid="Boolean(errorFor('phone'))" :aria-describedby="errorFor('phone') ? 'company-phone-error' : undefined">
-      <span v-if="errorFor('phone')" id="company-phone-error" role="alert">{{ errorFor('phone') }}</span></p>
-    <p><label for="company-address">Địa chỉ</label><br><input id="company-address" ref="addressInput" v-model="form.address" :aria-invalid="Boolean(errorFor('address'))" :aria-describedby="errorFor('address') ? 'company-address-error' : undefined">
-      <span v-if="errorFor('address')" id="company-address-error" role="alert">{{ errorFor('address') }}</span></p>
-    <p><label for="company-description">Mô tả</label><br><textarea id="company-description" ref="descriptionInput" v-model="form.description" :aria-invalid="Boolean(errorFor('description'))" :aria-describedby="errorFor('description') ? 'company-description-error' : undefined" />
-      <span v-if="errorFor('description')" id="company-description-error" role="alert">{{ errorFor('description') }}</span></p>
-    <p v-if="errorFor('version')" id="company-version-error" role="alert">{{ errorFor('version') }}</p>
-    <button type="submit" :disabled="pending">{{ pending ? 'Đang lưu…' : 'Lưu' }}</button>
-    <button type="button" :disabled="pending" @click="emit('cancel')">Hủy</button>
+    <p v-if="fieldErrors._global" class="alert alert-error" role="alert">{{ fieldErrors._global }}</p>
+
+    <div class="card">
+      <div class="card-section">
+        <div class="section-title"><span class="bar" /><h2>Thông tin bắt buộc</h2></div>
+
+        <div class="field">
+          <label for="company-name">Tên công ty <span class="required" aria-hidden="true">*</span></label>
+          <input id="company-name" ref="nameInput" v-model="form.name" placeholder="Nhập tên công ty" :aria-invalid="Boolean(errorFor('name'))" :aria-describedby="errorFor('name') ? 'company-name-error' : undefined">
+          <span v-if="errorFor('name')" id="company-name-error" class="field-error" role="alert">{{ errorFor('name') }}</span>
+        </div>
+
+        <div class="field">
+          <label for="company-industry">Ngành <span class="required" aria-hidden="true">*</span></label>
+          <input id="company-industry" ref="industryInput" v-model="form.industry" placeholder="Nhập ngành hoạt động" :aria-invalid="Boolean(errorFor('industry'))" :aria-describedby="errorFor('industry') ? 'company-industry-error' : undefined">
+          <span v-if="errorFor('industry')" id="company-industry-error" class="field-error" role="alert">{{ errorFor('industry') }}</span>
+        </div>
+
+        <div class="field">
+          <label for="company-type">Loại công ty <span class="required" aria-hidden="true">*</span></label>
+          <select id="company-type" ref="companyTypeInput" v-model="form.companyType" :aria-invalid="Boolean(errorFor('companyType'))" :aria-describedby="errorFor('companyType') ? 'company-type-error' : undefined">
+            <option v-for="type in companyTypeOptions" :key="type.value" :value="type.value">{{ type.label }}</option>
+          </select>
+          <span v-if="errorFor('companyType')" id="company-type-error" class="field-error" role="alert">{{ errorFor('companyType') }}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-section">
+        <div class="section-title muted"><span class="bar" /><h2>Thông tin bổ sung</h2><span class="hint">(tùy chọn)</span></div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="company-country">Quốc gia</label>
+            <input id="company-country" ref="countryInput" v-model="form.country" placeholder="Ví dụ: Việt Nam" :aria-invalid="Boolean(errorFor('country'))" :aria-describedby="errorFor('country') ? 'company-country-error' : undefined">
+            <span v-if="errorFor('country')" id="company-country-error" class="field-error" role="alert">{{ errorFor('country') }}</span>
+          </div>
+          <div class="field">
+            <label for="company-phone">Điện thoại</label>
+            <input id="company-phone" ref="phoneInput" v-model="form.phone" placeholder="Ví dụ: 024 3123 4567" :aria-invalid="Boolean(errorFor('phone'))" :aria-describedby="errorFor('phone') ? 'company-phone-error' : undefined">
+            <span v-if="errorFor('phone')" id="company-phone-error" class="field-error" role="alert">{{ errorFor('phone') }}</span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="company-website">Website</label>
+          <input id="company-website" ref="websiteInput" v-model="form.website" placeholder="https://example.com" :aria-invalid="Boolean(errorFor('website'))" :aria-describedby="errorFor('website') ? 'company-website-error' : undefined">
+          <span v-if="errorFor('website')" id="company-website-error" class="field-error" role="alert">{{ errorFor('website') }}</span>
+        </div>
+
+        <div class="field">
+          <label for="company-address">Địa chỉ</label>
+          <input id="company-address" ref="addressInput" v-model="form.address" placeholder="Địa chỉ trụ sở" :aria-invalid="Boolean(errorFor('address'))" :aria-describedby="errorFor('address') ? 'company-address-error' : undefined">
+          <span v-if="errorFor('address')" id="company-address-error" class="field-error" role="alert">{{ errorFor('address') }}</span>
+        </div>
+
+        <div class="field">
+          <label for="company-description">Mô tả</label>
+          <textarea id="company-description" ref="descriptionInput" v-model="form.description" placeholder="Ghi chú thêm về công ty" :aria-invalid="Boolean(errorFor('description'))" :aria-describedby="errorFor('description') ? 'company-description-error' : undefined" />
+          <span v-if="errorFor('description')" id="company-description-error" class="field-error" role="alert">{{ errorFor('description') }}</span>
+        </div>
+
+        <p v-if="errorFor('version')" id="company-version-error" class="field-error" role="alert">{{ errorFor('version') }}</p>
+
+        <div class="form-footer">
+          <span class="hint"><span class="required">*</span> Bắt buộc</span>
+          <div class="form-actions">
+            <button type="button" class="btn btn-secondary" :disabled="pending" @click="emit('cancel')">Hủy</button>
+            <button type="submit" class="btn btn-primary" :disabled="pending">{{ pending ? 'Đang lưu…' : 'Lưu' }}</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </form>
 </template>

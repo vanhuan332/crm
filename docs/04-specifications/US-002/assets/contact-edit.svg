@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">SCR-US002-03 — Sửa Người liên hệ</title>
+<desc id="desc">Biểu mẫu chỉnh sửa người liên hệ đã tồn tại, dữ liệu hiện tại được điền sẵn.</desc>
+<style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 26px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.sub{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}.section{font:700 15px Inter,'Segoe UI',Arial,sans-serif;fill:#263a59;letter-spacing:.3px}.label{font:500 14px Inter,'Segoe UI',Arial,sans-serif;fill:#14233e}.input{fill:#fff;stroke:#becde1}.value{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}.btn{font:600 14px Inter,'Segoe UI',Arial,sans-serif}</style>
+<rect width="1200" height="760" class="bg"/>
+<text x="28" y="34" class="sub">Công ty  ›  FPT Software  ›  Người liên hệ  ›  <tspan font-weight="600" fill="#263a59">Sửa</tspan></text>
+<text x="28" y="82" class="h1">Sửa người liên hệ</text>
+
+<rect x="214" y="116" width="772" height="474" rx="14" class="card"/>
+<rect x="248" y="150" width="5" height="25" rx="3" fill="#695cff"/><text x="266" y="169" class="section">THÔNG TIN NGƯỜI LIÊN HỆ</text>
+<text x="248" y="220" class="label">Họ và tên</text><rect x="248" y="237" width="704" height="45" rx="6" class="input"/><text x="264" y="265" class="value">Hoàng Thu Lan</text>
+<text x="248" y="326" class="label">Chức danh</text><rect x="248" y="343" width="704" height="45" rx="6" class="input"/><text x="264" y="371" class="value">Trưởng phòng Mua hàng</text>
+<text x="248" y="432" class="label">Email</text><rect x="248" y="449" width="704" height="45" rx="6" class="input"/><text x="264" y="477" class="value">lanht@fpt.com</text>
+
+<rect x="248" y="534" width="22" height="22" rx="5" fill="#fff" stroke="#bfcee0"/><text x="284" y="551" class="label">Đặt làm đầu mối chính (PIC) của FPT Software</text>
+<text x="284" y="575" class="hint">Người liên hệ này chưa là PIC; đánh dấu sẽ chuyển nhãn từ Nguyễn Minh Tuấn sang đây.</text>
+
+<rect x="740" y="612" width="92" height="44" rx="7" fill="#fff" stroke="#bfcee0"/><text x="769" y="640" class="btn" fill="#263a59">Hủy</text>
+<rect x="846" y="612" width="140" height="44" rx="7" fill="#5236f5"/><text x="864" y="640" class="btn" fill="#fff">Lưu thay đổi</text>
+<text x="28" y="724" class="hint">SCR-US002-03 · US-002 · AC-007, AC-006 · Thay đổi (gồm chuyển PIC nếu chọn) được ghi nhận.</text>
+<text x="28" y="744" class="hint">Ràng buộc bắt buộc/tùy chọn và định dạng trường chưa được xác nhận — xem Q-002-02.</text>
+</svg>

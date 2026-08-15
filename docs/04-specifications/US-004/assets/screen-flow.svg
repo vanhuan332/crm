@@ -1,76 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-labelledby="title desc">
-<title id="title">US-004 — Pipeline 7 giai đoạn</title>
-<desc id="desc">Wireframe nghiệp vụ cho US-004, truy vết AC-010 · AC-011 · AC-012.</desc>
-<style>
-.bg{fill:#F8FAFC}.sidebar{fill:#FFFFFF;stroke:#E2E8F0}.panel{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:1.5}.nav{font:500 15px 'Segoe UI',Arial,sans-serif;fill:#475569}.active{fill:#1D4ED8;font-weight:700}.eyebrow{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#2563EB;letter-spacing:1.2px}.h1{font:700 28px 'Segoe UI',Arial,sans-serif;fill:#0F172A}.meta{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#64748B}.paneltitle{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#1E3A8A}.body{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#334155}.chip{fill:#E0E7FF}.chiptext{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#3730A3}.note{font:500 12px 'Segoe UI',Arial,sans-serif;fill:#64748B}
-</style>
-<rect width="1440" height="820" class="bg"/>
-<rect x="0" y="0" width="190" height="820" class="sidebar"/>
-<rect x="18" y="24" width="40" height="40" rx="12" fill="#2563EB"/>
-<text x="70" y="50" class="paneltitle">AI Native CRM</text>
-<rect x="18" y="128" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="151" class="nav">Dashboard</text>
-<rect x="18" y="175" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="198" class="nav">Công ty</text>
-<rect x="18" y="222" width="154" height="36" rx="9" fill="#DBEAFE"/>
-<text x="34" y="245" class="nav active">Pipeline</text>
-<rect x="18" y="269" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="292" class="nav">Timeline</text>
-<rect x="18" y="316" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="339" class="nav">AI Insight</text>
-<rect x="18" y="363" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="386" class="nav">Gợi ý</text>
-<rect x="18" y="410" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="433" class="nav">Admin</text>
-<text x="22" y="782" class="note">Wireframe BA · không phải UI final</text>
-<text x="216" y="44" class="eyebrow">US-004 · Sales</text>
-<text x="216" y="84" class="h1">Pipeline 7 giai đoạn</text>
-<rect x="216" y="108" width="430" height="34" rx="17" class="chip"/>
-<text x="234" y="130" class="chiptext">AC-010 · AC-011 · AC-012</text>
-<text x="216" y="174" class="meta">Luồng màn hình và trạng thái nghiệp vụ</text>
-<rect x="216" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="216" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="216" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="238" y="234" class="paneltitle">SCR-US004-01 · Bảng Pipeline</text>
-<circle cx="244" cy="278" r="5" fill="#2563EB"/>
-<text x="260" y="284" class="body">7 cột đúng thứ tự cố định</text>
-<circle cx="244" cy="336" r="5" fill="#2563EB"/>
-<text x="260" y="342" class="body">Card: tên · công ty · giá trị</text>
-<circle cx="244" cy="394" r="5" fill="#2563EB"/>
-<text x="260" y="400" class="body">Kéo-thả giữa mọi giai đoạn</text>
-<circle cx="244" cy="452" r="5" fill="#2563EB"/>
-<text x="260" y="458" class="body">Cuộn ngang khi cần</text>
-<circle cx="244" cy="510" r="5" fill="#2563EB"/>
-<text x="260" y="516" class="body">Không đổi tên giai đoạn</text>
-<rect x="612" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="612" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="612" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="634" y="234" class="paneltitle">SCR-US004-02 · Chuyển giai đoạn</text>
-<circle cx="640" cy="278" r="5" fill="#2563EB"/>
-<text x="656" y="284" class="body">Cho phép đi lùi</text>
-<circle cx="640" cy="336" r="5" fill="#2563EB"/>
-<text x="656" y="342" class="body">Cho phép nhảy cóc</text>
-<circle cx="640" cy="394" r="5" fill="#2563EB"/>
-<text x="656" y="400" class="body">Trạng thái đang kéo rõ ràng</text>
-<circle cx="640" cy="452" r="5" fill="#2563EB"/>
-<text x="656" y="458" class="body">Thả thành công cập nhật card</text>
-<circle cx="640" cy="510" r="5" fill="#2563EB"/>
-<text x="656" y="516" class="body">Lỗi: trả card về vị trí cũ</text>
-<rect x="1008" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="1008" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="1008" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="1030" y="234" class="paneltitle">SCR-US004-03 · Trạng thái bảng</text>
-<circle cx="1036" cy="278" r="5" fill="#2563EB"/>
-<text x="1052" y="284" class="body">Loading: skeleton 7 cột</text>
-<circle cx="1036" cy="336" r="5" fill="#2563EB"/>
-<text x="1052" y="342" class="body">Empty theo từng giai đoạn</text>
-<circle cx="1036" cy="394" r="5" fill="#2563EB"/>
-<text x="1052" y="400" class="body">Success: xác nhận kín đáo</text>
-<circle cx="1036" cy="452" r="5" fill="#2563EB"/>
-<text x="1052" y="458" class="body">Recoverable error: Thử lại</text>
-<circle cx="1036" cy="510" r="5" fill="#2563EB"/>
-<text x="1052" y="516" class="body">Permission: Sales thao tác</text>
-<rect x="216" y="728" width="1164" height="58" rx="12" fill="#F1F5F9"/>
-<text x="238" y="752" class="note">Bao phủ: loading · empty · validation · permission · not-found · recoverable error khi được yêu cầu.</text>
-<text x="238" y="772" class="note">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">US-004 — Luồng màn hình Bảng 7 giai đoạn kéo-thả</title>
+  <desc id="desc">Tổng quan luồng: Bảng Pipeline 7 giai đoạn, thao tác kéo-thả đổi giai đoạn, và các trạng thái của bảng.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.sub{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}.section{font:700 15px Inter,'Segoe UI',Arial,sans-serif;fill:#263a59;letter-spacing:.3px}.body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#3f526f}.hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}.chip{font:600 13px Inter,'Segoe UI',Arial,sans-serif;fill:#4634f2}.arrow{stroke:#bfcee0;stroke-width:2;fill:none}
+  </style>
+  <rect width="1400" height="760" class="bg"/>
+  <text x="32" y="48" class="h1">Bảng 7 giai đoạn kéo-thả</text>
+  <text x="32" y="73" class="sub">Luồng màn hình — US-004 · Sales</text>
+  <rect x="32" y="92" width="330" height="30" rx="15" fill="#eef0ff" stroke="#c4c8ff"/>
+  <text x="50" y="112" class="chip">AC-010 · AC-011 · AC-012</text>
+
+  <!-- Panel 1 -->
+  <rect x="32" y="150" width="416" height="520" rx="14" class="card"/>
+  <rect x="66" y="182" width="5" height="25" rx="3" fill="#695cff"/>
+  <text x="84" y="201" class="section">SCR-US004-01 · Bảng Pipeline</text>
+  <text x="66" y="240" class="body">Bảy cột giai đoạn cố định</text>
+  <text x="66" y="266" class="hint">Tiếp cận → Đủ điều kiện → Soạn đề</text>
+  <text x="66" y="284" class="hint">xuất → Thương lượng → Thắng →</text>
+  <text x="66" y="302" class="hint">Thua → Tạm dừng</text>
+  <circle cx="72" cy="342" r="4" fill="#5236f5"/><text x="86" y="347" class="body">Mỗi cột hiển thị cơ hội đang ở đó</text>
+  <circle cx="72" cy="382" r="4" fill="#5236f5"/><text x="86" y="387" class="body">Không đổi được tên/thứ tự cột</text>
+  <circle cx="72" cy="422" r="4" fill="#5236f5"/><text x="86" y="427" class="body">5 cột mở, 2 cột đóng (BR-004)</text>
+  <line x1="66" y1="470" x2="416" y2="470" stroke="#e6ebf2"/>
+  <text x="66" y="500" class="hint">Nguồn dữ liệu cơ hội: US-003</text>
+  <text x="66" y="522" class="hint">(kéo-thả không tạo/sửa/xoá cơ hội)</text>
+
+  <path class="arrow" d="M 464 410 L 500 410" marker-end="url(#arrow)"/>
+
+  <!-- Panel 2 -->
+  <rect x="492" y="150" width="416" height="520" rx="14" class="card"/>
+  <rect x="526" y="182" width="5" height="25" rx="3" fill="#695cff"/>
+  <text x="544" y="201" class="section">SCR-US004-02 · Chuyển giai đoạn</text>
+  <circle cx="532" cy="242" r="4" fill="#5236f5"/><text x="546" y="247" class="body">Kéo tiến sang giai đoạn kế</text>
+  <circle cx="532" cy="282" r="4" fill="#5236f5"/><text x="546" y="287" class="body">Kéo lùi về giai đoạn trước</text>
+  <circle cx="532" cy="322" r="4" fill="#5236f5"/><text x="546" y="327" class="body">Nhảy cóc bỏ qua nhiều giai đoạn</text>
+  <circle cx="532" cy="362" r="4" fill="#5236f5"/><text x="546" y="367" class="body">Đổi ngay khi thả — không có bước</text>
+  <text x="546" y="385" class="body">xác nhận chặn thao tác</text>
+  <circle cx="532" cy="422" r="4" fill="#5236f5"/><text x="546" y="427" class="body">Vào Đủ điều kiện có thể mở luồng</text>
+  <text x="546" y="445" class="body">hỏi 2 dấu hiệu (US-005) — không chặn</text>
+  <line x1="526" y1="470" x2="908" y2="470" stroke="#e6ebf2"/>
+  <text x="526" y="500" class="hint">A-AI không được tự đổi giai đoạn</text>
+  <text x="526" y="522" class="hint">(BR-017, chặn cả ngoài UI)</text>
+
+  <path class="arrow" d="M 924 410 L 960 410" marker-end="url(#arrow)"/>
+
+  <!-- Panel 3 -->
+  <rect x="952" y="150" width="416" height="520" rx="14" class="card"/>
+  <rect x="986" y="182" width="5" height="25" rx="3" fill="#d8e1ec"/>
+  <text x="1004" y="201" class="section">SCR-US004-03 · Trạng thái bảng</text>
+  <circle cx="992" cy="242" r="4" fill="#5236f5"/><text x="1006" y="247" class="body">Cột trống vẫn hiện đúng tên</text>
+  <circle cx="992" cy="282" r="4" fill="#5236f5"/><text x="1006" y="287" class="body">Đang tải: khung 7 cột giữ nguyên</text>
+  <circle cx="992" cy="322" r="4" fill="#5236f5"/><text x="1006" y="327" class="body">Lưu thất bại: thẻ về vị trí cũ,</text>
+  <text x="1006" y="345" class="body">có thể thử lại</text>
+  <circle cx="992" cy="382" r="4" fill="#5236f5"/><text x="1006" y="387" class="body">Không tự thêm xác nhận Thắng/Thua</text>
+  <line x1="986" y1="430" x2="1368" y2="430" stroke="#e6ebf2"/>
+  <text x="986" y="460" class="hint">Q-004-01 (mở): có cần hộp thoại</text>
+  <text x="986" y="480" class="hint">xác nhận khi kéo vào Thắng/Thua?</text>
+
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#8da1c3"/></marker></defs>
+
+  <rect x="32" y="694" width="1336" height="46" rx="10" fill="#f1f5f9"/>
+  <text x="52" y="722" class="hint">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai. SCR-US004-01..03 · US-004 · AC-010, AC-011, AC-012.</text>
 </svg>

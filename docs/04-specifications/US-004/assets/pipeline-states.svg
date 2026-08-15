@@ -1,5 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">SCR-US004-03 — Trạng thái Pipeline</title><desc id="desc">Trạng thái empty, đang lưu, lỗi hoàn tác và ranh giới câu hỏi Thắng Thua.</desc><style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial;fill:#07152f}.title{font:700 16px Inter,'Segoe UI',Arial;fill:#172743}.body{font:400 14px Inter,'Segoe UI',Arial;fill:#536784}.hint{font:400 12px Inter,'Segoe UI',Arial;fill:#8da1c3}.btn{font:600 13px Inter,'Segoe UI',Arial}</style><rect width="1200" height="760" class="bg"/><text x="32" y="48" class="h1">Trạng thái bảng Pipeline</text><text x="32" y="75" class="body">Phản hồi rõ mà không thay đổi quy tắc kéo-thả của Sales.</text>
-<rect x="32" y="112" width="350" height="250" rx="14" class="card"/><circle cx="207" cy="180" r="26" fill="#eef2f7"/><text x="197" y="189" font-family="Inter" font-size="26" fill="#8da1c3">＋</text><text x="142" y="235" class="title">Cột chưa có Cơ hội</text><text x="91" y="266" class="body">Giữ cột đúng vị trí trong bảy giai đoạn.</text><text x="103" y="298" class="hint">Không cho đổi tên hoặc ẩn cột.</text>
-<rect x="425" y="112" width="350" height="250" rx="14" class="card"/><circle cx="600" cy="180" r="26" fill="#eef6ff"/><text x="590" y="189" font-family="Inter" font-size="24" fill="#1d4ed8">…</text><text x="532" y="235" class="title">Đang cập nhật</text><text x="489" y="266" class="body">Thẻ giữ tại vị trí đích trong lúc lưu.</text><text x="500" y="298" class="hint">Không cho kéo lặp cùng một thẻ.</text>
-<rect x="818" y="112" width="350" height="250" rx="14" class="card"/><circle cx="993" cy="180" r="26" fill="#fff1f2"/><text x="985" y="188" font-family="Inter" font-size="22" fill="#dc2626">!</text><text x="926" y="235" class="title">Không thể cập nhật</text><text x="866" y="266" class="body">Trả thẻ về vị trí cũ và cho phép thử lại.</text><rect x="946" y="300" width="94" height="36" rx="6" fill="#fff" stroke="#bfcee0"/><text x="968" y="323" class="btn" fill="#263a59">Thử lại</text>
-<rect x="32" y="400" width="1136" height="102" rx="12" fill="#fff8e8" stroke="#f5c84b"/><text x="58" y="438" class="title" fill="#9a5a00">Kéo vào Thắng hoặc Thua</text><text x="58" y="468" class="body">US-004 cho phép đích trong danh mục cố định; cảnh báo xác nhận riêng vẫn là Q-004-01, nên asset không tự thêm bước chặn.</text><rect x="32" y="536" width="1136" height="92" rx="12" fill="#eef6ff"/><text x="58" y="572" class="title" fill="#1d4ed8">Ranh giới automation</text><text x="58" y="601" class="body">Màn hình mô tả thao tác của Sales; A-AI không được tự đổi giai đoạn, kể cả ngoài UI.</text><text x="32" y="710" class="hint">SCR-US004-03 · US-004 · AC-010..012 · Empty/loading/error là biểu đạt UX hỗ trợ phục hồi.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US004-03 — Trạng thái bảng Pipeline</title>
+  <desc id="desc">Cột trống, đang tải, lưu giai đoạn thất bại có thể thử lại và phản hồi thành công khi đổi giai đoạn.</desc>
+  <style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#536784}.title{font:700 16px Inter,'Segoe UI',Arial,sans-serif;fill:#172743}.hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}.btn{font:600 13px Inter,'Segoe UI',Arial,sans-serif}.th{font:700 11px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f;letter-spacing:.4px}</style>
+  <rect width="1200" height="900" class="bg"/>
+  <text x="32" y="48" class="h1">Trạng thái bảng Pipeline</text>
+  <text x="32" y="74" class="body">Cột trống, đang tải và lưu giai đoạn thất bại có thể thử lại — US-004</text>
+
+  <!-- Cột trống -->
+  <rect x="32" y="106" width="360" height="326" rx="14" class="card"/>
+  <text x="58" y="142" class="title">Cột trống</text>
+  <text x="58" y="168" class="body">Cột vẫn hiển thị đúng tên và vị trí</text>
+  <text x="58" y="188" class="body">thứ tự dù không có cơ hội nào.</text>
+  <rect x="58" y="212" width="308" height="190" rx="10" fill="#fbfcfe" stroke="#e6ebf2"/>
+  <rect x="58" y="212" width="308" height="4" rx="2" fill="#bfcee0"/>
+  <text x="74" y="238" class="th">TẠM DỪNG</text><text x="330" y="238" class="hint">0</text>
+  <line x1="74" y1="250" x2="352" y2="250" stroke="#e6ebf2"/>
+  <circle cx="212" cy="320" r="20" fill="#eef2f7"/><text x="204" y="328" font-family="Inter" font-size="18" fill="#8da1c3">—</text>
+  <text x="130" y="366" class="hint">Chưa có cơ hội nào ở giai đoạn này.</text>
+
+  <!-- Đang tải -->
+  <rect x="420" y="106" width="360" height="326" rx="14" class="card"/>
+  <text x="446" y="142" class="title">Đang tải bảng</text>
+  <text x="446" y="168" class="body">Khung 7 cột được giữ nguyên;</text>
+  <text x="446" y="188" class="body">chưa cho kéo-thả tới khi có dữ liệu.</text>
+  <rect x="446" y="212" width="95" height="190" rx="10" fill="#fbfcfe" stroke="#e6ebf2"/>
+  <rect x="446" y="212" width="95" height="4" rx="2" fill="#e2e8f0"/>
+  <rect x="458" y="234" width="70" height="10" rx="3" fill="#e6ebf2"/>
+  <rect x="458" y="256" width="71" height="46" rx="7" fill="#eef2f7"/>
+  <rect x="458" y="310" width="71" height="46" rx="7" fill="#eef2f7"/>
+  <rect x="551" y="212" width="95" height="190" rx="10" fill="#fbfcfe" stroke="#e6ebf2"/>
+  <rect x="551" y="212" width="95" height="4" rx="2" fill="#e2e8f0"/>
+  <rect x="563" y="234" width="70" height="10" rx="3" fill="#e6ebf2"/>
+  <rect x="563" y="256" width="71" height="46" rx="7" fill="#eef2f7"/>
+  <rect x="656" y="212" width="95" height="190" rx="10" fill="#fbfcfe" stroke="#e6ebf2"/>
+  <rect x="656" y="212" width="95" height="4" rx="2" fill="#e2e8f0"/>
+  <rect x="668" y="234" width="70" height="10" rx="3" fill="#e6ebf2"/>
+  <rect x="668" y="256" width="71" height="46" rx="7" fill="#eef2f7"/>
+  <rect x="668" y="310" width="71" height="46" rx="7" fill="#eef2f7"/>
+
+  <!-- Lưu thất bại -->
+  <rect x="808" y="106" width="360" height="326" rx="14" class="card"/>
+  <text x="834" y="142" class="title">Lưu giai đoạn thất bại</text>
+  <text x="834" y="168" class="body">Không thể lưu giai đoạn mới.</text>
+  <text x="834" y="188" class="body">Thẻ đã quay lại vị trí cũ.</text>
+  <rect x="834" y="212" width="132" height="90" rx="8" fill="#fff" stroke="#e6ebf2"/><text x="846" y="234" class="th" font-size="10">TIẾP CẬN</text>
+  <rect x="846" y="252" width="108" height="40" rx="7" fill="#fff" stroke="#bfcee0"/><text x="856" y="277" font-family="Inter" font-size="12" font-weight="600" fill="#07152f">TMA Solutions</text>
+  <rect x="982" y="212" width="132" height="90" rx="8" fill="#fff1f2" stroke="#fecdd3" stroke-dasharray="5 4"/><text x="994" y="234" class="th" fill="#dc2626" font-size="10">ĐỦ ĐIỀU KIỆN</text>
+  <circle cx="1048" cy="270" r="16" fill="#fff5f5"/><text x="1041" y="276" font-family="Inter" font-size="16" fill="#dc2626">!</text>
+  <rect x="834" y="322" width="308" height="40" rx="8" fill="#fff5f5" stroke="#ffb8bd"/>
+  <text x="848" y="347" font-family="Inter" font-size="12" fill="#b42318">Lưu thất bại — </text><text x="948" y="347" class="btn" fill="#dc2626">Thử lại</text>
+
+  <!-- Success bar -->
+  <rect x="32" y="464" width="1136" height="92" rx="12" fill="#ecfdf5" stroke="#86efac"/>
+  <circle cx="76" cy="510" r="20" fill="#22c55e"/><text x="69" y="517" font-family="Inter" font-size="18" font-weight="700" fill="#fff">✓</text>
+  <text x="112" y="502" class="title" fill="#166534">Đổi giai đoạn thành công</text>
+  <text x="112" y="528" class="body" fill="#166534">Cơ hội "TMA Solutions – Website redesign" đã chuyển sang Đủ điều kiện.</text>
+
+  <!-- Note -->
+  <rect x="32" y="580" width="1136" height="126" rx="14" class="card"/>
+  <rect x="60" y="608" width="5" height="24" rx="3" fill="#d8e1ec"/><text x="78" y="627" class="title" font-size="14">Ghi chú thiết kế</text>
+  <text x="60" y="656" class="body">Các trạng thái trên chỉ hỗ trợ phản hồi thao tác kéo-thả đã được AC-010, AC-011 và AC-012 cho phép.</text>
+  <text x="60" y="678" class="body">Bảng không tự thêm hộp thoại xác nhận khi kéo vào Thắng/Thua — nội dung này thuộc Q-004-01, hiện còn mở.</text>
+
+  <text x="32" y="850" class="hint">Loading: dùng skeleton trong khung 7 cột, giữ nguyên cấu trúc bảng và khóa thao tác kéo trong lúc xử lý.</text>
+  <text x="32" y="874" class="hint">SCR-US004-03 · US-004 · AC-010, AC-011, AC-012 · Q-004-01 (mở)</text>
+</svg>

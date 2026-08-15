@@ -1,76 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-labelledby="title desc">
-<title id="title">US-007 — Hoạt động và Dòng thời gian</title>
-<desc id="desc">Wireframe nghiệp vụ cho US-007, truy vết AC-017 · AC-018.</desc>
-<style>
-.bg{fill:#F8FAFC}.sidebar{fill:#FFFFFF;stroke:#E2E8F0}.panel{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:1.5}.nav{font:500 15px 'Segoe UI',Arial,sans-serif;fill:#475569}.active{fill:#1D4ED8;font-weight:700}.eyebrow{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#2563EB;letter-spacing:1.2px}.h1{font:700 28px 'Segoe UI',Arial,sans-serif;fill:#0F172A}.meta{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#64748B}.paneltitle{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#1E3A8A}.body{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#334155}.chip{fill:#E0E7FF}.chiptext{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#3730A3}.note{font:500 12px 'Segoe UI',Arial,sans-serif;fill:#64748B}
-</style>
-<rect width="1440" height="820" class="bg"/>
-<rect x="0" y="0" width="190" height="820" class="sidebar"/>
-<rect x="18" y="24" width="40" height="40" rx="12" fill="#2563EB"/>
-<text x="70" y="50" class="paneltitle">AI Native CRM</text>
-<rect x="18" y="128" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="151" class="nav">Dashboard</text>
-<rect x="18" y="175" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="198" class="nav">Công ty</text>
-<rect x="18" y="222" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="245" class="nav">Pipeline</text>
-<rect x="18" y="269" width="154" height="36" rx="9" fill="#DBEAFE"/>
-<text x="34" y="292" class="nav active">Timeline</text>
-<rect x="18" y="316" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="339" class="nav">AI Insight</text>
-<rect x="18" y="363" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="386" class="nav">Gợi ý</text>
-<rect x="18" y="410" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="433" class="nav">Admin</text>
-<text x="22" y="782" class="note">Wireframe BA · không phải UI final</text>
-<text x="216" y="44" class="eyebrow">US-007 · Sales</text>
-<text x="216" y="84" class="h1">Hoạt động và Dòng thời gian</text>
-<rect x="216" y="108" width="430" height="34" rx="17" class="chip"/>
-<text x="234" y="130" class="chiptext">AC-017 · AC-018</text>
-<text x="216" y="174" class="meta">Luồng màn hình và trạng thái nghiệp vụ</text>
-<rect x="216" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="216" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="216" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="238" y="234" class="paneltitle">SCR-US007-01 · Ghi Hoạt động</text>
-<circle cx="244" cy="278" r="5" fill="#2563EB"/>
-<text x="260" y="284" class="body">Ngày · Loại · Mô tả</text>
-<circle cx="244" cy="336" r="5" fill="#2563EB"/>
-<text x="260" y="342" class="body">Người liên hệ liên quan</text>
-<circle cx="244" cy="394" r="5" fill="#2563EB"/>
-<text x="260" y="400" class="body">Lưu · Hủy</text>
-<circle cx="244" cy="452" r="5" fill="#2563EB"/>
-<text x="260" y="458" class="body">Validation trường bắt buộc</text>
-<circle cx="244" cy="510" r="5" fill="#2563EB"/>
-<text x="260" y="516" class="body">Ngữ cảnh Công ty rõ ràng</text>
-<rect x="612" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="612" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="612" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="634" y="234" class="paneltitle">SCR-US007-02 · Timeline Công ty</text>
-<circle cx="640" cy="278" r="5" fill="#2563EB"/>
-<text x="656" y="284" class="body">Mới nhất ở trên</text>
-<circle cx="640" cy="336" r="5" fill="#2563EB"/>
-<text x="656" y="342" class="body">Hoạt động · đổi giai đoạn · ghi chú</text>
-<circle cx="640" cy="394" r="5" fill="#2563EB"/>
-<text x="656" y="400" class="body">Loại mục và thời điểm</text>
-<circle cx="640" cy="452" r="5" fill="#2563EB"/>
-<text x="656" y="458" class="body">Người thực hiện / nguồn</text>
-<circle cx="640" cy="510" r="5" fill="#2563EB"/>
-<text x="656" y="516" class="body">Empty: Chưa có hoạt động</text>
-<rect x="1008" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="1008" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="1008" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="1030" y="234" class="paneltitle">SCR-US007-03 · Trạng thái</text>
-<circle cx="1036" cy="278" r="5" fill="#2563EB"/>
-<text x="1052" y="284" class="body">Loading timeline</text>
-<circle cx="1036" cy="336" r="5" fill="#2563EB"/>
-<text x="1052" y="342" class="body">Thêm thành công xuất hiện đầu tiên</text>
-<circle cx="1036" cy="394" r="5" fill="#2563EB"/>
-<text x="1052" y="400" class="body">Lỗi có Thử lại</text>
-<circle cx="1036" cy="452" r="5" fill="#2563EB"/>
-<text x="1052" y="458" class="body">Không trộn mục Công ty khác</text>
-<circle cx="1036" cy="510" r="5" fill="#2563EB"/>
-<text x="1052" y="516" class="body">Permission: Sales ghi thủ công</text>
-<rect x="216" y="728" width="1164" height="58" rx="12" fill="#F1F5F9"/>
-<text x="238" y="752" class="note">Bao phủ: loading · empty · validation · permission · not-found · recoverable error khi được yêu cầu.</text>
-<text x="238" y="772" class="note">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="620" viewBox="0 0 1300 620" role="img" aria-labelledby="title desc">
+  <title id="title">US-007 — Luồng màn hình Hoạt động &amp; Dòng thời gian công ty</title>
+  <desc id="desc">Sơ đồ luồng ba màn hình của US-007: ghi hoạt động, xem dòng thời gian gộp và các trạng thái hỗ trợ, truy vết AC-017, AC-018.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.sub{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}.section{font:700 13px Inter,'Segoe UI',Arial,sans-serif;fill:#263a59;letter-spacing:.4px}.body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#3f526f}.hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}.btn{font:600 13px Inter,'Segoe UI',Arial,sans-serif}.arrowlbl{font:500 12px Inter,'Segoe UI',Arial,sans-serif;fill:#5e7393}
+  </style>
+  <rect width="1300" height="620" class="bg"/>
+  <text x="32" y="48" class="h1">Luồng màn hình — Hoạt động &amp; Dòng thời gian công ty</text>
+  <text x="32" y="74" class="sub">Sales ghi hoạt động và xem dòng thời gian gộp của Công ty · US-007 · AC-017, AC-018</text>
+
+  <!-- Card 1: Ghi hoạt động -->
+  <rect x="32" y="110" width="340" height="450" rx="14" class="card"/>
+  <rect x="64" y="142" width="5" height="25" rx="3" fill="#695cff"/>
+  <text x="82" y="161" class="section">SCR-US007-01 · GHI HOẠT ĐỘNG</text>
+  <circle cx="64" cy="206" r="4" fill="#5236f5"/><text x="82" y="211" class="body">Ngày</text>
+  <circle cx="64" cy="246" r="4" fill="#5236f5"/><text x="82" y="251" class="body">Loại hoạt động — 1 trong 6 loại cố định</text>
+  <circle cx="64" cy="286" r="4" fill="#5236f5"/><text x="82" y="291" class="body">Mô tả hoạt động</text>
+  <circle cx="64" cy="326" r="4" fill="#5236f5"/><text x="82" y="331" class="body">Người liên hệ liên quan</text>
+  <text x="82" y="360" class="hint">Trường bắt buộc/tùy chọn: xem Q-US007-03</text>
+  <text x="64" y="404" class="hint">Nguồn: AC-017 · BR-US007-01..02 · REQ-107</text>
+  <rect x="64" y="486" width="164" height="44" rx="7" fill="#5236f5"/>
+  <text x="86" y="513" class="btn" fill="#fff">Lưu hoạt động</text>
+
+  <!-- Arrow 1 -->
+  <line x1="372" y1="300" x2="452" y2="300" stroke="#95a9c9" stroke-width="2"/>
+  <polygon points="452,293 466,300 452,307" fill="#95a9c9"/>
+  <text x="412" y="286" text-anchor="middle" class="arrowlbl">Lưu hoạt động</text>
+
+  <!-- Card 2: Timeline công ty -->
+  <rect x="458" y="110" width="400" height="450" rx="14" class="card"/>
+  <rect x="490" y="142" width="5" height="25" rx="3" fill="#695cff"/>
+  <text x="508" y="161" class="section">SCR-US007-02 · DÒNG THỜI GIAN CÔNG TY</text>
+  <circle cx="490" cy="206" r="4" fill="#5236f5"/><text x="508" y="211" class="body">Gộp 3 loại: Hoạt động · Đổi giai đoạn · Ghi chú</text>
+  <circle cx="490" cy="246" r="4" fill="#5236f5"/><text x="508" y="251" class="body">Đổi giai đoạn đến từ US-004 (bảng 7 giai đoạn)</text>
+  <circle cx="490" cy="286" r="4" fill="#5236f5"/><text x="508" y="291" class="body">Sắp xếp mới nhất ở trên (BR-US007-03)</text>
+  <circle cx="490" cy="326" r="4" fill="#5236f5"/><text x="508" y="331" class="body">Mỗi mục có loại, thời điểm và nội dung</text>
+  <text x="508" y="360" class="hint">Cùng thời điểm: thứ tự phụ xem Q-US007-02</text>
+  <text x="490" y="404" class="hint">Nguồn: AC-018 · BR-US007-03..07 · REQ-108</text>
+  <rect x="490" y="486" width="200" height="44" rx="7" fill="#fff" stroke="#bfcee0"/>
+  <text x="512" y="513" class="btn" fill="#263a59">Mở dòng thời gian</text>
+
+  <!-- Arrow 2 -->
+  <line x1="858" y1="300" x2="938" y2="300" stroke="#95a9c9" stroke-width="2"/>
+  <polygon points="938,293 952,300 938,307" fill="#95a9c9"/>
+  <text x="898" y="286" text-anchor="middle" class="arrowlbl">Chưa có / lỗi tải</text>
+
+  <!-- Return arrow -->
+  <line x1="938" y1="400" x2="858" y2="400" stroke="#c2cedf" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="858,393 844,400 858,407" fill="#c2cedf"/>
+  <text x="898" y="386" text-anchor="middle" class="arrowlbl">Thử lại · Ghi hoạt động đầu tiên</text>
+
+  <!-- Card 3: Trạng thái -->
+  <rect x="944" y="110" width="300" height="450" rx="14" class="card"/>
+  <rect x="976" y="142" width="5" height="25" rx="3" fill="#d8e1ec"/>
+  <text x="994" y="161" class="section">SCR-US007-03 · TRẠNG THÁI</text>
+  <circle cx="976" cy="206" r="4" fill="#8da1c3"/><text x="994" y="211" class="body">Chưa có lịch sử (empty)</text>
+  <circle cx="976" cy="246" r="4" fill="#8da1c3"/><text x="994" y="251" class="body">Đang tải (skeleton)</text>
+  <circle cx="976" cy="286" r="4" fill="#8da1c3"/><text x="994" y="291" class="body">Lỗi có thể thử lại</text>
+  <text x="994" y="330" class="hint">Không thêm loại nội dung</text>
+  <text x="994" y="350" class="hint">hay quy tắc sắp xếp mới</text>
+  <text x="976" y="404" class="hint">Xem Q-US007-01, Q-US007-02</text>
+
+  <rect x="32" y="580" width="1236" height="1" fill="#e6ebf2"/>
+  <text x="32" y="606" class="hint">screen-flow.svg · US-007 · AC-017, AC-018 · Không quyết định framework, component library hay cấu trúc triển khai.</text>
 </svg>

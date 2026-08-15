@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US013-02 — Chi tiết Phát hiện &amp; Provenance</title>
+  <desc id="desc">Màn hình chỉ đọc chi tiết một Phát hiện: nhận định, loại tin, mức chắc chắn, câu trích nguyên văn, vị trí trong Bản lưu, và ranh giới không gắn Cơ hội/Người liên hệ/Hoạt động.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}
+    .h1{font:700 26px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .crumb{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#5e7393}
+    .section{font:700 15px Inter,'Segoe UI',Arial,sans-serif;fill:#263a59;letter-spacing:.3px}
+    .label{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f;letter-spacing:.4px}
+    .body{font:400 15px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .muted{font:400 13px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+    .btn{font:600 13px Inter,'Segoe UI',Arial,sans-serif}
+    .tag{font:600 12px Inter,'Segoe UI',Arial,sans-serif}
+    .mono{font:400 13px 'SFMono-Regular',Consolas,monospace;fill:#273b5c}
+    .quote{font:400 15px Inter,'Segoe UI',Arial,sans-serif;font-style:italic;fill:#14233e}
+  </style>
+  <rect width="1200" height="900" class="bg"/>
+  <text x="28" y="34" class="crumb">Vùng đọc  ›  <tspan font-weight="600" fill="#263a59">Phát hiện CLM-0128</tspan></text>
+
+  <rect x="28" y="64" width="1144" height="126" rx="14" class="card"/>
+  <rect x="66" y="98" width="54" height="54" rx="13" fill="#f5edff"/><text x="83" y="135" font-family="Inter,'Segoe UI',Arial" font-size="24" font-weight="700" fill="#6d28d9">◆</text>
+  <text x="144" y="118" class="h1">Bổ nhiệm CIO mới</text>
+  <rect x="144" y="132" width="150" height="27" rx="6" fill="#f5edff" stroke="#d9b8ff"/><text x="156" y="150" class="tag" fill="#6d28d9">Nhân sự cấp cao</text>
+  <rect x="302" y="132" width="70" height="27" rx="6" fill="#edfff7" stroke="#7ee8b6"/><text x="315" y="150" class="tag" fill="#047857">Chắc</text>
+  <text x="386" y="151" class="muted">VNG Corporation · qua Bản lưu OBS-0044</text>
+  <rect x="878" y="98" width="70" height="46" rx="7" fill="#fff" stroke="#bfcee0"/><text x="891" y="127" class="btn" fill="#263a59">🔒</text>
+  <rect x="960" y="98" width="156" height="46" rx="7" fill="#fff" stroke="#bfcee0"/><text x="977" y="127" class="btn" fill="#263a59">› Xem Bản lưu</text>
+
+  <!-- NHẬN ĐỊNH -->
+  <rect x="28" y="216" width="1144" height="180" rx="14" class="card"/>
+  <rect x="66" y="248" width="5" height="25" rx="3" fill="#695cff"/><text x="84" y="267" class="section">NHẬN ĐỊNH</text>
+  <text x="66" y="318" class="label">NHẬN ĐỊNH NGẮN</text><text x="66" y="346" class="body">Bổ nhiệm CIO mới, dấu hiệu đầu tư công nghệ.</text>
+  <text x="66" y="378" class="label">CÔNG TY (qua Bản lưu)</text>
+  <text x="602" y="318" class="label">LOẠI TIN</text><text x="602" y="346" class="body">Nhân sự cấp cao (gồm bổ nhiệm CTO/CIO)</text>
+  <text x="602" y="378" class="label">MỨC CHẮC CHẮN</text>
+  <text x="380" y="378" class="body">VNG Corporation</text>
+  <text x="784" y="378" class="body">Chắc — trích thẳng từ Bản lưu</text>
+
+  <!-- PROVENANCE -->
+  <rect x="28" y="412" width="1144" height="210" rx="14" class="card"/>
+  <rect x="66" y="444" width="5" height="25" rx="3" fill="#695cff"/><text x="84" y="463" class="section">PROVENANCE</text>
+  <rect x="66" y="484" width="1068" height="70" rx="10" fill="#fbfcfe" stroke="#e6ebf2"/>
+  <text x="86" y="512" class="quote">"VNG chính thức bổ nhiệm ông Nguyễn Văn A giữ chức CIO kể</text>
+  <text x="86" y="534" class="quote">từ tháng 8/2026." (câu trích nguyên văn)</text>
+  <text x="66" y="586" class="label">VỊ TRÍ TRONG BẢN LƯU</text><text x="66" y="608" class="mono">Đoạn 3, dòng 12–14</text>
+  <text x="420" y="586" class="label">GHI CHÚ</text><text x="420" y="608" class="body" font-size="13">Mở đúng đoạn gốc có đánh dấu vị trí thuộc phạm vi US-016.</text>
+
+  <!-- QUAN HỆ -->
+  <rect x="28" y="638" width="1144" height="140" rx="14" class="card"/>
+  <rect x="66" y="668" width="5" height="25" rx="3" fill="#d8e1ec"/><text x="84" y="687" class="section">QUAN HỆ THỰC THỂ (AC-030)</text>
+  <g><rect x="66" y="704" width="356" height="56" rx="10" fill="#fff" stroke="#d9e2ef" stroke-dasharray="4 4"/><text x="86" y="728" class="body" font-size="13" font-weight="600">Cơ hội</text><text x="86" y="748" class="muted">Không gắn — chỉ tham chiếu qua Công ty</text></g>
+  <g><rect x="438" y="704" width="356" height="56" rx="10" fill="#fff" stroke="#d9e2ef" stroke-dasharray="4 4"/><text x="458" y="728" class="body" font-size="13" font-weight="600">Người liên hệ</text><text x="458" y="748" class="muted">Không gắn — chỉ tham chiếu qua Công ty</text></g>
+  <g><rect x="810" y="704" width="362" height="56" rx="10" fill="#fff" stroke="#d9e2ef" stroke-dasharray="4 4"/><text x="830" y="728" class="body" font-size="13" font-weight="600">Hoạt động</text><text x="830" y="748" class="muted">Không gắn — chỉ tham chiếu qua Công ty</text></g>
+
+  <!-- METADATA -->
+  <rect x="28" y="794" width="1144" height="80" rx="14" class="card"/>
+  <text x="60" y="822" class="muted">Mã hệ thống</text><text x="60" y="844" class="mono">CLM-0128</text>
+  <text x="300" y="822" class="muted">Rút lúc</text><text x="300" y="844" class="mono">09:12 15/08/2026</text>
+  <text x="560" y="822" class="muted">Từ Bản lưu</text><text x="560" y="844" class="mono">OBS-0044</text>
+  <text x="28" y="890" class="muted">SCR-US013-02 · US-013 · AC-028, AC-030 · Vùng chỉ đọc — không chỉnh sửa Phát hiện.</text>
+</svg>

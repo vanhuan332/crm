@@ -1,76 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-labelledby="title desc">
-<title id="title">US-013 — Phát hiện có provenance</title>
-<desc id="desc">Wireframe nghiệp vụ cho US-013, truy vết AC-028 · AC-029 · AC-030.</desc>
-<style>
-.bg{fill:#F8FAFC}.sidebar{fill:#FFFFFF;stroke:#E2E8F0}.panel{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:1.5}.nav{font:500 15px 'Segoe UI',Arial,sans-serif;fill:#475569}.active{fill:#1D4ED8;font-weight:700}.eyebrow{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#2563EB;letter-spacing:1.2px}.h1{font:700 28px 'Segoe UI',Arial,sans-serif;fill:#0F172A}.meta{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#64748B}.paneltitle{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#1E3A8A}.body{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#334155}.chip{fill:#E0E7FF}.chiptext{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#3730A3}.note{font:500 12px 'Segoe UI',Arial,sans-serif;fill:#64748B}
-</style>
-<rect width="1440" height="820" class="bg"/>
-<rect x="0" y="0" width="190" height="820" class="sidebar"/>
-<rect x="18" y="24" width="40" height="40" rx="12" fill="#2563EB"/>
-<text x="70" y="50" class="paneltitle">AI Native CRM</text>
-<rect x="18" y="128" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="151" class="nav">Dashboard</text>
-<rect x="18" y="175" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="198" class="nav">Công ty</text>
-<rect x="18" y="222" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="245" class="nav">Pipeline</text>
-<rect x="18" y="269" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="292" class="nav">Timeline</text>
-<rect x="18" y="316" width="154" height="36" rx="9" fill="#DBEAFE"/>
-<text x="34" y="339" class="nav active">AI Insight</text>
-<rect x="18" y="363" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="386" class="nav">Gợi ý</text>
-<rect x="18" y="410" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="433" class="nav">Admin</text>
-<text x="22" y="782" class="note">Wireframe BA · không phải UI final</text>
-<text x="216" y="44" class="eyebrow">US-013 · Sales (xem)</text>
-<text x="216" y="84" class="h1">Phát hiện có provenance</text>
-<rect x="216" y="108" width="430" height="34" rx="17" class="chip"/>
-<text x="234" y="130" class="chiptext">AC-028 · AC-029 · AC-030</text>
-<text x="216" y="174" class="meta">Luồng màn hình và trạng thái nghiệp vụ</text>
-<rect x="216" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="216" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="216" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="238" y="234" class="paneltitle">SCR-US013-01 · Danh sách Phát hiện</text>
-<circle cx="244" cy="278" r="5" fill="#2563EB"/>
-<text x="260" y="284" class="body">Nhận định ngắn</text>
-<circle cx="244" cy="336" r="5" fill="#2563EB"/>
-<text x="260" y="342" class="body">Loại tin · mức chắc chắn</text>
-<circle cx="244" cy="394" r="5" fill="#2563EB"/>
-<text x="260" y="400" class="body">Câu trích bắt buộc</text>
-<circle cx="244" cy="452" r="5" fill="#2563EB"/>
-<text x="260" y="458" class="body">Thuộc đúng một Công ty</text>
-<circle cx="244" cy="510" r="5" fill="#2563EB"/>
-<text x="260" y="516" class="body">Chọn để xem bằng chứng</text>
-<rect x="612" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="612" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="612" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="634" y="234" class="paneltitle">SCR-US013-02 · Chi tiết Phát hiện</text>
-<circle cx="640" cy="278" r="5" fill="#2563EB"/>
-<text x="656" y="284" class="body">Observation nguồn</text>
-<circle cx="640" cy="336" r="5" fill="#2563EB"/>
-<text x="656" y="342" class="body">Câu trích nguyên văn</text>
-<circle cx="640" cy="394" r="5" fill="#2563EB"/>
-<text x="656" y="400" class="body">Vị trí trong Bản lưu</text>
-<circle cx="640" cy="452" r="5" fill="#2563EB"/>
-<text x="656" y="458" class="body">Không gắn trực tiếp Cơ hội/Contact</text>
-<circle cx="640" cy="510" r="5" fill="#2563EB"/>
-<text x="656" y="516" class="body">Vùng chỉ đọc</text>
-<rect x="1008" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="1008" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="1008" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="1030" y="234" class="paneltitle">SCR-US013-03 · Trạng thái provenance</text>
-<circle cx="1036" cy="278" r="5" fill="#2563EB"/>
-<text x="1052" y="284" class="body">Đủ quote + vị trí: hiển thị</text>
-<circle cx="1036" cy="336" r="5" fill="#2563EB"/>
-<text x="1052" y="342" class="body">Thiếu quote: không hiện như hợp lệ</text>
-<circle cx="1036" cy="394" r="5" fill="#2563EB"/>
-<text x="1052" y="400" class="body">Loading / empty / error</text>
-<circle cx="1036" cy="452" r="5" fill="#2563EB"/>
-<text x="1052" y="458" class="body">Mức: Chắc · Có thể · Đoán</text>
-<circle cx="1036" cy="510" r="5" fill="#2563EB"/>
-<text x="1052" y="516" class="body">Không cho Sales sửa Claim</text>
-<rect x="216" y="728" width="1164" height="58" rx="12" fill="#F1F5F9"/>
-<text x="238" y="752" class="note">Bao phủ: loading · empty · validation · permission · not-found · recoverable error khi được yêu cầu.</text>
-<text x="238" y="772" class="note">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">US-013 — Luồng rút phát hiện có provenance</title>
+  <desc id="desc">Sơ đồ luồng nghiệp vụ US-013: A-AI rút Phát hiện từ Bản lưu, chặn thiếu câu trích, chỉ gắn Công ty; Sales chỉ quan sát ở vùng đọc.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.line{stroke:#e6ebf2}
+    .h1{font:700 26px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .eyebrow{font:600 13px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f;letter-spacing:.4px}
+    .chip{fill:#eef0ff;stroke:#c4c8ff}.chiptext{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#4634f2}
+    .section{font:700 15px Inter,'Segoe UI',Arial,sans-serif;fill:#263a59;letter-spacing:.3px}
+    .body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#3f526f}
+    .muted{font:400 13px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}
+    .hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+    .strong{font:700 13px Inter,'Segoe UI',Arial,sans-serif}
+    .arrow{font:700 24px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+    .bullet{fill:#5236f5}
+  </style>
+  <rect width="1440" height="900" class="bg"/>
+
+  <text x="32" y="46" class="h1">Rút phát hiện có provenance (Claim)</text>
+  <text x="32" y="70" class="eyebrow">US-013 · FEAT-013 · Actor: A-AI (tự động, chạy ngầm) · Người xem: Sales</text>
+  <rect x="32" y="86" width="94" height="30" rx="15" class="chip"/><text x="50" y="106" class="chiptext">AC-028</text>
+  <rect x="134" y="86" width="94" height="30" rx="15" class="chip"/><text x="152" y="106" class="chiptext">AC-029</text>
+  <rect x="236" y="86" width="112" height="30" rx="15" class="chip"/><text x="254" y="106" class="chiptext">AC-030</text>
+
+  <!-- Flow row -->
+  <rect x="32" y="140" width="380" height="118" rx="14" class="card"/>
+  <rect x="60" y="164" width="5" height="22" rx="2" fill="#695cff"/>
+  <text x="78" y="181" class="section">Bản lưu (Observation)</text>
+  <text x="60" y="212" class="body">Nội dung tín hiệu nguyên văn,</text>
+  <text x="60" y="232" class="body">thuộc đúng một Công ty.</text>
+
+  <text x="422" y="207" class="arrow" text-anchor="middle">→</text>
+
+  <rect x="456" y="140" width="380" height="118" rx="14" class="card"/>
+  <rect x="484" y="164" width="5" height="22" rx="2" fill="#695cff"/>
+  <text x="502" y="181" class="section">A-AI rút Phát hiện (Claim)</text>
+  <text x="484" y="212" class="body">Nhận định · loại tin · câu trích ·</text>
+  <text x="484" y="232" class="body">vị trí · mức chắc chắn (AC-028).</text>
+
+  <text x="858" y="207" class="arrow" text-anchor="middle">→</text>
+
+  <rect x="892" y="140" width="516" height="118" rx="14" class="card"/>
+  <rect x="892" y="140" width="516" height="59" rx="14" fill="#edfff7"/>
+  <text x="916" y="164" class="strong" fill="#047857">Đủ câu trích + vị trí</text>
+  <text x="916" y="184" class="body">→ hiển thị ở vùng đọc (US-015)</text>
+  <rect x="892" y="199" width="516" height="59" fill="#fff1f2"/>
+  <text x="916" y="223" class="strong" fill="#dc2626">Thiếu câu trích</text>
+  <text x="916" y="243" class="body">→ bị từ chối, không lưu/không hiển thị (AC-029)</text>
+
+  <rect x="32" y="280" width="1376" height="50" rx="12" fill="#eef3f8"/>
+  <text x="56" y="310" class="body">Phát hiện chỉ thừa kế <tspan font-weight="700">Công ty</tspan> qua Bản lưu — không gắn thẳng Cơ hội, Người liên hệ hoặc Hoạt động (AC-030 · REQ-203).</text>
+
+  <!-- Screen cards -->
+  <rect x="32" y="350" width="442" height="430" rx="14" class="card"/>
+  <rect x="32" y="350" width="442" height="60" rx="14" fill="#fbfcfe"/>
+  <line x1="32" y1="410" x2="474" y2="410" class="line"/>
+  <text x="56" y="386" class="section">SCR-US013-01 · Vùng đọc</text>
+  <circle cx="60" cy="438" r="4" class="bullet"/><text x="76" y="442" class="body">Nhận định ngắn theo hàng</text>
+  <circle cx="60" cy="478" r="4" class="bullet"/><text x="76" y="482" class="body">Loại tin — badge 1/6 danh mục</text>
+  <circle cx="60" cy="518" r="4" class="bullet"/><text x="76" y="522" class="body">Mức chắc chắn: Chắc/Có thể/Đoán</text>
+  <circle cx="60" cy="558" r="4" class="bullet"/><text x="76" y="562" class="body">Câu trích rút gọn kèm vị trí</text>
+  <circle cx="60" cy="598" r="4" class="bullet"/><text x="76" y="602" class="body">Thuộc đúng Công ty qua Bản lưu</text>
+  <circle cx="60" cy="638" r="4" class="bullet"/><text x="76" y="642" class="body">Chỉ đọc — không có nút tạo/sửa/xoá</text>
+  <text x="56" y="756" class="hint">./assets/claim-list.svg</text>
+
+  <rect x="498" y="350" width="442" height="430" rx="14" class="card"/>
+  <rect x="498" y="350" width="442" height="60" rx="14" fill="#fbfcfe"/>
+  <line x1="498" y1="410" x2="940" y2="410" class="line"/>
+  <text x="522" y="386" class="section">SCR-US013-02 · Chi tiết &amp; Provenance</text>
+  <circle cx="526" cy="438" r="4" class="bullet"/><text x="542" y="442" class="body">Câu trích nguyên văn hiển thị nguyên khối</text>
+  <circle cx="526" cy="478" r="4" class="bullet"/><text x="542" y="482" class="body">Vị trí câu trích trong Bản lưu</text>
+  <circle cx="526" cy="518" r="4" class="bullet"/><text x="542" y="522" class="body">Liên kết Bản lưu nguồn (mở đoạn gốc — US-016)</text>
+  <circle cx="526" cy="558" r="4" class="bullet"/><text x="542" y="562" class="body">Không gắn Cơ hội / Người liên hệ / Hoạt động</text>
+  <circle cx="526" cy="598" r="4" class="bullet"/><text x="542" y="602" class="body">Loại tin &amp; mức chắc chắn nhắc lại tại đây</text>
+  <circle cx="526" cy="638" r="4" class="bullet"/><text x="542" y="642" class="body">Vùng chỉ đọc — không chỉnh sửa Phát hiện</text>
+  <text x="522" y="756" class="hint">./assets/claim-detail.svg</text>
+
+  <rect x="964" y="350" width="444" height="430" rx="14" class="card"/>
+  <rect x="964" y="350" width="444" height="60" rx="14" fill="#fbfcfe"/>
+  <line x1="964" y1="410" x2="1408" y2="410" class="line"/>
+  <text x="988" y="386" class="section">SCR-US013-03 · Trạng thái quan sát</text>
+  <circle cx="992" cy="438" r="4" class="bullet"/><text x="1008" y="442" class="body">Đang tải vùng đọc (loading)</text>
+  <circle cx="992" cy="478" r="4" class="bullet"/><text x="1008" y="482" class="body">Chưa có phát hiện nào (empty)</text>
+  <circle cx="992" cy="518" r="4" class="bullet"/><text x="1008" y="522" class="body">Không tìm thấy phát hiện (not-found)</text>
+  <circle cx="992" cy="558" r="4" class="bullet"/><text x="1008" y="562" class="body">Không tải được, có nút Thử lại (error)</text>
+  <circle cx="992" cy="598" r="4" class="bullet"/><text x="1008" y="602" class="body">Phát hiện thiếu câu trích không hiển thị ở đây</text>
+  <circle cx="992" cy="638" r="4" class="bullet"/><text x="1008" y="642" class="body">Không có banner "thành công" — không có thao tác ghi</text>
+  <text x="988" y="756" class="hint">./assets/claim-states.svg</text>
+
+  <rect x="32" y="822" width="1376" height="58" rx="12" fill="#f1f5f9"/>
+  <text x="56" y="846" class="hint">Đây là màn hình quan sát: A-AI tự vận hành, Sales chỉ xem để kiểm chứng — không có thao tác tạo/sửa/xoá Phát hiện trong US-013.</text>
+  <text x="56" y="866" class="hint">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai.</text>
 </svg>

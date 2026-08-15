@@ -1,1 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">SCR-US011-01 — Danh sách Bản lưu</title><desc id="desc">Danh sách Observation của một Công ty, xếp theo thời điểm đọc mới nhất trước.</desc><style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.line{stroke:#e7edf4}.h1{font:700 25px Inter,'Segoe UI',Arial;fill:#07152f}.sub{font:400 14px Inter,'Segoe UI',Arial;fill:#64748b}.th{font:700 12px Inter,'Segoe UI',Arial;fill:#60718f}.body{font:400 14px Inter,'Segoe UI',Arial;fill:#3f526f}.strong{font:700 14px Inter,'Segoe UI',Arial;fill:#07152f}.tag{font:600 11px Inter,'Segoe UI',Arial}</style><rect width="1200" height="760" class="bg"/><text x="32" y="34" class="sub">Công ty  ›  FPT Software  ›  Bản lưu nguồn</text><text x="32" y="82" class="h1">Bản lưu nguồn</text><text x="32" y="107" class="sub">3 Observation · mới nhất ở trên · được hệ thống tạo khi đọc nguồn</text><rect x="32" y="142" width="1136" height="420" rx="14" class="card"/><rect x="33" y="143" width="1134" height="62" rx="13" fill="#fbfcfe"/><text x="58" y="181" class="th">THỜI ĐIỂM ĐỌC</text><text x="278" y="181" class="th">ĐỊA CHỈ NGUỒN</text><text x="734" y="181" class="th">CÔNG TY</text><text x="974" y="181" class="th">TRẠNG THÁI</text><line x1="32" y1="205" x2="1168" y2="205" class="line"/><text x="58" y="254" class="strong">14/08/2026 · 09:30</text><text x="278" y="254" class="body">/snapshots/fpt-software-20260814.html</text><text x="734" y="254" class="body">FPT Software</text><rect x="974" y="234" width="126" height="30" rx="15" fill="#ecfdf5"/><text x="994" y="254" class="tag" fill="#047857">Đã lưu nguyên văn</text><line x1="32" y1="291" x2="1168" y2="291" class="line"/><text x="58" y="340" class="strong">12/08/2026 · 09:15</text><text x="278" y="340" class="body">/snapshots/fpt-software-20260812.html</text><text x="734" y="340" class="body">FPT Software</text><rect x="974" y="320" width="126" height="30" rx="15" fill="#ecfdf5"/><text x="994" y="340" class="tag" fill="#047857">Đã lưu nguyên văn</text><line x1="32" y1="377" x2="1168" y2="377" class="line"/><text x="58" y="426" class="strong">10/08/2026 · 09:20</text><text x="278" y="426" class="body">/snapshots/fpt-software-20260810.html</text><text x="734" y="426" class="body">FPT Software</text><rect x="974" y="406" width="126" height="30" rx="15" fill="#ecfdf5"/><text x="994" y="426" class="tag" fill="#047857">Đã lưu nguyên văn</text><rect x="32" y="596" width="1136" height="74" rx="12" fill="#fff8e8"/><text x="58" y="627" class="strong" fill="#9a5a00">Quyền xem</text><text x="58" y="653" class="body">Sales có được xem danh sách này hay thuộc US-015 vẫn chờ Q-011-01; asset không tự cấp quyền.</text><text x="32" y="736" class="sub">SCR-US011-01 · US-011 · AC-025, AC-026</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US011-01 — Danh sách Bản lưu</title>
+  <desc id="desc">Vùng đọc trong màn hình Công ty: danh sách Observation xếp theo thời điểm đọc, mới nhất ở trên. Do A-AI tự tạo, không có nút tạo thủ công.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.line{stroke:#e6ebf2}.h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.sub{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}.th{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f;letter-spacing:.45px}.body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#3f526f}.strong{font:700 14px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.mono{font:400 12px 'SFMono-Regular',Consolas,monospace;fill:#8ca0c4}.btn{font:700 14px Inter,'Segoe UI',Arial,sans-serif}.action{font:500 12px Inter,'Segoe UI',Arial,sans-serif}.tag{font:600 11px Inter,'Segoe UI',Arial,sans-serif}
+  </style>
+  <rect width="1200" height="760" class="bg"/>
+  <text x="32" y="34" class="sub">Công ty  ›  FPT Software  ›  Bản lưu nguồn (vùng đọc)</text>
+  <text x="32" y="72" class="h1">Bản lưu nguồn</text>
+  <text x="32" y="97" class="sub">3 Bản lưu · mới nhất ở trên</text>
+  <rect x="944" y="49" width="224" height="34" rx="17" fill="#eef0ff"/>
+  <text x="964" y="71" class="tag" fill="#4634f2">DO A-AI TỰ TẠO — KHÔNG CÓ NÚT TẠO</text>
+
+  <rect x="32" y="122" width="1136" height="420" rx="14" class="card"/>
+  <rect x="33" y="123" width="1134" height="62" rx="13" fill="#fbfcfe"/>
+  <line x1="32" y1="185" x2="1168" y2="185" class="line"/>
+  <text x="58" y="160" class="th">THỜI ĐIỂM ĐỌC</text>
+  <text x="298" y="160" class="th">ĐỊA CHỈ NGUỒN</text>
+  <text x="754" y="160" class="th">CÔNG TY</text>
+  <text x="954" y="160" class="th">TRẠNG THÁI</text>
+  <text x="1096" y="160" class="th">HÀNH ĐỘNG</text>
+
+  <g><text x="58" y="234" class="strong">14/08/2026 · 09:30</text><text x="298" y="234" class="body">/snapshots/fpt-software-20260814.html</text><text x="754" y="234" class="body">FPT Software</text><rect x="954" y="214" width="128" height="28" rx="14" fill="#ecfdf5" stroke="#7ee8b6"/><text x="972" y="233" class="tag" fill="#047857">Đã lưu nguyên văn</text><text x="1096" y="234" class="action" fill="#60718f">◉ Xem nội dung</text></g>
+  <line x1="32" y1="261" x2="1168" y2="261" class="line"/>
+  <g><text x="58" y="320" class="strong">12/08/2026 · 09:15</text><text x="298" y="320" class="body">/snapshots/fpt-software-20260812.html</text><text x="754" y="320" class="body">FPT Software</text><rect x="954" y="300" width="128" height="28" rx="14" fill="#ecfdf5" stroke="#7ee8b6"/><text x="972" y="319" class="tag" fill="#047857">Đã lưu nguyên văn</text><text x="1096" y="320" class="action" fill="#60718f">◉ Xem nội dung</text></g>
+  <line x1="32" y1="347" x2="1168" y2="347" class="line"/>
+  <g><text x="58" y="406" class="strong">10/08/2026 · 09:20</text><text x="298" y="406" class="body">/snapshots/fpt-software-20260810.html</text><text x="754" y="406" class="body">FPT Software</text><rect x="954" y="386" width="128" height="28" rx="14" fill="#ecfdf5" stroke="#7ee8b6"/><text x="972" y="405" class="tag" fill="#047857">Đã lưu nguyên văn</text><text x="1096" y="406" class="action" fill="#60718f">◉ Xem nội dung</text></g>
+  <line x1="32" y1="433" x2="1168" y2="433" class="line"/>
+  <text x="58" y="486" class="sub">Bản lưu cũ không bị ghi đè hoặc xóa khi có Bản lưu mới (BR-US011-06).</text>
+  <text x="58" y="512" class="sub">Sắp xếp: thời điểm đọc mới nhất → cũ nhất (AC-026).</text>
+
+  <rect x="32" y="576" width="1136" height="86" rx="12" fill="#fff8e8" stroke="#f5c84b"/>
+  <circle cx="76" cy="619" r="18" fill="#fff3d1"/><text x="69" y="626" font-family="Inter,'Segoe UI',Arial" font-size="18" fill="#9a5a00">?</text>
+  <text x="106" y="611" class="strong" fill="#9a5a00">Quyền xem — Q-011-01</text>
+  <text x="106" y="636" class="body">Việc Sales được xem danh sách này trong US-011 hay thuộc US-015 (vùng đọc) chưa được docs/02-analysis xác nhận;</text>
+  <text x="106" y="656" class="body">màn hình minh họa hành vi A-AI, không tự cấp quyền truy cập.</text>
+
+  <text x="32" y="736" class="sub">SCR-US011-01 · US-011 · AC-025, AC-026 · BR-US011-01, BR-US011-02, BR-US011-06</text>
+</svg>

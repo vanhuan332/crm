@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US013-03 — Trạng thái vùng đọc Phát hiện</title>
+  <desc id="desc">Các trạng thái quan sát của US-013: ghi chú phát hiện thiếu câu trích bị ẩn, ranh giới quan hệ thực thể, loading, empty, not-found và lỗi có thể thử lại.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}
+    .h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .title{font:700 16px Inter,'Segoe UI',Arial,sans-serif;fill:#172743}
+    .label{font:500 14px Inter,'Segoe UI',Arial,sans-serif;fill:#14233e}
+    .body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#536784}
+    .hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+    .btn{font:600 13px Inter,'Segoe UI',Arial,sans-serif}
+  </style>
+  <rect width="1200" height="900" class="bg"/>
+  <text x="32" y="48" class="h1">Trạng thái vùng đọc — Phát hiện</text>
+  <text x="32" y="74" class="body">Observability của US-013 dành cho Sales (chỉ xem)</text>
+
+  <!-- Row 1: ghi chú ẩn + quan hệ -->
+  <rect x="32" y="106" width="548" height="326" rx="14" class="card"/>
+  <text x="58" y="142" class="title">Phát hiện thiếu câu trích — không hiển thị</text>
+  <text x="58" y="170" class="body">Theo BR-006 / AC-029, hệ thống từ chối lưu Phát hiện</text>
+  <text x="58" y="190" class="body">thiếu câu trích, kể cả khi ghi thẳng bỏ qua giao diện.</text>
+  <rect x="58" y="222" width="496" height="86" rx="10" fill="#fbfcfe" stroke="#e6ebf2" stroke-dasharray="4 4"/>
+  <circle cx="306" cy="252" r="18" fill="#fff1f2"/><text x="298" y="259" font-family="Inter" font-size="18" fill="#dc2626">⊘</text>
+  <text x="240" y="290" class="hint">Không có gì được hiển thị ở vùng đọc cho trường hợp này</text>
+  <text x="58" y="340" class="hint">Không có thông báo lỗi hiển thị cho Sales — Claim coi như chưa từng tồn tại (T-2).</text>
+  <text x="58" y="360" class="hint">Cách thông báo (nếu cần) là câu hỏi mở — xem Q-013-03.</text>
+
+  <rect x="612" y="106" width="556" height="326" rx="14" class="card"/>
+  <text x="644" y="142" class="title">Quan hệ thực thể — AC-030</text>
+  <text x="644" y="170" class="body">Phát hiện chỉ thừa kế Công ty qua Bản lưu.</text>
+  <g><rect x="644" y="196" width="492" height="46" rx="8" fill="#fff" stroke="#d9e2ef"/><text x="662" y="224" class="body" font-size="13">Cơ hội — <tspan fill="#dc2626" font-weight="600">không gắn</tspan></text></g>
+  <g><rect x="644" y="252" width="492" height="46" rx="8" fill="#fff" stroke="#d9e2ef"/><text x="662" y="280" class="body" font-size="13">Người liên hệ — <tspan fill="#dc2626" font-weight="600">không gắn</tspan></text></g>
+  <g><rect x="644" y="308" width="492" height="46" rx="8" fill="#fff" stroke="#d9e2ef"/><text x="662" y="336" class="body" font-size="13">Hoạt động — <tspan fill="#dc2626" font-weight="600">không gắn</tspan></text></g>
+  <text x="644" y="392" class="hint">Đúng một Công ty là quan hệ duy nhất được phép (REQ-203).</text>
+
+  <!-- Row 2: empty / not-found / error -->
+  <rect x="32" y="464" width="350" height="174" rx="14" class="card"/>
+  <circle cx="207" cy="510" r="22" fill="#eef2f7"/><text x="197" y="519" font-family="Inter" font-size="20" fill="#8da1c3">≡</text>
+  <text x="132" y="554" class="title">Chưa có phát hiện nào</text>
+  <text x="70" y="580" class="body">Bản lưu chưa có nội dung tín hiệu để rút.</text>
+  <rect x="118" y="596" width="146" height="34" rx="6" fill="#fff" stroke="#bfcee0"/><text x="138" y="618" class="btn" fill="#263a59">Xem bản lưu</text>
+
+  <rect x="425" y="464" width="350" height="174" rx="14" class="card"/>
+  <circle cx="600" cy="510" r="22" fill="#fff5f5"/><text x="592" y="518" font-family="Inter" font-size="22" fill="#dc2626">!</text>
+  <text x="503" y="554" class="title">Không tìm thấy phát hiện</text>
+  <text x="466" y="580" class="body">Phát hiện không tồn tại hoặc chưa được rút.</text>
+  <rect x="530" y="596" width="140" height="34" rx="6" fill="#fff" stroke="#bfcee0"/><text x="551" y="618" class="btn" fill="#263a59">Về vùng đọc</text>
+
+  <rect x="818" y="464" width="350" height="174" rx="14" class="card"/>
+  <circle cx="993" cy="510" r="22" fill="#fff9e9"/><text x="985" y="518" font-family="Inter" font-size="22" fill="#b66a00">↻</text>
+  <text x="905" y="554" class="title">Không tải được vùng đọc</text>
+  <text x="873" y="580" class="body">Kiểm tra kết nối và thử lại thao tác.</text>
+  <rect x="934" y="596" width="118" height="34" rx="6" fill="#fff" stroke="#bfcee0"/><text x="966" y="618" class="btn" fill="#263a59">Thử lại</text>
+
+  <!-- Info banner (not a success banner: no write action exists) -->
+  <rect x="32" y="678" width="1136" height="92" rx="12" fill="#eef3f8" stroke="#c7d4e6"/>
+  <circle cx="76" cy="724" r="20" fill="#60718f"/><text x="70" y="731" font-family="Inter" font-size="16" font-weight="700" fill="#fff">ℹ</text>
+  <text x="112" y="716" class="title" fill="#263a59">Vùng đọc chỉ hiển thị dữ liệu</text>
+  <text x="112" y="742" class="body">A-AI tự động rút phát hiện; Sales chỉ xem để kiểm chứng — không có thao tác tạo, sửa hoặc xoá Phát hiện tại đây.</text>
+
+  <text x="32" y="808" class="hint">Loading: dùng skeleton trong vùng bảng/thẻ, giữ nguyên cấu trúc vùng đọc trong lúc xử lý.</text>
+  <text x="32" y="832" class="hint">SCR-US013-03 · US-013 · AC-029, AC-030 · Phát hiện không có nút tạo/sửa/xoá.</text>
+</svg>

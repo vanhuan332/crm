@@ -1,1 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">SCR-US009-03 — Trạng thái Tìm/Lọc</title><desc id="desc">Trạng thái có kết quả, không có kết quả và ranh giới kết hợp nhiều bộ lọc.</desc><style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial;fill:#07152f}.title{font:700 16px Inter,'Segoe UI',Arial;fill:#172743}.body{font:400 14px Inter,'Segoe UI',Arial;fill:#536784}.hint{font:400 12px Inter,'Segoe UI',Arial;fill:#8da1c3}.btn{font:600 13px Inter,'Segoe UI',Arial}</style><rect width="1200" height="760" class="bg"/><text x="32" y="48" class="h1">Trạng thái Tìm kiếm và Lọc</text><text x="32" y="75" class="body">Tìm/lọc chỉ thu hẹp kết quả, không thay đổi dữ liệu.</text><rect x="32" y="112" width="548" height="300" rx="14" class="card"/><text x="58" y="152" class="title">Có kết quả</text><rect x="58" y="182" width="496" height="54" rx="8" fill="#eef6ff"/><text x="80" y="215" class="body" fill="#1d4ed8">3 Công ty khớp “soft”</text><rect x="58" y="256" width="496" height="52" rx="8" fill="#fbfcfe" stroke="#d9e2ef"/><text x="80" y="288" class="body">FPT Software</text><rect x="58" y="322" width="496" height="52" rx="8" fill="#fbfcfe" stroke="#d9e2ef"/><text x="80" y="354" class="body">TMA Software Labs</text><rect x="612" y="112" width="556" height="300" rx="14" class="card"/><circle cx="890" cy="194" r="30" fill="#eef2f7"/><text x="878" y="204" font-family="Inter" font-size="28" fill="#8da1c3">⌕</text><text x="814" y="250" class="title">Không có kết quả</text><text x="745" y="280" class="body">Không tìm thấy mục thỏa điều kiện hiện tại.</text><rect x="822" y="320" width="136" height="38" rx="6" fill="#fff" stroke="#bfcee0"/><text x="845" y="344" class="btn">Xóa bộ lọc</text><rect x="32" y="450" width="1136" height="108" rx="12" fill="#fff8e8" stroke="#f5c84b"/><text x="58" y="487" class="title" fill="#9a5a00">Kết hợp nhiều tiêu chí</text><text x="58" y="518" class="body">Q-009-01 chưa quy định AND/OR hoặc thứ tự áp dụng; asset không ghi một cách kết hợp là quy tắc đã xác nhận.</text><rect x="32" y="592" width="1136" height="66" rx="12" fill="#eef6ff"/><text x="58" y="632" class="body" fill="#1d4ed8">Loading/error giữ nguyên từ khóa và tiêu chí để Sales có thể thử lại.</text><text x="32" y="736" class="hint">SCR-US009-03 · US-009 · AC-021..023 · Empty presentation là giả định UX theo Q-009-03.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US009-03 — Trạng thái Tìm/Lọc</title>
+  <desc id="desc">Các trạng thái có kết quả, không có kết quả, đang tải và lỗi có thể thử lại cho tìm kiếm và lọc của US-009.</desc>
+  <style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.title{font:700 16px Inter,'Segoe UI',Arial,sans-serif;fill:#172743}.body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#536784}.hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}.btn{font:600 13px Inter,'Segoe UI',Arial,sans-serif}</style>
+  <rect width="1200" height="900" class="bg"/>
+  <text x="32" y="48" class="h1">Trạng thái Tìm kiếm và Lọc</text>
+  <text x="32" y="74" class="body">Tìm/lọc chỉ thu hẹp kết quả hiển thị, không thay đổi dữ liệu Công ty hay Cơ hội (BR-US009-04)</text>
+
+  <rect x="32" y="106" width="548" height="326" rx="14" class="card"/>
+  <text x="58" y="142" class="title">Có kết quả</text>
+  <text x="58" y="168" class="body">Danh sách chỉ còn mục thỏa từ khóa hoặc bộ lọc đã chọn.</text>
+  <rect x="58" y="192" width="496" height="54" rx="8" fill="#eef6ff"/><text x="80" y="225" class="body" fill="#1d4ed8">3 Công ty khớp “soft”</text>
+  <rect x="58" y="262" width="496" height="52" rx="8" fill="#fbfcfe" stroke="#d9e2ef"/><text x="80" y="294" class="body">FPT Software</text>
+  <rect x="58" y="326" width="496" height="52" rx="8" fill="#fbfcfe" stroke="#d9e2ef"/><text x="80" y="358" class="body">TMA Software Labs</text>
+  <rect x="58" y="390" width="496" height="30" rx="6" fill="#fff9e9"/><text x="72" y="410" class="hint" fill="#9a5a00">Không có trạng thái validation hoặc lưu thành công: tìm/lọc không ghi dữ liệu.</text>
+
+  <rect x="612" y="106" width="556" height="326" rx="14" class="card"/>
+  <circle cx="890" cy="188" r="30" fill="#eef2f7"/><text x="878" y="198" font-family="Inter" font-size="28" fill="#8da1c3">⌕</text>
+  <text x="812" y="244" class="title">Không có kết quả</text>
+  <text x="742" y="272" class="body">Không có Công ty hoặc Cơ hội thỏa điều kiện hiện tại.</text>
+  <rect x="820" y="298" width="140" height="38" rx="7" fill="#fff" stroke="#bfcee0"/><text x="843" y="322" class="btn" fill="#263a59">Xóa bộ lọc</text>
+  <text x="656" y="382" class="hint">Nội dung/hành động chính xác của trạng thái này là ASSUMPTION (A-009-01),</text>
+  <text x="656" y="404" class="hint">chờ quyết định ở Q-009-03.</text>
+
+  <rect x="32" y="464" width="548" height="174" rx="14" class="card"/>
+  <circle cx="115" cy="510" r="22" fill="#eef2f7"/><text x="103" y="519" font-family="Inter" font-size="20" fill="#8da1c3">▤</text>
+  <text x="150" y="504" class="title">Đang tải</text>
+  <text x="150" y="528" class="body">Khung kết quả hiển thị dạng skeleton.</text>
+  <rect x="150" y="546" width="380" height="14" rx="4" fill="#e9edf4"/>
+  <rect x="150" y="568" width="320" height="14" rx="4" fill="#e9edf4"/>
+  <rect x="150" y="590" width="350" height="14" rx="4" fill="#e9edf4"/>
+  <text x="58" y="618" class="hint">Ô tìm kiếm và các tiêu chí lọc bị khóa tạm thời trong lúc tải.</text>
+
+  <rect x="612" y="464" width="556" height="174" rx="14" class="card"/>
+  <circle cx="686" cy="510" r="22" fill="#fff9e9"/><text x="678" y="518" font-family="Inter" font-size="20" fill="#b66a00">↻</text>
+  <text x="722" y="504" class="title">Không thể tải kết quả</text>
+  <text x="722" y="528" class="body">Kiểm tra kết nối và thử lại thao tác tìm/lọc.</text>
+  <rect x="722" y="546" width="118" height="36" rx="7" fill="#fff" stroke="#bfcee0"/><text x="748" y="569" class="btn" fill="#263a59">Thử lại</text>
+  <text x="656" y="614" class="hint">Từ khóa và tiêu chí đang chọn được giữ nguyên để Sales thử lại không phải nhập lại.</text>
+
+  <rect x="32" y="662" width="1136" height="110" rx="12" fill="#fff8e8" stroke="#f5c84b"/>
+  <text x="58" y="694" class="title" fill="#9a5a00">Kết hợp nhiều tiêu chí</text>
+  <text x="58" y="720" class="body">Q-009-01 chưa quy định cách kết hợp (AND/OR) khi Sales chọn nhiều tiêu chí lọc cùng lúc, hoặc kết hợp</text>
+  <text x="58" y="744" class="body">từ khóa tìm kiếm với bộ lọc; asset này không tự quyết một cách kết hợp nào là quy tắc đã xác nhận.</text>
+
+  <text x="32" y="808" class="hint">Quyền của Quản trị với chức năng tìm/lọc chưa được nêu trong nguồn (Q-009-02).</text>
+  <text x="32" y="832" class="hint">SCR-US009-03 · US-009 · AC-021, AC-022, AC-023 · Empty/loading/error không tự quyết logic kết hợp filter hay quyền Quản trị.</text>
+</svg>

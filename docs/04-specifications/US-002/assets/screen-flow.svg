@@ -1,76 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-labelledby="title desc">
-<title id="title">US-002 — Người liên hệ và PIC</title>
-<desc id="desc">Wireframe nghiệp vụ cho US-002, truy vết AC-005 · AC-006 · AC-007.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+<title id="title">US-002 — Người liên hệ và đầu mối chính (PIC)</title>
+<desc id="desc">Sơ đồ luồng năm màn hình nghiệp vụ cho US-002, truy vết AC-005 · AC-006 · AC-007.</desc>
 <style>
-.bg{fill:#F8FAFC}.sidebar{fill:#FFFFFF;stroke:#E2E8F0}.panel{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:1.5}.nav{font:500 15px 'Segoe UI',Arial,sans-serif;fill:#475569}.active{fill:#1D4ED8;font-weight:700}.eyebrow{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#2563EB;letter-spacing:1.2px}.h1{font:700 28px 'Segoe UI',Arial,sans-serif;fill:#0F172A}.meta{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#64748B}.paneltitle{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#1E3A8A}.body{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#334155}.chip{fill:#E0E7FF}.chiptext{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#3730A3}.note{font:500 12px 'Segoe UI',Arial,sans-serif;fill:#64748B}
+.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 27px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.sub{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}.eyebrow{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#4634f2;letter-spacing:1.1px}.paneltitle{font:700 15px Inter,'Segoe UI',Arial,sans-serif;fill:#1e2f57}.body{font:400 13px Inter,'Segoe UI',Arial,sans-serif;fill:#3f526f}.chiptext{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#4634f2}.hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}
 </style>
-<rect width="1440" height="820" class="bg"/>
-<rect x="0" y="0" width="190" height="820" class="sidebar"/>
-<rect x="18" y="24" width="40" height="40" rx="12" fill="#2563EB"/>
-<text x="70" y="50" class="paneltitle">AI Native CRM</text>
-<rect x="18" y="128" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="151" class="nav">Dashboard</text>
-<rect x="18" y="175" width="154" height="36" rx="9" fill="#DBEAFE"/>
-<text x="34" y="198" class="nav active">Công ty</text>
-<rect x="18" y="222" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="245" class="nav">Pipeline</text>
-<rect x="18" y="269" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="292" class="nav">Timeline</text>
-<rect x="18" y="316" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="339" class="nav">AI Insight</text>
-<rect x="18" y="363" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="386" class="nav">Gợi ý</text>
-<rect x="18" y="410" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="433" class="nav">Admin</text>
-<text x="22" y="782" class="note">Wireframe BA · không phải UI final</text>
-<text x="216" y="44" class="eyebrow">US-002 · Sales</text>
-<text x="216" y="84" class="h1">Người liên hệ và PIC</text>
-<rect x="216" y="108" width="430" height="34" rx="17" class="chip"/>
-<text x="234" y="130" class="chiptext">AC-005 · AC-006 · AC-007</text>
-<text x="216" y="174" class="meta">Luồng màn hình và trạng thái nghiệp vụ</text>
-<rect x="216" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="216" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="216" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="238" y="234" class="paneltitle">SCR-US002-01 · Danh sách liên hệ</text>
-<circle cx="244" cy="278" r="5" fill="#2563EB"/>
-<text x="260" y="284" class="body">Ngữ cảnh: một Công ty</text>
-<circle cx="244" cy="336" r="5" fill="#2563EB"/>
-<text x="260" y="342" class="body">Tên · Chức danh · Email</text>
-<circle cx="244" cy="394" r="5" fill="#2563EB"/>
-<text x="260" y="400" class="body">Badge PIC duy nhất</text>
-<circle cx="244" cy="452" r="5" fill="#2563EB"/>
-<text x="260" y="458" class="body">Thêm · Sửa · Xóa liên hệ</text>
-<circle cx="244" cy="510" r="5" fill="#2563EB"/>
-<text x="260" y="516" class="body">Empty: Chưa có người liên hệ</text>
-<rect x="612" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="612" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="612" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="634" y="234" class="paneltitle">SCR-US002-02 · Form liên hệ</text>
-<circle cx="640" cy="278" r="5" fill="#2563EB"/>
-<text x="656" y="284" class="body">Tên · Chức danh · Email</text>
-<circle cx="640" cy="336" r="5" fill="#2563EB"/>
-<text x="656" y="342" class="body">Đánh dấu là PIC</text>
-<circle cx="640" cy="394" r="5" fill="#2563EB"/>
-<text x="656" y="400" class="body">Lưu · Hủy</text>
-<circle cx="640" cy="452" r="5" fill="#2563EB"/>
-<text x="656" y="458" class="body">Validation tại trường</text>
-<circle cx="640" cy="510" r="5" fill="#2563EB"/>
-<text x="656" y="516" class="body">Giữ dữ liệu khi lỗi có thể thử lại</text>
-<rect x="1008" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="1008" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="1008" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="1030" y="234" class="paneltitle">SCR-US002-03 · Trạng thái PIC</text>
-<circle cx="1036" cy="278" r="5" fill="#2563EB"/>
-<text x="1052" y="284" class="body">Chuyển PIC sang người khác</text>
-<circle cx="1036" cy="336" r="5" fill="#2563EB"/>
-<text x="1052" y="342" class="body">Chỉ một PIC được hiển thị</text>
-<circle cx="1036" cy="394" r="5" fill="#2563EB"/>
-<text x="1052" y="400" class="body">Cảnh báo khi thiếu PIC</text>
-<circle cx="1036" cy="452" r="5" fill="#2563EB"/>
-<text x="1052" y="458" class="body">Xác nhận trước khi xóa PIC</text>
-<circle cx="1036" cy="510" r="5" fill="#2563EB"/>
-<text x="1052" y="516" class="body">Permission: chỉ Sales hợp lệ</text>
-<rect x="216" y="728" width="1164" height="58" rx="12" fill="#F1F5F9"/>
-<text x="238" y="752" class="note">Bao phủ: loading · empty · validation · permission · not-found · recoverable error khi được yêu cầu.</text>
-<text x="238" y="772" class="note">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai.</text>
+<rect width="1400" height="900" class="bg"/>
+<text x="32" y="44" class="eyebrow">US-002 · SALES</text>
+<text x="32" y="82" class="h1">Người liên hệ &amp; đầu mối chính (PIC)</text>
+<rect x="32" y="102" width="356" height="34" rx="17" fill="#eef0ff"/>
+<text x="50" y="124" class="chiptext">AC-005 · AC-006 · AC-007</text>
+<text x="32" y="168" class="sub">Luồng năm màn hình nghiệp vụ và trạng thái liên quan</text>
+
+<!-- Row 1 -->
+<rect x="32" y="196" width="372" height="300" rx="14" class="card"/>
+<rect x="66" y="226" width="5" height="25" rx="3" fill="#695cff"/>
+<text x="84" y="245" class="paneltitle">SCR-US002-01 · Danh sách</text>
+<circle cx="72" cy="292" r="4" fill="#5236f5"/><text x="96" y="297" class="body">Ngữ cảnh: một Công ty</text>
+<circle cx="72" cy="332" r="4" fill="#5236f5"/><text x="96" y="337" class="body">Họ tên · Chức danh · Email</text>
+<circle cx="72" cy="372" r="4" fill="#5236f5"/><text x="96" y="377" class="body">Badge PIC duy nhất</text>
+<circle cx="72" cy="412" r="4" fill="#5236f5"/><text x="96" y="417" class="body">Thêm · Sửa · Xóa liên hệ</text>
+<circle cx="72" cy="452" r="4" fill="#5236f5"/><text x="96" y="457" class="body">Empty: chưa có người liên hệ</text>
+
+<rect x="428" y="196" width="372" height="300" rx="14" class="card"/>
+<rect x="462" y="226" width="5" height="25" rx="3" fill="#695cff"/>
+<text x="480" y="245" class="paneltitle">SCR-US002-02 · Thêm liên hệ</text>
+<circle cx="468" cy="292" r="4" fill="#5236f5"/><text x="492" y="297" class="body">Họ tên · Chức danh · Email</text>
+<circle cx="468" cy="332" r="4" fill="#5236f5"/><text x="492" y="337" class="body">Tùy chọn đặt làm PIC</text>
+<circle cx="468" cy="372" r="4" fill="#5236f5"/><text x="492" y="377" class="body">Lưu liên hệ · Hủy</text>
+<circle cx="468" cy="412" r="4" fill="#5236f5"/><text x="492" y="417" class="body">Người liên hệ gắn đúng Công ty</text>
+
+<rect x="824" y="196" width="372" height="300" rx="14" class="card"/>
+<rect x="858" y="226" width="5" height="25" rx="3" fill="#695cff"/>
+<text x="876" y="245" class="paneltitle">SCR-US002-03 · Sửa liên hệ</text>
+<circle cx="864" cy="292" r="4" fill="#5236f5"/><text x="888" y="297" class="body">Dữ liệu hiện tại điền sẵn</text>
+<circle cx="864" cy="332" r="4" fill="#5236f5"/><text x="888" y="337" class="body">Cập nhật Họ tên · Chức danh · Email</text>
+<circle cx="864" cy="372" r="4" fill="#5236f5"/><text x="888" y="377" class="body">Lưu thay đổi · Hủy</text>
+<circle cx="864" cy="412" r="4" fill="#5236f5"/><text x="888" y="417" class="body">Thay đổi được ghi nhận</text>
+
+<!-- Row 2 -->
+<rect x="316" y="520" width="372" height="300" rx="14" class="card"/>
+<rect x="350" y="550" width="5" height="25" rx="3" fill="#695cff"/>
+<text x="368" y="569" class="paneltitle">SCR-US002-04 · Chuyển PIC</text>
+<circle cx="356" cy="616" r="4" fill="#5236f5"/><text x="380" y="621" class="body">Trước / sau khi chuyển PIC</text>
+<circle cx="356" cy="656" r="4" fill="#5236f5"/><text x="380" y="661" class="body">Nhãn gỡ khỏi người cũ</text>
+<circle cx="356" cy="696" r="4" fill="#5236f5"/><text x="380" y="701" class="body">Nhãn gán cho người mới</text>
+<circle cx="356" cy="736" r="4" fill="#5236f5"/><text x="380" y="741" class="body">Luôn đúng một PIC tại một thời điểm</text>
+
+<rect x="712" y="520" width="372" height="300" rx="14" class="card"/>
+<rect x="746" y="550" width="5" height="25" rx="3" fill="#695cff"/>
+<text x="764" y="569" class="paneltitle">SCR-US002-05 · Trạng thái</text>
+<circle cx="752" cy="616" r="4" fill="#5236f5"/><text x="776" y="621" class="body">Xác nhận xóa người liên hệ</text>
+<circle cx="752" cy="656" r="4" fill="#5236f5"/><text x="776" y="661" class="body">Empty · Not-found · Lỗi có thể thử lại</text>
+<circle cx="752" cy="696" r="4" fill="#5236f5"/><text x="776" y="701" class="body">Phản hồi lưu thành công</text>
+<circle cx="752" cy="736" r="4" fill="#5236f5"/><text x="776" y="741" class="body">Định dạng trường: chưa xác nhận (Q-002-02)</text>
+
+<rect x="32" y="850" width="1336" height="34" rx="10" fill="#f1f4f9"/>
+<text x="50" y="872" class="hint">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai. Wireframe BA cho mục đích nghiệp vụ.</text>
 </svg>

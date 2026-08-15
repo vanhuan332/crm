@@ -1,1 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc"><title id="title">SCR-US010-02 — Cơ hội theo giai đoạn</title><desc id="desc">Số lượng và tổng giá trị Cơ hội theo từng giai đoạn.</desc><style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial;fill:#07152f}.title{font:700 15px Inter,'Segoe UI',Arial;fill:#172743}.body{font:400 13px Inter,'Segoe UI',Arial;fill:#536784}.metric{font:700 24px Inter,'Segoe UI',Arial;fill:#07152f}.hint{font:400 12px Inter,'Segoe UI',Arial;fill:#8da1c3}</style><rect width="1200" height="700" class="bg"/><text x="32" y="48" class="h1">Tổng quan Cơ hội</text><text x="32" y="75" class="body">Số lượng và tổng giá trị theo 7 giai đoạn</text><g transform="translate(32 112)"><rect width="260" height="180" rx="14" class="card"/><text x="24" y="40" class="title">Tiếp cận</text><text x="24" y="88" class="metric">6 Cơ hội</text><text x="24" y="124" class="body">Tổng giá trị</text><text x="24" y="154" class="title">4,2 tỷ</text></g><g transform="translate(308 112)"><rect width="260" height="180" rx="14" class="card"/><text x="24" y="40" class="title">Đủ điều kiện</text><text x="24" y="88" class="metric">4 Cơ hội</text><text x="24" y="124" class="body">Tổng giá trị</text><text x="24" y="154" class="title">3,1 tỷ</text></g><g transform="translate(584 112)"><rect width="260" height="180" rx="14" class="card"/><text x="24" y="40" class="title">Soạn đề xuất</text><text x="24" y="88" class="metric">3 Cơ hội</text><text x="24" y="124" class="body">Tổng giá trị</text><text x="24" y="154" class="title">2,8 tỷ</text></g><g transform="translate(860 112)"><rect width="308" height="180" rx="14" class="card"/><text x="24" y="40" class="title">Thương lượng</text><text x="24" y="88" class="metric">2 Cơ hội</text><text x="24" y="124" class="body">Tổng giá trị</text><text x="24" y="154" class="title">3,6 tỷ</text></g><g transform="translate(32 316)"><rect width="352" height="180" rx="14" class="card"/><text x="24" y="40" class="title">Thắng</text><text x="24" y="88" class="metric" fill="#047857">5 Cơ hội</text><text x="24" y="124" class="body">Tổng giá trị</text><text x="24" y="154" class="title">6,4 tỷ</text></g><g transform="translate(400 316)"><rect width="352" height="180" rx="14" class="card"/><text x="24" y="40" class="title">Thua</text><text x="24" y="88" class="metric" fill="#dc2626">2 Cơ hội</text><text x="24" y="124" class="body">Tổng giá trị</text><text x="24" y="154" class="title">1,1 tỷ</text></g><g transform="translate(768 316)"><rect width="400" height="180" rx="14" class="card"/><text x="24" y="40" class="title">Tạm dừng</text><text x="24" y="88" class="metric">2 Cơ hội</text><text x="24" y="124" class="body">Tổng giá trị</text><text x="24" y="154" class="title">900 triệu</text></g><text x="32" y="670" class="hint">SCR-US010-02 · US-010 · AC-024 · Không cho phép thay đổi dữ liệu từ tổng quan.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US010-02 — Cơ hội theo giai đoạn</title>
+  <desc id="desc">Số lượng và tổng giá trị Cơ hội theo từng giai đoạn trên màn hình Tổng quan.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}
+    .h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#536784}
+    .title{font:700 15px Inter,'Segoe UI',Arial,sans-serif;fill:#172743}
+    .metric{font:700 22px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .sub{font:400 13px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+    .hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+  </style>
+  <rect width="1200" height="700" class="bg"/>
+  <text x="32" y="48" class="h1">Tổng quan Cơ hội</text>
+  <text x="32" y="75" class="body">Số lượng và tổng giá trị theo 7 giai đoạn (FEAT-004)</text>
+
+  <g transform="translate(32 112)">
+    <rect width="260" height="176" rx="14" class="card"/>
+    <rect x="24" y="24" width="5" height="20" rx="3" fill="#695cff"/>
+    <text x="40" y="40" class="title">Tiếp cận</text>
+    <text x="24" y="88" class="metric">6 Cơ hội</text>
+    <text x="24" y="118" class="sub">Tổng giá trị</text>
+    <text x="24" y="146" class="title">4,2 tỷ</text>
+  </g>
+  <g transform="translate(308 112)">
+    <rect width="260" height="176" rx="14" class="card"/>
+    <rect x="24" y="24" width="5" height="20" rx="3" fill="#695cff"/>
+    <text x="40" y="40" class="title">Đủ điều kiện</text>
+    <text x="24" y="88" class="metric">4 Cơ hội</text>
+    <text x="24" y="118" class="sub">Tổng giá trị</text>
+    <text x="24" y="146" class="title">3,1 tỷ</text>
+  </g>
+  <g transform="translate(584 112)">
+    <rect width="260" height="176" rx="14" class="card"/>
+    <rect x="24" y="24" width="5" height="20" rx="3" fill="#695cff"/>
+    <text x="40" y="40" class="title">Soạn đề xuất</text>
+    <text x="24" y="88" class="metric">3 Cơ hội</text>
+    <text x="24" y="118" class="sub">Tổng giá trị</text>
+    <text x="24" y="146" class="title">2,8 tỷ</text>
+  </g>
+  <g transform="translate(860 112)">
+    <rect width="308" height="176" rx="14" class="card"/>
+    <rect x="24" y="24" width="5" height="20" rx="3" fill="#695cff"/>
+    <text x="40" y="40" class="title">Thương lượng</text>
+    <text x="24" y="88" class="metric">2 Cơ hội</text>
+    <text x="24" y="118" class="sub">Tổng giá trị</text>
+    <text x="24" y="146" class="title">3,6 tỷ</text>
+  </g>
+
+  <g transform="translate(32 312)">
+    <rect width="352" height="176" rx="14" class="card"/>
+    <rect x="24" y="24" width="5" height="20" rx="3" fill="#10b981"/>
+    <text x="40" y="40" class="title">Thắng</text>
+    <text x="24" y="88" class="metric" fill="#047857">5 Cơ hội</text>
+    <text x="24" y="118" class="sub">Tổng giá trị</text>
+    <text x="24" y="146" class="title">6,4 tỷ</text>
+  </g>
+  <g transform="translate(400 312)">
+    <rect width="352" height="176" rx="14" class="card"/>
+    <rect x="24" y="24" width="5" height="20" rx="3" fill="#dc2626"/>
+    <text x="40" y="40" class="title">Thua</text>
+    <text x="24" y="88" class="metric" fill="#dc2626">2 Cơ hội</text>
+    <text x="24" y="118" class="sub">Tổng giá trị</text>
+    <text x="24" y="146" class="title">1,1 tỷ</text>
+  </g>
+  <g transform="translate(768 312)">
+    <rect width="400" height="176" rx="14" class="card"/>
+    <rect x="24" y="24" width="5" height="20" rx="3" fill="#8da1c3"/>
+    <text x="40" y="40" class="title">Tạm dừng</text>
+    <text x="24" y="88" class="metric">2 Cơ hội</text>
+    <text x="24" y="118" class="sub">Tổng giá trị</text>
+    <text x="24" y="146" class="title">900 triệu</text>
+  </g>
+
+  <text x="32" y="632" class="hint">Số liệu minh hoạ; giá trị thật lấy từ Cơ hội đang mở/đã đóng theo 7 giai đoạn của US-003/FEAT-004.</text>
+  <text x="32" y="654" class="hint">Không có thao tác đổi giai đoạn hoặc sửa giá trị từ màn hình Tổng quan (BR-US010-04).</text>
+  <text x="32" y="682" class="hint">SCR-US010-02 · US-010 · AC-024 · BR-US010-02</text>
+</svg>

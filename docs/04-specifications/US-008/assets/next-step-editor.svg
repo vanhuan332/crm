@@ -1,1 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">SCR-US008-01 — Việc tiếp theo của Cơ hội</title><desc id="desc">Chỉnh Việc tiếp theo và ngày hạn trên một Cơ hội mở.</desc><style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial;fill:#07152f}.sub{font:400 14px Inter,'Segoe UI',Arial;fill:#64748b}.title{font:700 16px Inter,'Segoe UI',Arial;fill:#172743}.label{font:500 14px Inter,'Segoe UI',Arial;fill:#14233e}.input{fill:#fff;stroke:#becde1}.value{font:400 14px Inter,'Segoe UI',Arial;fill:#07152f}.hint{font:400 12px Inter,'Segoe UI',Arial;fill:#8da1c3}.btn{font:600 14px Inter,'Segoe UI',Arial}</style><rect width="1200" height="760" class="bg"/><text x="28" y="34" class="sub">Cơ hội  ›  Cloud Migration  ›  Việc tiếp theo</text><text x="28" y="82" class="h1">Cloud Migration</text><text x="28" y="107" class="sub">FPT Software · Cơ hội mở · Tiếp cận</text><rect x="214" y="148" width="772" height="420" rx="14" class="card"/><rect x="248" y="182" width="5" height="25" rx="3" fill="#695cff"/><text x="266" y="201" class="title">LẬP KẾ HOẠCH TIẾP THEO</text><text x="248" y="254" class="label">Việc tiếp theo</text><rect x="248" y="271" width="704" height="92" rx="6" class="input"/><text x="264" y="301" class="value">Chuẩn bị agenda workshop và gửi PIC xác nhận.</text><text x="248" y="410" class="label">Ngày hạn</text><rect x="248" y="427" width="334" height="45" rx="6" class="input"/><text x="264" y="455" class="value">18/08/2026</text><rect x="248" y="500" width="704" height="44" rx="8" fill="#ecfdf5"/><text x="268" y="527" class="value" fill="#166534">✓ Đủ hai thông tin · Cơ hội sẽ vào danh sách việc phải làm.</text><rect x="740" y="592" width="92" height="44" rx="7" fill="#fff" stroke="#bfcee0"/><text x="769" y="620" class="btn">Hủy</text><rect x="846" y="592" width="140" height="44" rx="7" fill="#5236f5"/><text x="887" y="620" class="btn" fill="#fff">Lưu</text><text x="28" y="728" class="hint">SCR-US008-01 · US-008 · AC-019, AC-020 · Thiếu một ô vẫn được lưu.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US008-01 — Việc tiếp theo của Cơ hội</title>
+  <desc id="desc">Chỉnh Việc tiếp theo và ngày hạn trên một Cơ hội mở; lưu được dù thiếu một ô.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}
+    .h1{font:700 26px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .crumb{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f}
+    .section{font:700 15px Inter,'Segoe UI',Arial,sans-serif;fill:#263a59;letter-spacing:.3px}
+    .label{font:500 14px Inter,'Segoe UI',Arial,sans-serif;fill:#14233e}
+    .input{fill:#fff;stroke:#becde1}
+    .value{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+    .btn{font:600 14px Inter,'Segoe UI',Arial,sans-serif}
+    .tag{font:600 12px Inter,'Segoe UI',Arial,sans-serif}
+  </style>
+  <rect width="1200" height="820" class="bg"/>
+  <text x="28" y="34" class="crumb">Cơ hội  ›  Cloud Migration  ›  <tspan font-weight="600" fill="#263a59">Việc tiếp theo</tspan></text>
+  <text x="28" y="80" class="h1">Cloud Migration</text>
+  <text x="28" y="104" class="crumb">FPT Software · Cơ hội mở · Giai đoạn: Tiếp cận</text>
+  <rect x="854" y="66" width="106" height="30" rx="15" fill="#eef0ff" stroke="#c4c8ff"/><text x="872" y="86" class="tag" fill="#4634f2">AC-019 · AC-020</text>
+
+  <rect x="214" y="140" width="772" height="452" rx="14" class="card"/>
+  <rect x="248" y="172" width="5" height="25" rx="3" fill="#695cff"/>
+  <text x="266" y="191" class="section">LẬP KẾ HOẠCH TIẾP THEO</text>
+  <text x="820" y="191" class="hint" text-anchor="end">Cả hai ô đều không bắt buộc</text>
+
+  <text x="248" y="242" class="label">Việc tiếp theo</text>
+  <rect x="248" y="257" width="704" height="92" rx="6" class="input"/>
+  <text x="264" y="287" class="value">Chuẩn bị agenda workshop và gửi PIC xác nhận.</text>
+  <text x="264" y="307" class="hint">Có thể để trống — cơ hội vẫn được lưu.</text>
+
+  <text x="248" y="392" class="label">Ngày hạn</text>
+  <rect x="248" y="407" width="334" height="45" rx="6" class="input"/>
+  <text x="264" y="435" class="value">18/08/2026</text>
+  <text x="596" y="435" class="hint">Định dạng cụ thể: chưa xác định (Q-008-03)</text>
+
+  <rect x="248" y="484" width="704" height="46" rx="8" fill="#ecfdf5"/>
+  <text x="268" y="512" class="value" fill="#166534">✓ Đủ hai thông tin · cơ hội sẽ có trong danh sách việc phải làm.</text>
+
+  <rect x="248" y="546" width="704" height="46" rx="8" fill="#fff8e8"/>
+  <text x="268" y="574" class="value" fill="#9a5a00">⚠ Nếu để trống một trong hai ô: vẫn lưu được, mang cờ cảnh báo, tạm ẩn khỏi danh sách việc phải làm.</text>
+
+  <rect x="740" y="656" width="92" height="44" rx="7" fill="#fff" stroke="#bfcee0"/><text x="769" y="684" class="btn">Hủy</text>
+  <rect x="846" y="656" width="140" height="44" rx="7" fill="#5236f5"/><text x="887" y="684" class="btn" fill="#fff">Lưu</text>
+
+  <rect x="214" y="716" width="772" height="60" rx="10" fill="#eef6ff"/>
+  <text x="238" y="740" class="hint" fill="#1d4ed8">Lưu không bao giờ bị chặn bởi ô Việc tiếp theo hoặc ngày hạn còn trống.</text>
+  <text x="238" y="758" class="hint" fill="#1d4ed8">Quyền của Quản trị với ô này chưa xác định (Q-008-01).</text>
+
+  <text x="28" y="800" class="hint">SCR-US008-01 · US-008 · AC-019, AC-020 · Thiếu một ô vẫn được lưu; không chặn thao tác.</text>
+</svg>

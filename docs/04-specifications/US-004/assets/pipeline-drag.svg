@@ -1,4 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">SCR-US004-02 — Chuyển giai đoạn</title><desc id="desc">Minh họa kéo cơ hội tiến, lùi và nhảy cóc không bị chặn.</desc><style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial;fill:#07152f}.title{font:700 16px Inter,'Segoe UI',Arial;fill:#172743}.body{font:400 14px Inter,'Segoe UI',Arial;fill:#536784}.strong{font:700 14px Inter,'Segoe UI',Arial;fill:#07152f}.hint{font:400 12px Inter,'Segoe UI',Arial;fill:#8da1c3}</style><rect width="1200" height="760" class="bg"/><text x="32" y="48" class="h1">Chuyển giai đoạn bằng kéo-thả</text><text x="32" y="75" class="body">Sales có thể kéo tiến, kéo lùi hoặc nhảy cóc.</text>
-<rect x="32" y="112" width="1136" height="214" rx="14" class="card"/><text x="58" y="150" class="title">Kéo tiến — AC-010</text><rect x="58" y="178" width="246" height="104" rx="10" fill="#fff8e8" stroke="#f5c84b"/><text x="78" y="208" class="body">TIẾP CẬN</text><text x="78" y="246" class="strong">Cloud Migration</text><path d="M330 230 H515" stroke="#5236f5" stroke-width="4" stroke-linecap="round"/><path d="M505 218 L520 230 L505 242" fill="none" stroke="#5236f5" stroke-width="4"/><rect x="548" y="178" width="246" height="104" rx="10" fill="#eef6ff" stroke="#8ab7ff"/><text x="568" y="208" class="body">ĐỦ ĐIỀU KIỆN</text><text x="568" y="246" class="strong">Cloud Migration</text><text x="824" y="225" class="body">Đổi ngay sau khi thả.</text>
-<rect x="32" y="356" width="548" height="272" rx="14" class="card"/><text x="58" y="394" class="title">Kéo lùi</text><rect x="58" y="422" width="196" height="86" rx="9" fill="#f3efff" stroke="#c4c8ff"/><text x="78" y="452" class="body">THƯƠNG LƯỢNG</text><text x="78" y="484" class="strong">ERP Transformation</text><path d="M282 465 H390" stroke="#5236f5" stroke-width="4"/><path d="M292 453 L277 465 L292 477" fill="none" stroke="#5236f5" stroke-width="4"/><rect x="410" y="422" width="144" height="86" rx="9" fill="#fff8e8" stroke="#f5c84b"/><text x="430" y="452" class="body">TIẾP CẬN</text><text x="58" y="556" class="body">Không chặn thao tác quay về giai đoạn trước.</text>
-<rect x="612" y="356" width="556" height="272" rx="14" class="card"/><text x="638" y="394" class="title">Nhảy cóc</text><rect x="638" y="422" width="174" height="86" rx="9" fill="#fff8e8" stroke="#f5c84b"/><text x="658" y="452" class="body">TIẾP CẬN</text><text x="658" y="484" class="strong">Data Platform</text><path d="M838 465 H966" stroke="#5236f5" stroke-width="4"/><path d="M956 453 L971 465 L956 477" fill="none" stroke="#5236f5" stroke-width="4"/><rect x="992" y="422" width="150" height="86" rx="9" fill="#eef6ff" stroke="#8ab7ff"/><text x="1010" y="452" class="body">SOẠN ĐỀ XUẤT</text><text x="638" y="556" class="body">Bỏ qua giai đoạn trung gian vẫn được phép.</text><rect x="32" y="654" width="1136" height="54" rx="10" fill="#ecfdf5"/><text x="58" y="687" class="body" fill="#166534">✓ Cập nhật giai đoạn thành công · SCR-US004-02 · AC-010, AC-011</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US004-02 — Chuyển giai đoạn bằng kéo-thả</title>
+  <desc id="desc">Ba tình huống kéo-thả: kéo tiến, kéo lùi và nhảy cóc; cả ba đều đổi giai đoạn ngay và không bị chặn.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.sub{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}.section{font:700 15px Inter,'Segoe UI',Arial,sans-serif;fill:#263a59}.col{fill:#fbfcfe;stroke:#e6ebf2}.th{font:700 11px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f;letter-spacing:.4px}.chip{font:600 12px Inter,'Segoe UI',Arial,sans-serif;fill:#166534}.body{font:400 13px Inter,'Segoe UI',Arial,sans-serif;fill:#3f526f}.strong{font:600 13px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.hint{font:400 11px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+  </style>
+  <rect width="1400" height="720" class="bg"/>
+  <text x="32" y="46" class="h1">Chuyển giai đoạn bằng kéo-thả</text>
+  <text x="32" y="70" class="sub">Ba tình huống được cho phép — không thao tác nào bị chặn</text>
+
+  <!-- Panel A: Kéo tiến -->
+  <rect x="32" y="100" width="424" height="580" rx="14" class="card"/>
+  <rect x="64" y="130" width="5" height="24" rx="3" fill="#695cff"/><text x="82" y="149" class="section">Kéo tiến</text>
+
+  <rect x="64" y="180" width="150" height="90" rx="8" class="col"/><text x="76" y="202" class="th">TIẾP CẬN</text>
+  <rect x="240" y="180" width="150" height="90" rx="8" fill="#fff" stroke="#5236f5" stroke-dasharray="5 4"/><text x="252" y="202" class="th" fill="#4634f2">ĐỦ ĐIỀU KIỆN</text>
+  <path d="M 214 225 C 226 225 228 225 240 225" stroke="#8da1c3" stroke-width="2" fill="none" marker-end="url(#ar1)"/>
+  <rect x="76" y="222" width="128" height="40" rx="7" fill="#fff" stroke="#bfcee0" opacity="0.55"/>
+  <rect x="252" y="222" width="128" height="40" rx="7" fill="#fff" stroke="#5236f5"/><text x="264" y="247" class="strong">TMA Solutions</text>
+
+  <text x="64" y="316" class="body">Sales kéo thẻ cơ hội ở Tiếp cận</text>
+  <text x="64" y="338" class="body">sang cột Đủ điều kiện kế tiếp.</text>
+  <rect x="64" y="360" width="220" height="30" rx="15" fill="#ecfdf5" stroke="#86efac"/><text x="80" y="380" class="chip">✓ Đổi giai đoạn ngay</text>
+  <text x="64" y="416" class="hint">AC-010 · Giai đoạn liền kề, cùng hướng</text>
+  <text x="64" y="434" class="hint">tiến của phễu bán hàng.</text>
+
+  <!-- Panel B: Kéo lùi -->
+  <rect x="488" y="100" width="424" height="580" rx="14" class="card"/>
+  <rect x="520" y="130" width="5" height="24" rx="3" fill="#695cff"/><text x="538" y="149" class="section">Kéo lùi</text>
+
+  <rect x="520" y="180" width="150" height="90" rx="8" fill="#fff" stroke="#5236f5" stroke-dasharray="5 4"/><text x="532" y="202" class="th" fill="#4634f2">TIẾP CẬN</text>
+  <rect x="696" y="180" width="150" height="90" rx="8" class="col"/><text x="708" y="202" class="th">THƯƠNG LƯỢNG</text>
+  <path d="M 696 225 C 684 225 682 225 670 225" stroke="#8da1c3" stroke-width="2" fill="none" marker-end="url(#ar1)"/>
+  <rect x="532" y="222" width="128" height="40" rx="7" fill="#fff" stroke="#5236f5"/><text x="544" y="247" class="strong">Viettel Digital</text>
+  <rect x="708" y="222" width="128" height="40" rx="7" fill="#fff" stroke="#bfcee0" opacity="0.55"/>
+
+  <text x="520" y="316" class="body">Sales kéo thẻ cơ hội ở Thương</text>
+  <text x="520" y="338" class="body">lượng ngược về lại Tiếp cận.</text>
+  <rect x="520" y="360" width="220" height="30" rx="15" fill="#ecfdf5" stroke="#86efac"/><text x="536" y="380" class="chip">✓ Được phép, không chặn</text>
+  <text x="520" y="416" class="hint">AC-011 · Hướng lùi vẫn hợp lệ; hệ</text>
+  <text x="520" y="434" class="hint">thống không chặn theo hướng di chuyển.</text>
+
+  <!-- Panel C: Nhảy cóc -->
+  <rect x="944" y="100" width="424" height="580" rx="14" class="card"/>
+  <rect x="976" y="130" width="5" height="24" rx="3" fill="#695cff"/><text x="994" y="149" class="section">Nhảy cóc</text>
+
+  <rect x="976" y="180" width="120" height="90" rx="8" class="col"/><text x="984" y="202" class="th" font-size="10">THƯƠNG LƯỢNG</text>
+  <rect x="1108" y="180" width="120" height="90" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/><text x="1120" y="202" class="th" font-size="10">THẮNG/THUA</text>
+  <rect x="1240" y="180" width="120" height="90" rx="8" fill="#fff" stroke="#5236f5" stroke-dasharray="5 4"/><text x="1250" y="202" class="th" fill="#4634f2" font-size="10">SOẠN ĐỀ XUẤT</text>
+  <path d="M 1036 260 C 1120 300 1200 300 1290 260" stroke="#8da1c3" stroke-width="2" fill="none" marker-end="url(#ar1)"/>
+  <rect x="988" y="222" width="98" height="40" rx="7" fill="#fff" stroke="#5236f5"/><text x="998" y="247" class="strong" font-size="11">Viettel Digital</text>
+  <rect x="1252" y="222" width="98" height="40" rx="7" fill="#fff" stroke="#bfcee0" opacity="0.55"/>
+
+  <text x="976" y="336" class="body">Sales kéo thẻ cơ hội ở Thương</text>
+  <text x="976" y="358" class="body">lượng thẳng sang Soạn đề xuất,</text>
+  <text x="976" y="380" class="body">bỏ qua các cột nằm giữa.</text>
+  <rect x="976" y="400" width="220" height="30" rx="15" fill="#ecfdf5" stroke="#86efac"/><text x="992" y="420" class="chip">✓ Được phép, không chặn</text>
+  <text x="976" y="456" class="hint">AC-011 · Nhảy cóc không liền kề</text>
+  <text x="976" y="474" class="hint">vẫn hợp lệ; không yêu cầu đi tuần tự.</text>
+
+  <defs><marker id="ar1" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#8da1c3"/></marker></defs>
+
+  <text x="32" y="700" class="hint">SCR-US004-02 · US-004 · AC-010, AC-011 · Kéo vào Đủ điều kiện có thể mở luồng hỏi 2 dấu hiệu (US-005), không chặn kéo.</text>
+</svg>

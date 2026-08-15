@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US010-04 — Trạng thái Tổng quan</title>
+  <desc id="desc">Trạng thái đang tải, chưa có dữ liệu, không có việc quá hạn và lỗi có thể thử lại của màn hình Tổng quan US-010.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}
+    .h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .title{font:700 16px Inter,'Segoe UI',Arial,sans-serif;fill:#172743}
+    .body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#536784}
+    .hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+    .btn{font:600 13px Inter,'Segoe UI',Arial,sans-serif}
+    .skel{fill:#eef1f6}
+  </style>
+  <rect width="1200" height="900" class="bg"/>
+  <text x="32" y="48" class="h1">Trạng thái màn hình Tổng quan</text>
+  <text x="32" y="74" class="body">Đang tải, chưa có dữ liệu, không có việc quá hạn và lỗi có thể thử lại cho US-010</text>
+
+  <!-- Loading -->
+  <rect x="32" y="106" width="548" height="326" rx="14" class="card"/>
+  <text x="58" y="142" class="title">Đang tải dữ liệu</text>
+  <text x="58" y="170" class="body">Giữ nguyên bố cục ba nhóm trong lúc tổng hợp dữ liệu.</text>
+  <rect x="58" y="200" width="180" height="18" rx="6" class="skel"/>
+  <rect x="58" y="228" width="496" height="70" rx="8" class="skel"/>
+  <rect x="58" y="312" width="496" height="18" rx="6" class="skel"/>
+  <rect x="58" y="342" width="360" height="18" rx="6" class="skel"/>
+  <text x="58" y="404" class="hint">Không khóa điều hướng khác trong lúc tổng quan đang tải.</text>
+
+  <!-- Empty: no source data -->
+  <rect x="612" y="106" width="556" height="326" rx="14" class="card"/>
+  <circle cx="672" cy="164" r="22" fill="#eef2f7"/>
+  <text x="664" y="172" font-family="Inter" font-size="22" fill="#8da1c3">＋</text>
+  <text x="706" y="158" class="title">Chưa có dữ liệu để tổng hợp</text>
+  <text x="706" y="184" class="body">Chưa có Công ty hoặc Cơ hội nào được tạo (US-001, US-003).</text>
+  <rect x="642" y="228" width="496" height="60" rx="10" fill="#fff8e8" stroke="#f5e2ab"/>
+  <text x="660" y="252" class="body">Cách trình bày cụ thể của trạng thái rỗng đang chờ quyết định.</text>
+  <text x="660" y="272" class="body" font-weight="700">Q-010-02</text>
+
+  <!-- Empty: no overdue -->
+  <rect x="32" y="464" width="548" height="200" rx="14" class="card"/>
+  <circle cx="92" cy="522" r="22" fill="#ecfdf5"/>
+  <text x="83" y="530" font-family="Inter" font-size="20" fill="#059669">✓</text>
+  <text x="126" y="516" class="title">Không có Việc tiếp theo quá hạn</text>
+  <text x="126" y="542" class="body">Danh sách trống khi hiện tại không có việc nào quá hạn.</text>
+  <text x="58" y="600" class="hint">Áp dụng cho SCR-US010-03; không phải trạng thái lỗi.</text>
+  <text x="58" y="624" class="hint">Ngưỡng và cách xác định "quá hạn" vẫn chờ Q-010-01.</text>
+
+  <!-- Error / retry -->
+  <rect x="612" y="464" width="556" height="200" rx="14" class="card"/>
+  <circle cx="672" cy="522" r="22" fill="#fff9e9"/>
+  <text x="664" y="530" font-family="Inter" font-size="20" fill="#b66a00">↻</text>
+  <text x="706" y="516" class="title">Không thể tải dữ liệu Tổng quan</text>
+  <text x="706" y="542" class="body">Kiểm tra kết nối và thử lại; dữ liệu Nhóm 1 không đổi.</text>
+  <rect x="706" y="586" width="118" height="34" rx="6" fill="#fff" stroke="#bfcee0"/>
+  <text x="732" y="608" class="btn" fill="#263a59">Thử lại</text>
+
+  <rect x="32" y="700" width="1136" height="92" rx="12" fill="#f1f5f9"/>
+  <text x="58" y="732" class="hint">Trạng thái minh hoạ theo ngôn ngữ hình ảnh đã duyệt cho US-001; chưa phải quyết định nghiệp vụ riêng cho US-010 (Mục 20 — A-010-02).</text>
+  <text x="58" y="756" class="hint">Tổng quan chỉ đọc; không có hành động tạo/sửa/xoá trên bất kỳ trạng thái nào ở trên (BR-US010-04).</text>
+  <text x="32" y="830" class="hint">SCR-US010-01..03 · US-010 · AC-024 · Q-010-01, Q-010-02</text>
+</svg>

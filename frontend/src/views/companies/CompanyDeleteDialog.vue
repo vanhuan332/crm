@@ -20,11 +20,15 @@ function trapFocus(event: KeyboardEvent) {
 
 <template>
   <div class="dialog-backdrop">
-    <section role="dialog" aria-modal="true" aria-labelledby="delete-company-title" @keydown="trapFocus">
-      <h2 id="delete-company-title">Xóa công ty</h2>
-      <p>Bạn có chắc muốn xóa công ty “{{ companyName }}”?</p>
-      <button ref="cancelButton" type="button" :disabled="pending" @click="emit('cancel')">Hủy</button>
-      <button ref="confirmButton" type="button" :disabled="pending" @click="emit('confirm')">{{ pending ? 'Đang xóa…' : 'Xóa công ty' }}</button>
+    <section class="dialog" role="dialog" aria-modal="true" aria-labelledby="delete-company-title" @keydown="trapFocus">
+      <div class="dialog-icon" aria-hidden="true">!</div>
+      <h2 id="delete-company-title">Xóa {{ companyName }}?</h2>
+      <p>Công ty sẽ bị gỡ khỏi danh sách.</p>
+      <p class="dialog-hint">Dữ liệu liên quan được giữ nguyên để bảo toàn lịch sử.</p>
+      <div class="dialog-actions">
+        <button ref="cancelButton" type="button" class="btn btn-secondary" :disabled="pending" @click="emit('cancel')">Hủy</button>
+        <button ref="confirmButton" type="button" class="btn btn-danger" :disabled="pending" @click="emit('confirm')">{{ pending ? 'Đang xóa…' : 'Xóa công ty' }}</button>
+      </div>
     </section>
   </div>
 </template>

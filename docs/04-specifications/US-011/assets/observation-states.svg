@@ -1,1 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">SCR-US011-03 — Trạng thái Bản lưu</title><desc id="desc">Trạng thái chưa có bản lưu, có bản lưu mới và ranh giới nguồn không đọc được.</desc><style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial;fill:#07152f}.title{font:700 16px Inter,'Segoe UI',Arial;fill:#172743}.body{font:400 14px Inter,'Segoe UI',Arial;fill:#536784}.hint{font:400 12px Inter,'Segoe UI',Arial;fill:#8da1c3}</style><rect width="1200" height="760" class="bg"/><text x="32" y="48" class="h1">Trạng thái Bản lưu nguồn</text><text x="32" y="75" class="body">Mỗi lần đọc thành công thêm một Observation mới.</text><rect x="32" y="112" width="548" height="280" rx="14" class="card"/><circle cx="306" cy="190" r="30" fill="#eef2f7"/><text x="295" y="200" font-family="Inter" font-size="27" fill="#8da1c3">○</text><text x="236" y="250" class="title">Chưa có Bản lưu</text><text x="145" y="282" class="body">Chưa có Observation để truy cứu cho Công ty này.</text><text x="156" y="324" class="hint">Việc đọc nguồn do A-AI thực hiện, không có nút tạo thủ công.</text><rect x="612" y="112" width="556" height="280" rx="14" class="card"/><circle cx="890" cy="180" r="26" fill="#ecfdf5"/><text x="881" y="189" font-family="Inter" font-size="22" fill="#047857">✓</text><text x="812" y="232" class="title">Đã thêm Bản lưu mới</text><text x="748" y="264" class="body">Observation 14/08/2026 · 09:30 đứng đầu danh sách.</text><text x="748" y="304" class="hint">Bản cũ vẫn tồn tại; không bị ghi đè.</text><rect x="32" y="432" width="1136" height="104" rx="12" fill="#fff8e8" stroke="#f5c84b"/><text x="58" y="469" class="title" fill="#9a5a00">Nguồn không đọc được</text><text x="58" y="500" class="body">Hành vi chi tiết thuộc US-012; asset US-011 không tự định nghĩa retry, lỗi hay liên kết điều hướng.</text><rect x="32" y="570" width="1136" height="70" rx="12" fill="#eef6ff"/><text x="58" y="611" class="body" fill="#1d4ed8">Danh sách luôn xếp theo thời điểm đọc; bản mới nhất ở trên.</text><text x="32" y="710" class="hint">SCR-US011-03 · US-011 · AC-025, AC-026</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US011-03 — Trạng thái Bản lưu</title>
+  <desc id="desc">Các trạng thái của vùng đọc Bản lưu: nhiều bản ghi theo thời điểm, chưa có bản lưu, không tìm thấy, lỗi có thể thử lại, ranh giới với US-012 và câu hỏi mở về quyền xem.</desc>
+  <style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.title{font:700 16px Inter,'Segoe UI',Arial,sans-serif;fill:#172743}.label{font:500 14px Inter,'Segoe UI',Arial,sans-serif;fill:#14233e}.body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#536784}.hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}.error{font:500 12px Inter,'Segoe UI',Arial,sans-serif;fill:#dc2626}.btn{font:600 13px Inter,'Segoe UI',Arial,sans-serif}</style>
+  <rect width="1200" height="900" class="bg"/>
+  <text x="32" y="48" class="h1">Trạng thái Bản lưu nguồn</text>
+  <text x="32" y="74" class="body">Mỗi lần A-AI đọc nguồn thành công sẽ thêm một Observation mới; các trạng thái dưới đây là vùng đọc, không phải biểu mẫu.</text>
+
+  <rect x="32" y="106" width="548" height="326" rx="14" class="card"/>
+  <text x="58" y="142" class="title">Đọc lại nguồn — thành công</text>
+  <text x="58" y="170" class="body">Bản lưu mới được thêm; bản trước đó vẫn tồn tại, không bị ghi đè (AC-026).</text>
+  <rect x="58" y="196" width="496" height="42" rx="8" fill="#ecfdf5" stroke="#7ee8b6"/>
+  <text x="76" y="222" class="label" fill="#047857">14/08/2026 · 09:30 — Bản lưu mới nhất</text>
+  <rect x="58" y="246" width="496" height="42" rx="8" fill="#fbfcfe" stroke="#d9e2ef"/>
+  <text x="76" y="272" class="label" fill="#536784">12/08/2026 · 09:15 — vẫn còn nguyên</text>
+  <rect x="58" y="296" width="496" height="42" rx="8" fill="#fbfcfe" stroke="#d9e2ef"/>
+  <text x="76" y="322" class="label" fill="#536784">10/08/2026 · 09:20 — vẫn còn nguyên</text>
+  <text x="58" y="410" class="hint">Danh sách luôn xếp theo thời điểm đọc, mới nhất ở trên (BR-US011-02, BR-US011-06).</text>
+
+  <rect x="612" y="106" width="556" height="326" rx="14" class="card"/>
+  <circle cx="656" cy="150" r="20" fill="#fff3d1"/><text x="649" y="157" font-family="Inter,'Segoe UI',Arial" font-size="18" fill="#9a5a00">?</text>
+  <text x="690" y="145" class="title">Nguồn không đọc được</text>
+  <text x="690" y="171" class="body">Hành vi cụ thể (ghi nhận, thông báo) thuộc US-012.</text>
+  <text x="640" y="216" class="body">Vùng đọc của US-011 không tự định nghĩa retry, thông điệp lỗi</text>
+  <text x="640" y="240" class="body">hay liên kết điều hướng cho trường hợp này (Q-011-02).</text>
+  <rect x="640" y="264" width="480" height="42" rx="8" fill="#fff8e8" stroke="#f5c84b"/>
+  <text x="658" y="290" class="label" fill="#9a5a00">Không sinh Bản lưu nào từ lần đọc lỗi này</text>
+  <text x="640" y="342" class="hint">US-011 chỉ chịu trách nhiệm cho lần đọc thành công; xem US-012 cho lỗi.</text>
+  <text x="640" y="366" class="hint">Không có nút thao tác thủ công ở đây vì A-AI tự thực hiện việc đọc.</text>
+  <text x="640" y="396" class="hint">Trạng thái: câu hỏi mở Q-011-02, chưa có quyết định từ docs/02-analysis.</text>
+
+  <rect x="32" y="464" width="350" height="174" rx="14" class="card"/><circle cx="207" cy="510" r="22" fill="#eef2f7"/><text x="197" y="518" font-family="Inter,'Segoe UI',Arial" font-size="20" fill="#8da1c3">○</text><text x="128" y="554" class="title">Chưa có Bản lưu</text><text x="82" y="580" class="body">Chưa có Observation nào cho Công ty này.</text><rect x="119" y="596" width="176" height="34" rx="6" fill="#fff" stroke="#bfcee0"/><text x="140" y="618" class="btn" fill="#263a59">Về trang Công ty</text>
+  <rect x="425" y="464" width="350" height="174" rx="14" class="card"/><circle cx="600" cy="510" r="22" fill="#fff5f5"/><text x="592" y="518" font-family="Inter,'Segoe UI',Arial" font-size="22" fill="#dc2626">!</text><text x="493" y="554" class="title">Không tìm thấy Bản lưu</text><text x="463" y="580" class="body">Bản lưu không tồn tại hoặc đã bị thay thế.</text><rect x="522" y="596" width="156" height="34" rx="6" fill="#fff" stroke="#bfcee0"/><text x="540" y="618" class="btn" fill="#263a59">Về danh sách Bản lưu</text>
+  <rect x="818" y="464" width="350" height="174" rx="14" class="card"/><circle cx="993" cy="510" r="22" fill="#fff9e9"/><text x="985" y="518" font-family="Inter,'Segoe UI',Arial" font-size="22" fill="#b66a00">↻</text><text x="921" y="554" class="title">Không thể tải dữ liệu</text><text x="873" y="580" class="body">Kiểm tra kết nối và thử lại thao tác.</text><rect x="934" y="596" width="118" height="34" rx="6" fill="#fff" stroke="#bfcee0"/><text x="966" y="618" class="btn" fill="#263a59">Thử lại</text>
+
+  <rect x="32" y="678" width="1136" height="92" rx="12" fill="#ecfdf5" stroke="#86efac"/><circle cx="76" cy="724" r="20" fill="#22c55e"/><text x="69" y="731" font-family="Inter,'Segoe UI',Arial" font-size="18" font-weight="700" fill="#fff">✓</text><text x="112" y="716" class="title" fill="#166534">Đã thêm Bản lưu mới</text><text x="112" y="742" class="body" fill="#166534">Observation 14/08/2026 · 09:30 được thêm cho FPT Software; các bản trước đó vẫn được giữ nguyên.</text>
+
+  <text x="32" y="808" class="hint">Loading: dùng skeleton trong vùng danh sách/nội dung, giữ nguyên cấu trúc trang trong lúc A-AI đang đọc nguồn.</text>
+  <text x="32" y="832" class="hint">SCR-US011-03 · US-011 · AC-025, AC-026 · Quyền xem của Sales (Q-011-01) và lỗi đọc nguồn (Q-011-02) là câu hỏi mở.</text>
+</svg>

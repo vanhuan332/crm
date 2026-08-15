@@ -11,7 +11,8 @@ export const useCompaniesStore = defineStore('companies', {
     listError: '',
     company: null as Company | null,
     detailStatus: 'idle' as LoadStatus,
-    detailError: ''
+    detailError: '',
+    savedCompanyId: null as number | null
   }),
   actions: {
     async loadCompanies() {
@@ -45,12 +46,14 @@ export const useCompaniesStore = defineStore('companies', {
     async createCompany(input: CompanyInput) {
       const company = await createCompany(input)
       this.companies = [...this.companies, company]
+      this.savedCompanyId = company.id
       return company
     },
     async updateCompany(id: number, input: CompanyInput) {
       const company = await updateCompany(id, input)
       this.company = company
       this.companies = this.companies.map(item => item.id === id ? company : item)
+      this.savedCompanyId = company.id
       return company
     },
     async deleteCompany(id: number) {

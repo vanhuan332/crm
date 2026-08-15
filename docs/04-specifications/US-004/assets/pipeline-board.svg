@@ -1,8 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc"><title id="title">SCR-US004-01 — Pipeline 7 giai đoạn</title><desc id="desc">Bảng kéo thả hiển thị bảy giai đoạn cố định đúng thứ tự.</desc><style>.bg{fill:#f7f9fc}.col{fill:#fff;stroke:#d9e2ef}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial;fill:#07152f}.sub{font:400 13px Inter,'Segoe UI',Arial;fill:#64748b}.head{font:700 13px Inter,'Segoe UI',Arial;fill:#263a59}.strong{font:700 13px Inter,'Segoe UI',Arial;fill:#07152f}.body{font:400 12px Inter,'Segoe UI',Arial;fill:#536784}.count{font:600 11px Inter,'Segoe UI',Arial;fill:#60718f}</style><rect width="1400" height="820" class="bg"/><text x="28" y="46" class="h1">Pipeline</text><text x="28" y="72" class="sub">7 giai đoạn cố định · kéo tiến, lùi hoặc nhảy cóc</text>
-<g transform="translate(28 112)"><rect width="180" height="640" rx="12" class="col"/><rect width="180" height="62" rx="12" fill="#fff8e8"/><text x="16" y="27" class="head">Tiếp cận</text><text x="16" y="49" class="count">2 cơ hội</text><g transform="translate(12 82)"><rect width="156" height="116" rx="9" class="card"/><text x="14" y="30" class="strong">Cloud Migration</text><text x="14" y="54" class="body">FPT Software</text><text x="14" y="80" class="body">1,2 tỷ · 12/2026</text></g><g transform="translate(12 214)"><rect width="156" height="116" rx="9" class="card"/><text x="14" y="30" class="strong">Data Platform</text><text x="14" y="54" class="body">VNG Corporation</text><text x="14" y="80" class="body">800 triệu · 01/2027</text></g></g>
-<g transform="translate(222 112)"><rect width="180" height="640" rx="12" class="col"/><rect width="180" height="62" rx="12" fill="#eef6ff"/><text x="16" y="27" class="head">Đủ điều kiện</text><text x="16" y="49" class="count">1 cơ hội</text><g transform="translate(12 82)"><rect width="156" height="116" rx="9" fill="#f8faff" stroke="#c4c8ff"/><text x="14" y="30" class="strong">CRM Renewal</text><text x="14" y="54" class="body">KMS Technology</text><text x="14" y="80" class="body">650 triệu · 11/2026</text></g></g>
-<g transform="translate(416 112)"><rect width="180" height="640" rx="12" class="col"/><rect width="180" height="62" rx="12" fill="#eef6ff"/><text x="16" y="27" class="head">Soạn đề xuất</text><text x="16" y="49" class="count">1 cơ hội</text><g transform="translate(12 82)"><rect width="156" height="116" rx="9" class="card"/><text x="14" y="30" class="strong">QA Service 2027</text><text x="14" y="54" class="body">FPT Software</text><text x="14" y="80" class="body">950 triệu · 01/2027</text></g></g>
-<g transform="translate(610 112)"><rect width="180" height="640" rx="12" class="col"/><rect width="180" height="62" rx="12" fill="#f3efff"/><text x="16" y="27" class="head">Thương lượng</text><text x="16" y="49" class="count">1 cơ hội</text><g transform="translate(12 82)"><rect width="156" height="116" rx="9" class="card"/><text x="14" y="30" class="strong">ERP Transformation</text><text x="14" y="54" class="body">FPT Software</text><text x="14" y="80" class="body">2,4 tỷ · 10/2026</text></g></g>
-<g transform="translate(804 112)"><rect width="180" height="640" rx="12" class="col"/><rect width="180" height="62" rx="12" fill="#ecfdf5"/><text x="16" y="27" class="head">Thắng</text><text x="16" y="49" class="count">1 cơ hội · đóng</text><g transform="translate(12 82)"><rect width="156" height="116" rx="9" class="card"/><text x="14" y="30" class="strong">Managed Service</text><text x="14" y="54" class="body">CMC Technology</text><text x="14" y="80" class="body">1,8 tỷ · 08/2026</text></g></g>
-<g transform="translate(998 112)"><rect width="180" height="640" rx="12" class="col"/><rect width="180" height="62" rx="12" fill="#fff1f2"/><text x="16" y="27" class="head">Thua</text><text x="16" y="49" class="count">1 cơ hội · đóng</text><g transform="translate(12 82)"><rect width="156" height="116" rx="9" class="card"/><text x="14" y="30" class="strong">Security Audit</text><text x="14" y="54" class="body">Viettel Digital</text><text x="14" y="80" class="body">420 triệu · 07/2026</text></g></g>
-<g transform="translate(1192 112)"><rect width="180" height="640" rx="12" class="col"/><rect width="180" height="62" rx="12" fill="#eef2f7"/><text x="16" y="27" class="head">Tạm dừng</text><text x="16" y="49" class="count">1 cơ hội</text><g transform="translate(12 82)"><rect width="156" height="116" rx="9" class="card"/><text x="14" y="30" class="strong">Legacy Upgrade</text><text x="14" y="54" class="body">TMA Solutions</text><text x="14" y="80" class="body">700 triệu · 02/2027</text></g></g><text x="28" y="796" class="sub">SCR-US004-01 · US-004 · AC-012 · Tên và thứ tự cột không chỉnh sửa.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US004-01 — Bảng Pipeline 7 giai đoạn</title>
+  <desc id="desc">Bảng phễu bán hàng với đúng bảy cột giai đoạn cố định, đúng thứ tự, mỗi cột hiển thị các cơ hội đang ở giai đoạn đó.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.sub{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}.col{fill:#fff;stroke:#d9e2ef}.th{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f;letter-spacing:.4px}.count{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}.card{fill:#fff;stroke:#e6ebf2}.strong{font:600 12.5px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.hint{font:400 11px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}.foot{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+  </style>
+  <rect width="1400" height="780" class="bg"/>
+  <text x="32" y="46" class="h1">Pipeline</text>
+  <text x="32" y="70" class="sub">7 giai đoạn cố định · 8 cơ hội</text>
+
+  <!-- Column 1: Tiếp cận -->
+  <g transform="translate(34,100)">
+    <rect width="180" height="600" rx="10" class="col"/>
+    <rect x="0" y="0" width="180" height="4" rx="2" fill="#8da1c3"/>
+    <text x="14" y="30" class="th">TIẾP CẬN</text><text x="150" y="30" class="count">2</text>
+    <line x1="14" y1="44" x2="166" y2="44" stroke="#e6ebf2"/>
+    <rect x="14" y="58" width="152" height="66" rx="8" class="card"/>
+    <text x="26" y="80" class="strong">TMA Solutions</text><text x="26" y="96" class="hint">Website redesign</text><text x="26" y="112" class="hint">150tr · T09/2026</text>
+    <rect x="14" y="134" width="152" height="66" rx="8" class="card"/>
+    <text x="26" y="156" class="strong">Nashtech</text><text x="26" y="172" class="hint">ERP migration</text><text x="26" y="188" class="hint">420tr · T10/2026</text>
+  </g>
+
+  <!-- Column 2: Đủ điều kiện -->
+  <g transform="translate(226,100)">
+    <rect width="180" height="600" rx="10" class="col"/>
+    <rect x="0" y="0" width="180" height="4" rx="2" fill="#4634f2"/>
+    <text x="14" y="30" class="th">ĐỦ ĐIỀU KIỆN</text><text x="150" y="30" class="count">1</text>
+    <line x1="14" y1="44" x2="166" y2="44" stroke="#e6ebf2"/>
+    <rect x="14" y="58" width="152" height="66" rx="8" fill="#eef0ff" stroke="#c4c8ff"/>
+    <text x="26" y="80" class="strong">FPT Software</text><text x="26" y="96" class="hint">Cloud migration</text><text x="26" y="112" class="hint">800tr · T09/2026</text>
+  </g>
+
+  <!-- Column 3: Soạn đề xuất -->
+  <g transform="translate(418,100)">
+    <rect width="180" height="600" rx="10" class="col"/>
+    <rect x="0" y="0" width="180" height="4" rx="2" fill="#6d28d9"/>
+    <text x="14" y="30" class="th">SOẠN ĐỀ XUẤT</text><text x="150" y="30" class="count">1</text>
+    <line x1="14" y1="44" x2="166" y2="44" stroke="#e6ebf2"/>
+    <rect x="14" y="58" width="152" height="66" rx="8" fill="#f5edff" stroke="#d9b8ff"/>
+    <text x="26" y="80" class="strong">VNG Corporation</text><text x="26" y="96" class="hint">Mobile app</text><text x="26" y="112" class="hint">300tr · T11/2026</text>
+  </g>
+
+  <!-- Column 4: Thương lượng -->
+  <g transform="translate(610,100)">
+    <rect width="180" height="600" rx="10" class="col"/>
+    <rect x="0" y="0" width="180" height="4" rx="2" fill="#c45b00"/>
+    <text x="14" y="30" class="th">THƯƠNG LƯỢNG</text><text x="150" y="30" class="count">1</text>
+    <line x1="14" y1="44" x2="166" y2="44" stroke="#e6ebf2"/>
+    <rect x="14" y="58" width="152" height="76" rx="8" fill="#fff9e9" stroke="#f5c84b"/>
+    <text x="26" y="80" class="strong">Viettel Digital</text><text x="26" y="96" class="hint">Hệ thống tích hợp</text><text x="26" y="112" class="hint">1.2 tỷ · T08/2026</text>
+  </g>
+
+  <!-- Column 5: Thắng -->
+  <g transform="translate(802,100)">
+    <rect width="180" height="600" rx="10" class="col"/>
+    <rect x="0" y="0" width="180" height="4" rx="2" fill="#22c55e"/>
+    <text x="14" y="30" class="th">THẮNG</text><text x="150" y="30" class="count">1</text>
+    <line x1="14" y1="44" x2="166" y2="44" stroke="#e6ebf2"/>
+    <rect x="14" y="58" width="152" height="66" rx="8" fill="#edfff7" stroke="#7ee8b6"/>
+    <text x="26" y="80" class="strong">CMC Technology</text><text x="26" y="96" class="hint">Hợp đồng hỗ trợ</text><text x="26" y="112" class="hint">90tr · T07/2026</text>
+  </g>
+
+  <!-- Column 6: Thua -->
+  <g transform="translate(994,100)">
+    <rect width="180" height="600" rx="10" class="col"/>
+    <rect x="0" y="0" width="180" height="4" rx="2" fill="#ef4444"/>
+    <text x="14" y="30" class="th">THUA</text><text x="150" y="30" class="count">1</text>
+    <line x1="14" y1="44" x2="166" y2="44" stroke="#e6ebf2"/>
+    <rect x="14" y="58" width="152" height="66" rx="8" fill="#fff1f2" stroke="#fecdd3"/>
+    <text x="26" y="80" class="strong">KMS Technology</text><text x="26" y="96" class="hint">POC kiểm thử</text><text x="26" y="112" class="hint">60tr · T06/2026</text>
+  </g>
+
+  <!-- Column 7: Tạm dừng -->
+  <g transform="translate(1186,100)">
+    <rect width="180" height="600" rx="10" class="col"/>
+    <rect x="0" y="0" width="180" height="4" rx="2" fill="#94a3b8"/>
+    <text x="14" y="30" class="th">TẠM DỪNG</text><text x="150" y="30" class="count">1</text>
+    <line x1="14" y1="44" x2="166" y2="44" stroke="#e6ebf2"/>
+    <rect x="14" y="58" width="152" height="76" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="26" y="80" class="strong">TMA Solutions</text><text x="26" y="96" class="hint">Giai đoạn 2</text><text x="26" y="112" class="hint">200tr · T12/2026</text>
+  </g>
+
+  <text x="32" y="748" class="foot">Mở: Tiếp cận · Đủ điều kiện · Soạn đề xuất · Thương lượng · Tạm dừng — Đóng: Thắng · Thua (BR-004).</text>
+  <text x="32" y="768" class="foot">SCR-US004-01 · US-004 · AC-012 · BR-US004-01, BR-US004-04</text>
+</svg>

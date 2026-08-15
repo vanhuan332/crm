@@ -1,76 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-labelledby="title desc">
-<title id="title">US-009 — Tìm kiếm và Lọc</title>
-<desc id="desc">Wireframe nghiệp vụ cho US-009, truy vết AC-021 · AC-022 · AC-023.</desc>
-<style>
-.bg{fill:#F8FAFC}.sidebar{fill:#FFFFFF;stroke:#E2E8F0}.panel{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:1.5}.nav{font:500 15px 'Segoe UI',Arial,sans-serif;fill:#475569}.active{fill:#1D4ED8;font-weight:700}.eyebrow{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#2563EB;letter-spacing:1.2px}.h1{font:700 28px 'Segoe UI',Arial,sans-serif;fill:#0F172A}.meta{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#64748B}.paneltitle{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#1E3A8A}.body{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#334155}.chip{fill:#E0E7FF}.chiptext{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#3730A3}.note{font:500 12px 'Segoe UI',Arial,sans-serif;fill:#64748B}
-</style>
-<rect width="1440" height="820" class="bg"/>
-<rect x="0" y="0" width="190" height="820" class="sidebar"/>
-<rect x="18" y="24" width="40" height="40" rx="12" fill="#2563EB"/>
-<text x="70" y="50" class="paneltitle">AI Native CRM</text>
-<rect x="18" y="128" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="151" class="nav">Dashboard</text>
-<rect x="18" y="175" width="154" height="36" rx="9" fill="#DBEAFE"/>
-<text x="34" y="198" class="nav active">Công ty</text>
-<rect x="18" y="222" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="245" class="nav">Pipeline</text>
-<rect x="18" y="269" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="292" class="nav">Timeline</text>
-<rect x="18" y="316" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="339" class="nav">AI Insight</text>
-<rect x="18" y="363" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="386" class="nav">Gợi ý</text>
-<rect x="18" y="410" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="433" class="nav">Admin</text>
-<text x="22" y="782" class="note">Wireframe BA · không phải UI final</text>
-<text x="216" y="44" class="eyebrow">US-009 · Sales</text>
-<text x="216" y="84" class="h1">Tìm kiếm và Lọc</text>
-<rect x="216" y="108" width="430" height="34" rx="17" class="chip"/>
-<text x="234" y="130" class="chiptext">AC-021 · AC-022 · AC-023</text>
-<text x="216" y="174" class="meta">Luồng màn hình và trạng thái nghiệp vụ</text>
-<rect x="216" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="216" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="216" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="238" y="234" class="paneltitle">SCR-US009-01 · Tìm / lọc Công ty</text>
-<circle cx="244" cy="278" r="5" fill="#2563EB"/>
-<text x="260" y="284" class="body">Tìm theo một phần tên</text>
-<circle cx="244" cy="336" r="5" fill="#2563EB"/>
-<text x="260" y="342" class="body">Ngành · Loại · Quốc gia</text>
-<circle cx="244" cy="394" r="5" fill="#2563EB"/>
-<text x="260" y="400" class="body">Nhãn Đang theo dõi</text>
-<circle cx="244" cy="452" r="5" fill="#2563EB"/>
-<text x="260" y="458" class="body">Chip bộ lọc đang áp dụng</text>
-<circle cx="244" cy="510" r="5" fill="#2563EB"/>
-<text x="260" y="516" class="body">Xóa toàn bộ bộ lọc</text>
-<rect x="612" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="612" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="612" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="634" y="234" class="paneltitle">SCR-US009-02 · Lọc Cơ hội</text>
-<circle cx="640" cy="278" r="5" fill="#2563EB"/>
-<text x="656" y="284" class="body">Giai đoạn</text>
-<circle cx="640" cy="336" r="5" fill="#2563EB"/>
-<text x="656" y="342" class="body">Tình trạng quá hạn</text>
-<circle cx="640" cy="394" r="5" fill="#2563EB"/>
-<text x="656" y="400" class="body">Kết quả cập nhật theo lọc</text>
-<circle cx="640" cy="452" r="5" fill="#2563EB"/>
-<text x="656" y="458" class="body">Không có kết quả: empty state</text>
-<circle cx="640" cy="510" r="5" fill="#2563EB"/>
-<text x="656" y="516" class="body">Giữ bộ lọc khi xem chi tiết/quay lại</text>
-<rect x="1008" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="1008" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="1008" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="1030" y="234" class="paneltitle">SCR-US009-03 · Trạng thái</text>
-<circle cx="1036" cy="278" r="5" fill="#2563EB"/>
-<text x="1052" y="284" class="body">Loading kết quả</text>
-<circle cx="1036" cy="336" r="5" fill="#2563EB"/>
-<text x="1052" y="342" class="body">Empty do chưa có dữ liệu</text>
-<circle cx="1036" cy="394" r="5" fill="#2563EB"/>
-<text x="1052" y="400" class="body">Empty do bộ lọc</text>
-<circle cx="1036" cy="452" r="5" fill="#2563EB"/>
-<text x="1052" y="458" class="body">Recoverable error: Thử lại</text>
-<circle cx="1036" cy="510" r="5" fill="#2563EB"/>
-<text x="1052" y="516" class="body">Hiển thị số kết quả</text>
-<rect x="216" y="728" width="1164" height="58" rx="12" fill="#F1F5F9"/>
-<text x="238" y="752" class="note">Bao phủ: loading · empty · validation · permission · not-found · recoverable error khi được yêu cầu.</text>
-<text x="238" y="772" class="note">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">US-009 — Luồng Tìm kiếm và Lọc</title>
+  <desc id="desc">Sơ đồ luồng màn hình nghiệp vụ cho US-009, truy vết AC-021 · AC-022 · AC-023.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#bfcee0"/>
+    </marker>
+  </defs>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.sub{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}.section{font:700 15px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#3f526f}.hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}.note{font:400 13px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f}.arrow{stroke:#bfcee0;stroke-width:2;fill:none}
+  </style>
+  <rect width="1280" height="760" class="bg"/>
+  <text x="32" y="46" class="h1">Luồng Tìm kiếm và Lọc</text>
+  <text x="32" y="72" class="sub">US-009 · Sales · AC-021, AC-022, AC-023</text>
+
+  <rect x="32" y="104" width="360" height="420" rx="14" class="card"/>
+  <rect x="32" y="104" width="360" height="60" rx="14" fill="#f3f0ff"/>
+  <rect x="32" y="150" width="360" height="14" fill="#f3f0ff"/>
+  <rect x="60" y="128" width="5" height="22" rx="3" fill="#695cff"/>
+  <text x="78" y="144" class="section">SCR-US009-01 · Danh sách Công ty</text>
+  <circle cx="66" cy="192" r="4" fill="#5236f5"/><text x="82" y="197" class="body">Gõ một phần Tên công ty (AC-021)</text>
+  <circle cx="66" cy="228" r="4" fill="#5236f5"/><text x="82" y="233" class="body">Lọc Ngành / Loại / Quốc gia (AC-022)</text>
+  <circle cx="66" cy="264" r="4" fill="#5236f5"/><text x="82" y="269" class="body">Lọc theo nhãn Đang theo dõi (AC-022)</text>
+  <circle cx="66" cy="300" r="4" fill="#5236f5"/><text x="82" y="305" class="body">Danh sách chỉ còn Công ty khớp</text>
+  <rect x="60" y="332" width="304" height="1" fill="#e6ebf2"/>
+  <text x="60" y="364" class="hint">Kết hợp nhiều tiêu chí cùng lúc</text>
+  <text x="60" y="384" class="hint">chưa được nguồn quy định (Q-009-01).</text>
+
+  <path d="M392 314 H460" class="arrow" marker-end="url(#arrow)"/>
+
+  <rect x="460" y="104" width="360" height="420" rx="14" class="card"/>
+  <rect x="460" y="104" width="360" height="60" rx="14" fill="#f3f0ff"/>
+  <rect x="460" y="150" width="360" height="14" fill="#f3f0ff"/>
+  <rect x="488" y="128" width="5" height="22" rx="3" fill="#695cff"/>
+  <text x="506" y="144" class="section">SCR-US009-02 · Danh sách Cơ hội</text>
+  <circle cx="494" cy="192" r="4" fill="#5236f5"/><text x="510" y="197" class="body">Lọc theo Giai đoạn (AC-023)</text>
+  <circle cx="494" cy="228" r="4" fill="#5236f5"/><text x="510" y="233" class="body">Lọc theo tình trạng quá hạn Việc tiếp theo (AC-023)</text>
+  <circle cx="494" cy="264" r="4" fill="#5236f5"/><text x="510" y="269" class="body">Danh sách chỉ còn Cơ hội thỏa lọc</text>
+  <circle cx="494" cy="300" r="4" fill="#5236f5"/><text x="510" y="305" class="body">Không đổi dữ liệu Cơ hội (BR-US009-04)</text>
+
+  <path d="M820 314 H888" class="arrow" marker-end="url(#arrow)"/>
+
+  <rect x="888" y="104" width="360" height="420" rx="14" class="card"/>
+  <rect x="888" y="104" width="360" height="60" rx="14" fill="#fff7e6"/>
+  <rect x="888" y="150" width="360" height="14" fill="#fff7e6"/>
+  <rect x="916" y="128" width="5" height="22" rx="3" fill="#e2a63b"/>
+  <text x="934" y="144" class="section">SCR-US009-03 · Trạng thái kết quả</text>
+  <circle cx="922" cy="192" r="4" fill="#e2a63b"/><text x="938" y="197" class="body">Có kết quả: hiển thị số mục khớp</text>
+  <circle cx="922" cy="228" r="4" fill="#e2a63b"/><text x="938" y="233" class="body">Không có kết quả: empty state + xóa lọc</text>
+  <circle cx="922" cy="264" r="4" fill="#e2a63b"/><text x="938" y="269" class="body">Lỗi có thể thử lại: giữ nguyên tiêu chí</text>
+  <circle cx="922" cy="300" r="4" fill="#e2a63b"/><text x="938" y="305" class="body">Đang tải: khung kết quả dùng skeleton</text>
+
+  <rect x="32" y="548" width="1216" height="140" rx="12" fill="#fff8e8" stroke="#f5c84b"/>
+  <text x="58" y="580" class="section" fill="#9a5a00">Câu hỏi nghiệp vụ còn mở</text>
+  <text x="58" y="608" class="note">Q-009-01 · Cách kết hợp nhiều tiêu chí lọc cùng lúc (AND/OR) chưa được nêu trong nguồn.</text>
+  <text x="58" y="632" class="note">Q-009-02 · Quyền của Quản trị đối với chức năng tìm/lọc chưa được nêu trong nguồn.</text>
+  <text x="58" y="656" class="note">Q-009-03 · Nội dung/hành động cụ thể của trạng thái không có kết quả chưa được nêu trong nguồn.</text>
+
+  <text x="32" y="716" class="hint">Wireframe nghiệp vụ · không quyết định framework, component library, endpoint hoặc cấu trúc triển khai.</text>
+  <text x="32" y="736" class="hint">US-009 · FEAT-009 · REQ-111 · T-1</text>
 </svg>

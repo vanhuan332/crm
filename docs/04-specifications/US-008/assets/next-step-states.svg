@@ -1,2 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">SCR-US008-03 — Trạng thái Việc tiếp theo</title><desc id="desc">So sánh đủ hai ô và thiếu một ô vẫn lưu nhưng có cảnh báo.</desc><style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial;fill:#07152f}.title{font:700 16px Inter,'Segoe UI',Arial;fill:#172743}.body{font:400 14px Inter,'Segoe UI',Arial;fill:#536784}.label{font:600 12px Inter,'Segoe UI',Arial;fill:#60718f}.hint{font:400 12px Inter,'Segoe UI',Arial;fill:#8da1c3}</style><rect width="1200" height="760" class="bg"/><text x="32" y="48" class="h1">Trạng thái Việc tiếp theo</text><text x="32" y="75" class="body">Cảnh báo không phải validation chặn lưu.</text><rect x="32" y="112" width="548" height="350" rx="14" class="card"/><rect x="32" y="112" width="548" height="64" rx="14" fill="#ecfdf5"/><text x="58" y="151" class="title" fill="#166534">✓ Đủ thông tin</text><text x="58" y="220" class="label">VIỆC TIẾP THEO</text><text x="58" y="250" class="body">Chuẩn bị agenda workshop</text><text x="58" y="302" class="label">NGÀY HẠN</text><text x="58" y="332" class="body">18/08/2026</text><rect x="58" y="378" width="310" height="44" rx="8" fill="#eef6ff"/><text x="78" y="405" class="body" fill="#1d4ed8">Có trong danh sách việc phải làm</text>
-<rect x="612" y="112" width="556" height="350" rx="14" class="card"/><rect x="612" y="112" width="556" height="64" rx="14" fill="#fff8e8"/><text x="638" y="151" class="title" fill="#9a5a00">⚠ Thiếu ngày hạn · Đã lưu</text><text x="638" y="220" class="label">VIỆC TIẾP THEO</text><text x="638" y="250" class="body">Chuẩn bị agenda workshop</text><text x="638" y="302" class="label">NGÀY HẠN</text><text x="638" y="332" class="body" fill="#dc2626">Chưa có</text><rect x="638" y="378" width="378" height="44" rx="8" fill="#fff1f2"/><text x="658" y="405" class="body" fill="#dc2626">Không có trong danh sách việc phải làm</text><rect x="32" y="502" width="1136" height="92" rx="12" fill="#eef6ff"/><text x="58" y="538" class="title" fill="#1d4ed8">Thiếu Việc tiếp theo hoặc ngày hạn</text><text x="58" y="567" class="body">Luôn lưu thành công, gắn cờ cảnh báo và loại khỏi danh sách cho tới khi đủ cả hai.</text><rect x="32" y="624" width="1136" height="58" rx="12" fill="#fff8e8"/><text x="58" y="659" class="body">Thiếu cả hai và hành vi với Cơ hội đóng vẫn chờ Q-008-02/Q-008-04.</text><text x="32" y="736" class="hint">SCR-US008-03 · US-008 · AC-019, AC-020</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US008-03 — Trạng thái đủ / thiếu</title>
+  <desc id="desc">Các trạng thái đủ thông tin, thiếu một ô, trống cả hai (open question), danh sách rỗng, lỗi có thể thử lại và lưu thành công cho US-008.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}
+    .h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .title{font:700 16px Inter,'Segoe UI',Arial,sans-serif;fill:#172743}
+    .label{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f;letter-spacing:.4px}
+    .body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#536784}
+    .value{font:400 15px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+    .btn{font:600 13px Inter,'Segoe UI',Arial,sans-serif}
+  </style>
+  <rect width="1200" height="900" class="bg"/>
+  <text x="32" y="48" class="h1">Trạng thái Việc tiếp theo &amp; danh sách việc phải làm</text>
+  <text x="32" y="74" class="body">Cờ cảnh báo là cảnh báo, không phải validation chặn lưu.</text>
+
+  <!-- Row 1: Đủ thông tin / Thiếu một ô -->
+  <rect x="32" y="106" width="548" height="326" rx="14" class="card"/>
+  <rect x="32" y="106" width="548" height="64" rx="14" fill="#ecfdf5"/>
+  <text x="58" y="145" class="title" fill="#166534">✓ Đủ thông tin · Đã lưu</text>
+  <text x="58" y="216" class="label">VIỆC TIẾP THEO</text>
+  <text x="58" y="246" class="value">Chuẩn bị agenda workshop</text>
+  <text x="58" y="298" class="label">NGÀY HẠN</text>
+  <text x="58" y="328" class="value">18/08/2026</text>
+  <rect x="58" y="374" width="480" height="44" rx="8" fill="#eef6ff"/>
+  <text x="78" y="401" class="value" fill="#1d4ed8">Có trong danh sách việc phải làm (AC-019)</text>
+
+  <rect x="612" y="106" width="556" height="326" rx="14" class="card"/>
+  <rect x="612" y="106" width="556" height="64" rx="14" fill="#fff8e8"/>
+  <text x="638" y="145" class="title" fill="#9a5a00">⚠ Thiếu ngày hạn · Đã lưu</text>
+  <text x="638" y="216" class="label">VIỆC TIẾP THEO</text>
+  <text x="638" y="246" class="value">Chuẩn bị agenda workshop</text>
+  <text x="638" y="298" class="label">NGÀY HẠN</text>
+  <text x="638" y="328" class="value" fill="#dc2626">Chưa có</text>
+  <rect x="638" y="374" width="480" height="44" rx="8" fill="#fff1f2"/>
+  <text x="658" y="401" class="value" fill="#dc2626">Không có trong danh sách việc phải làm (AC-020)</text>
+
+  <!-- Row 2: pending question / empty / error -->
+  <rect x="32" y="464" width="350" height="182" rx="14" fill="#fff" stroke="#bfcee0" stroke-dasharray="5 4"/>
+  <circle cx="207" cy="510" r="20" fill="#f0f4f9"/><text x="199" y="518" font-family="Inter" font-size="20" fill="#8da1c3">?</text>
+  <text x="112" y="552" class="title" fill="#60718f">Trống cả hai ô</text>
+  <text x="60" y="578" class="body">Kết quả suy diễn theo A-008-02,</text>
+  <text x="60" y="598" class="body">chưa được AC xác nhận tường minh.</text>
+  <rect x="60" y="612" width="290" height="26" rx="13" fill="#f0f4f9"/>
+  <text x="76" y="630" class="hint">Chờ PO quyết định · Q-008-02</text>
+
+  <rect x="404" y="464" width="376" height="182" rx="14" class="card"/>
+  <circle cx="592" cy="514" r="22" fill="#eef2f7"/><text x="584" y="522" font-family="Inter" font-size="22" fill="#8da1c3">▤</text>
+  <text x="497" y="558" class="title">Chưa có việc phải làm</text>
+  <text x="437" y="586" class="body">Chưa có cơ hội mở nào đủ hai thông tin.</text>
+  <rect x="530" y="602" width="124" height="34" rx="6" fill="#5236f5"/>
+  <text x="552" y="624" class="btn" fill="#fff">Mở cơ hội</text>
+
+  <rect x="804" y="464" width="364" height="182" rx="14" class="card"/>
+  <circle cx="986" cy="514" r="22" fill="#fff9e9"/><text x="978" y="522" font-family="Inter" font-size="22" fill="#b66a00">↻</text>
+  <text x="901" y="558" class="title">Không tải được danh sách</text>
+  <text x="855" y="586" class="body">Kiểm tra kết nối và thử lại thao tác.</text>
+  <rect x="920" y="602" width="118" height="34" rx="6" fill="#fff" stroke="#bfcee0"/>
+  <text x="952" y="624" class="btn" fill="#263a59">Thử lại</text>
+
+  <rect x="32" y="670" width="1136" height="92" rx="12" fill="#ecfdf5" stroke="#86efac"/>
+  <circle cx="76" cy="716" r="20" fill="#22c55e"/><text x="69" y="723" font-family="Inter" font-size="18" font-weight="700" fill="#fff">✓</text>
+  <text x="112" y="708" class="title" fill="#166534">Lưu thành công</text>
+  <text x="112" y="734" class="body" fill="#166534">Việc tiếp theo và ngày hạn của Cloud Migration đã được cập nhật.</text>
+
+  <text x="32" y="800" class="hint">Ba mức không dùng riêng màu sắc: đủ = ✓ + viền xanh lá; thiếu = ⚠ + viền vàng; chờ quyết định = ? + viền chấm gạch.</text>
+  <text x="32" y="824" class="hint">SCR-US008-03 · US-008 · AC-019, AC-020 · Trống cả hai ô đang chờ PO quyết định tại Q-008-02.</text>
+</svg>

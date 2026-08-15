@@ -1,1 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc"><title id="title">SCR-US010-01 — Số Công ty theo ngành</title><desc id="desc">Dashboard hiển thị tổng số và phân bố Công ty theo ngành.</desc><style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial;fill:#07152f}.title{font:700 16px Inter,'Segoe UI',Arial;fill:#172743}.body{font:400 14px Inter,'Segoe UI',Arial;fill:#536784}.metric{font:700 32px Inter,'Segoe UI',Arial;fill:#07152f}.hint{font:400 12px Inter,'Segoe UI',Arial;fill:#8da1c3}</style><rect width="1200" height="700" class="bg"/><text x="32" y="48" class="h1">Tổng quan Công ty</text><text x="32" y="75" class="body">Số lượng Công ty được nhóm theo ngành</text><rect x="32" y="112" width="260" height="132" rx="14" class="card"/><text x="58" y="150" class="body">Tổng Công ty</text><text x="58" y="204" class="metric">24</text><rect x="324" y="112" width="844" height="500" rx="14" class="card"/><text x="354" y="154" class="title">Công ty theo ngành</text><text x="354" y="212" class="body">Phát triển phần mềm</text><rect x="570" y="192" width="430" height="24" rx="12" fill="#e4e7ff"/><rect x="570" y="192" width="344" height="24" rx="12" fill="#695cff"/><text x="1022" y="211" class="body">8</text><text x="354" y="278" class="body">Dịch vụ CNTT</text><rect x="570" y="258" width="430" height="24" rx="12" fill="#e8f2ff"/><rect x="570" y="258" width="258" height="24" rx="12" fill="#3b82f6"/><text x="1022" y="277" class="body">6</text><text x="354" y="344" class="body">Tích hợp hệ thống</text><rect x="570" y="324" width="430" height="24" rx="12" fill="#e8f8f1"/><rect x="570" y="324" width="215" height="24" rx="12" fill="#10b981"/><text x="1022" y="343" class="body">5</text><text x="354" y="410" class="body">Công nghệ internet</text><rect x="570" y="390" width="430" height="24" rx="12" fill="#fff4db"/><rect x="570" y="390" width="129" height="24" rx="12" fill="#f59e0b"/><text x="1022" y="409" class="body">3</text><text x="354" y="476" class="body">Viễn thông</text><rect x="570" y="456" width="430" height="24" rx="12" fill="#f2eaff"/><rect x="570" y="456" width="86" height="24" rx="12" fill="#a855f7"/><text x="1022" y="475" class="body">2</text><text x="32" y="670" class="hint">SCR-US010-01 · US-010 · AC-024</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">SCR-US010-01 — Số Công ty theo ngành</title>
+  <desc id="desc">Tổng quan hiển thị tổng số và phân bố Công ty theo ngành cho Sales.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}
+    .h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#536784}
+    .section{font:700 15px Inter,'Segoe UI',Arial,sans-serif;fill:#263a59;letter-spacing:.3px}
+    .metric{font:700 32px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .label{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#3f526f}
+    .count{font:700 14px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+  </style>
+  <rect width="1200" height="700" class="bg"/>
+  <text x="32" y="48" class="h1">Tổng quan Công ty</text>
+  <text x="32" y="75" class="body">Số lượng Công ty hiện có, nhóm theo ngành</text>
+
+  <rect x="32" y="112" width="260" height="132" rx="14" class="card"/>
+  <text x="58" y="150" class="body">Tổng Công ty</text>
+  <text x="58" y="204" class="metric">24</text>
+  <text x="58" y="228" class="hint">Nguồn: Công ty (US-001)</text>
+
+  <rect x="324" y="112" width="844" height="500" rx="14" class="card"/>
+  <rect x="354" y="140" width="5" height="22" rx="3" fill="#695cff"/>
+  <text x="372" y="158" class="section">Công ty theo ngành</text>
+
+  <text x="354" y="212" class="label">Phát triển phần mềm</text>
+  <rect x="570" y="192" width="430" height="24" rx="12" fill="#e4e7ff"/>
+  <rect x="570" y="192" width="344" height="24" rx="12" fill="#695cff"/>
+  <text x="1022" y="211" class="count">8</text>
+
+  <text x="354" y="278" class="label">Dịch vụ CNTT</text>
+  <rect x="570" y="258" width="430" height="24" rx="12" fill="#e8f2ff"/>
+  <rect x="570" y="258" width="258" height="24" rx="12" fill="#3b82f6"/>
+  <text x="1022" y="277" class="count">6</text>
+
+  <text x="354" y="344" class="label">Tích hợp hệ thống</text>
+  <rect x="570" y="324" width="430" height="24" rx="12" fill="#e8f8f1"/>
+  <rect x="570" y="324" width="215" height="24" rx="12" fill="#10b981"/>
+  <text x="1022" y="343" class="count">5</text>
+
+  <text x="354" y="410" class="label">Công nghệ internet</text>
+  <rect x="570" y="390" width="430" height="24" rx="12" fill="#fff4db"/>
+  <rect x="570" y="390" width="129" height="24" rx="12" fill="#f59e0b"/>
+  <text x="1022" y="409" class="count">3</text>
+
+  <text x="354" y="476" class="label">Viễn thông</text>
+  <rect x="570" y="456" width="430" height="24" rx="12" fill="#f2eaff"/>
+  <rect x="570" y="456" width="86" height="24" rx="12" fill="#a855f7"/>
+  <text x="1022" y="475" class="count">2</text>
+
+  <line x1="354" y1="522" x2="994" y2="522" stroke="#e6ebf2"/>
+  <text x="354" y="556" class="hint">Danh sách minh hoạ; số liệu thật lấy từ Công ty đang hoạt động (chưa xoá mềm) theo US-001.</text>
+  <text x="354" y="578" class="hint">Không có thao tác chỉnh sửa Công ty từ màn hình Tổng quan (BR-US010-04).</text>
+
+  <text x="32" y="670" class="hint">SCR-US010-01 · US-010 · AC-024 · BR-US010-01</text>
+</svg>

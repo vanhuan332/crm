@@ -1,76 +1,85 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-labelledby="title desc">
-<title id="title">US-005 — Chốt chặn Đủ điều kiện</title>
+<title id="title">US-005 — Chốt chặn Đủ điều kiện (2 dấu hiệu)</title>
 <desc id="desc">Wireframe nghiệp vụ cho US-005, truy vết AC-013 · AC-014.</desc>
 <style>
-.bg{fill:#F8FAFC}.sidebar{fill:#FFFFFF;stroke:#E2E8F0}.panel{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:1.5}.nav{font:500 15px 'Segoe UI',Arial,sans-serif;fill:#475569}.active{fill:#1D4ED8;font-weight:700}.eyebrow{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#2563EB;letter-spacing:1.2px}.h1{font:700 28px 'Segoe UI',Arial,sans-serif;fill:#0F172A}.meta{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#64748B}.paneltitle{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#1E3A8A}.body{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#334155}.chip{fill:#E0E7FF}.chiptext{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#3730A3}.note{font:500 12px 'Segoe UI',Arial,sans-serif;fill:#64748B}
+.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.line{stroke:#e6ebf2}.eyebrow{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#60718f;letter-spacing:1.2px}.h1{font:700 28px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.meta{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}.paneltitle{font:700 16px Inter,'Segoe UI',Arial,sans-serif;fill:#263a59}.body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#3f526f}.chip{fill:#eef0ff;stroke:#c4c8ff}.chiptext{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#4634f2}.note{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}.badge{font:600 11px Inter,'Segoe UI',Arial,sans-serif}
 </style>
 <rect width="1440" height="820" class="bg"/>
-<rect x="0" y="0" width="190" height="820" class="sidebar"/>
-<rect x="18" y="24" width="40" height="40" rx="12" fill="#2563EB"/>
-<text x="70" y="50" class="paneltitle">AI Native CRM</text>
-<rect x="18" y="128" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="151" class="nav">Dashboard</text>
-<rect x="18" y="175" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="198" class="nav">Công ty</text>
-<rect x="18" y="222" width="154" height="36" rx="9" fill="#DBEAFE"/>
-<text x="34" y="245" class="nav active">Pipeline</text>
-<rect x="18" y="269" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="292" class="nav">Timeline</text>
-<rect x="18" y="316" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="339" class="nav">AI Insight</text>
-<rect x="18" y="363" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="386" class="nav">Gợi ý</text>
-<rect x="18" y="410" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="433" class="nav">Admin</text>
-<text x="22" y="782" class="note">Wireframe BA · không phải UI final</text>
-<text x="216" y="44" class="eyebrow">US-005 · Sales</text>
-<text x="216" y="84" class="h1">Chốt chặn Đủ điều kiện</text>
-<rect x="216" y="108" width="430" height="34" rx="17" class="chip"/>
-<text x="234" y="130" class="chiptext">AC-013 · AC-014</text>
-<text x="216" y="174" class="meta">Luồng màn hình và trạng thái nghiệp vụ</text>
-<rect x="216" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="216" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="216" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="238" y="234" class="paneltitle">SCR-US005-01 · Hộp thoại Qualify</text>
-<circle cx="244" cy="278" r="5" fill="#2563EB"/>
-<text x="260" y="284" class="body">Dấu hiệu nhu cầu + nguồn</text>
-<circle cx="244" cy="336" r="5" fill="#2563EB"/>
-<text x="260" y="342" class="body">Dấu hiệu ngân sách + nguồn</text>
-<circle cx="244" cy="394" r="5" fill="#2563EB"/>
-<text x="260" y="400" class="body">Bỏ qua · Lưu và chuyển</text>
-<circle cx="244" cy="452" r="5" fill="#2563EB"/>
-<text x="260" y="458" class="body">Không chặn kéo sang Đủ điều kiện</text>
-<circle cx="244" cy="510" r="5" fill="#2563EB"/>
-<text x="260" y="516" class="body">Ngữ cảnh cơ hội được giữ</text>
-<rect x="612" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="612" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="612" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="634" y="234" class="paneltitle">SCR-US005-02 · Cảnh báo thiếu</text>
-<circle cx="640" cy="278" r="5" fill="#2563EB"/>
-<text x="656" y="284" class="body">Badge Thiếu điều kiện</text>
-<circle cx="640" cy="336" r="5" fill="#2563EB"/>
-<text x="656" y="342" class="body">Nêu rõ phần nhu cầu/ngân sách thiếu</text>
-<circle cx="640" cy="394" r="5" fill="#2563EB"/>
-<text x="656" y="400" class="body">Bổ sung ngay từ cơ hội</text>
-<circle cx="640" cy="452" r="5" fill="#2563EB"/>
-<text x="656" y="458" class="body">Cơ hội vẫn ở Đủ điều kiện</text>
-<circle cx="640" cy="510" r="5" fill="#2563EB"/>
-<text x="656" y="516" class="body">Không ẩn cảnh báo tới khi đủ</text>
-<rect x="1008" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="1008" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="1008" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="1030" y="234" class="paneltitle">SCR-US005-03 · Trạng thái</text>
-<circle cx="1036" cy="278" r="5" fill="#2563EB"/>
-<text x="1052" y="284" class="body">Đủ hai chiều: không cảnh báo</text>
-<circle cx="1036" cy="336" r="5" fill="#2563EB"/>
-<text x="1052" y="342" class="body">Thiếu một / cả hai: có cờ</text>
-<circle cx="1036" cy="394" r="5" fill="#2563EB"/>
-<text x="1052" y="400" class="body">Validation nguồn đi cùng phát biểu</text>
-<circle cx="1036" cy="452" r="5" fill="#2563EB"/>
-<text x="1052" y="458" class="body">Lỗi lưu: giữ nội dung</text>
-<circle cx="1036" cy="510" r="5" fill="#2563EB"/>
-<text x="1052" y="516" class="body">Success: cập nhật card</text>
-<rect x="216" y="728" width="1164" height="58" rx="12" fill="#F1F5F9"/>
-<text x="238" y="752" class="note">Bao phủ: loading · empty · validation · permission · not-found · recoverable error khi được yêu cầu.</text>
-<text x="238" y="772" class="note">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai.</text>
+<text x="40" y="52" class="eyebrow">US-005 · SALES</text>
+<text x="40" y="88" class="h1">Chốt chặn Đủ điều kiện (2 dấu hiệu)</text>
+<rect x="40" y="110" width="230" height="32" rx="16" class="chip"/>
+<text x="58" y="131" class="chiptext">AC-013 · AC-014</text>
+<text x="40" y="176" class="meta">Luồng màn hình và trạng thái nghiệp vụ · kích hoạt khi Sales kéo Cơ hội sang Đủ điều kiện (US-004)</text>
+
+<rect x="40" y="204" width="424" height="498" rx="16" class="card"/>
+<rect x="40" y="204" width="424" height="60" rx="16" fill="#f4f6fb"/>
+<rect x="40" y="248" width="424" height="16" fill="#f4f6fb"/>
+<rect x="66" y="232" width="5" height="22" rx="3" fill="#d8e1ec"/>
+<text x="82" y="240" class="paneltitle">Bối cảnh · Bảng giai đoạn (US-004)</text>
+<circle cx="70" cy="292" r="5" fill="#8da1c3"/>
+<text x="86" y="298" class="body">Sales kéo một Cơ hội sang cột Đủ điều kiện</text>
+<circle cx="70" cy="336" r="5" fill="#8da1c3"/>
+<text x="86" y="342" class="body">Kéo tiến/lùi/nhảy cóc thuộc US-004, ngoài phạm vi US-005</text>
+<circle cx="70" cy="380" r="5" fill="#8da1c3"/>
+<text x="86" y="386" class="body">Thao tác kéo luôn thành công (REQ-105), không bị US-005 chặn</text>
+<circle cx="70" cy="424" r="5" fill="#8da1c3"/>
+<text x="86" y="430" class="body">Ngay khi thả vào Đủ điều kiện → hộp thoại 2 dấu hiệu mở ra</text>
+<rect x="66" y="466" width="360" height="60" rx="10" fill="#fbfcfe" stroke="#e6ebf2"/>
+<text x="82" y="490" class="body" font-weight="600" fill="#263a59">Cũng áp dụng khi tạo Cơ hội</text>
+<text x="82" y="510" class="note" fill="#94a3b8">trực tiếp ở Đủ điều kiện? — Q-005-03 (mở)</text>
+
+<line x1="464" y1="453" x2="500" y2="453" class="line" stroke-width="2"/>
+<polygon points="500,447 512,453 500,459" fill="#8da1c3"/>
+
+<rect x="512" y="204" width="424" height="498" rx="16" class="card"/>
+<rect x="512" y="204" width="424" height="60" rx="16" fill="#eef0ff"/>
+<rect x="512" y="248" width="424" height="16" fill="#eef0ff"/>
+<rect x="538" y="232" width="5" height="22" rx="3" fill="#695cff"/>
+<text x="554" y="240" class="paneltitle">SCR-US005-01 · Hộp thoại Đủ điều kiện</text>
+<circle cx="542" cy="292" r="5" fill="#5236f5"/>
+<text x="558" y="298" class="body">Dấu hiệu nhu cầu: 1 câu nhận định + 1 nguồn</text>
+<circle cx="542" cy="336" r="5" fill="#5236f5"/>
+<text x="558" y="342" class="body">Dấu hiệu ngân sách: 1 câu nhận định + 1 nguồn</text>
+<circle cx="542" cy="380" r="5" fill="#5236f5"/>
+<text x="558" y="386" class="body">Nút Bỏ qua: không chặn chuyển giai đoạn (REQ-106)</text>
+<circle cx="542" cy="424" r="5" fill="#5236f5"/>
+<text x="558" y="430" class="body">Nút Lưu &amp; chuyển giai đoạn: ghi cả hai dấu hiệu</text>
+<circle cx="542" cy="468" r="5" fill="#5236f5"/>
+<text x="558" y="474" class="body">Định dạng trường nguồn — Q-005-01 (mở)</text>
+<rect x="538" y="510" width="360" height="60" rx="10" fill="#fbfcfe" stroke="#e6ebf2"/>
+<text x="554" y="534" class="body" font-weight="600" fill="#263a59">Nhập một phần (thiếu câu hoặc nguồn)?</text>
+<text x="554" y="554" class="note" fill="#94a3b8">Suy luận từ BR-005 — Q-005-02 (mở)</text>
+
+<line x1="936" y1="453" x2="972" y2="453" class="line" stroke-width="2"/>
+<polygon points="972,447 984,453 972,459" fill="#8da1c3"/>
+
+<rect x="984" y="204" width="416" height="234" rx="16" class="card"/>
+<rect x="984" y="204" width="416" height="52" rx="16" fill="#ecfdf5"/>
+<rect x="984" y="240" width="416" height="16" fill="#ecfdf5"/>
+<text x="1010" y="236" class="paneltitle" fill="#166534">SCR-US005-03 · Hoàn chỉnh</text>
+<circle cx="1014" cy="284" r="5" fill="#22c55e"/>
+<text x="1030" y="290" class="body">Cả hai dấu hiệu có câu nhận định + nguồn</text>
+<circle cx="1014" cy="322" r="5" fill="#22c55e"/>
+<text x="1030" y="328" class="body">Đủ điều kiện — không mang cờ cảnh báo</text>
+<circle cx="1014" cy="360" r="5" fill="#22c55e"/>
+<text x="1030" y="366" class="body">Trạng thái áp dụng ngay, không cần duyệt thêm</text>
+<rect x="1010" y="390" width="130" height="30" rx="15" fill="#eef6ff" stroke="#c7ddfd"/>
+<text x="1030" y="410" class="badge" fill="#1d4ed8">Đủ điều kiện</text>
+
+<rect x="984" y="454" width="416" height="248" rx="16" class="card"/>
+<rect x="984" y="454" width="416" height="52" rx="16" fill="#fff8e8"/>
+<rect x="984" y="490" width="416" height="16" fill="#fff8e8"/>
+<text x="1010" y="486" class="paneltitle" fill="#9a5a00">SCR-US005-02 · Cảnh báo thiếu</text>
+<circle cx="1014" cy="534" r="5" fill="#f5c84b"/>
+<text x="1030" y="540" class="body">Bỏ qua hoặc thiếu 1 trong 2 dấu hiệu</text>
+<circle cx="1014" cy="572" r="5" fill="#f5c84b"/>
+<text x="1030" y="578" class="body">Cơ hội vẫn chuyển Đủ điều kiện ngay (không chặn)</text>
+<circle cx="1014" cy="610" r="5" fill="#f5c84b"/>
+<text x="1030" y="616" class="body">Mang cờ cảnh báo tới khi bổ sung đủ (BR-US005-04)</text>
+<circle cx="1014" cy="648" r="5" fill="#f5c84b"/>
+<text x="1030" y="654" class="body">Bổ sung sau → cờ được gỡ, quay lại trạng thái hoàn chỉnh</text>
+
+<rect x="40" y="726" width="1360" height="60" rx="12" fill="#f1f5f9"/>
+<text x="64" y="750" class="note" fill="#64748b">Bao phủ: hoàn chỉnh · cảnh báo (bỏ qua/thiếu) · đang lưu · lỗi có thể thử lại khi được yêu cầu.</text>
+<text x="64" y="770" class="note" fill="#64748b">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai. Wireframe BA · không phải UI final.</text>
 </svg>

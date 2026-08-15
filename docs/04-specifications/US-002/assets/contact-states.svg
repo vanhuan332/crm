@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">SCR-US002-05 — Trạng thái và phản hồi</title>
+<desc id="desc">Các trạng thái xác nhận xóa, thành công, empty, not-found và lỗi có thể thử lại của US-002; ghi nhận khoảng trống về định dạng trường.</desc>
+<style>.bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.h1{font:700 25px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}.title{font:700 16px Inter,'Segoe UI',Arial,sans-serif;fill:#172743}.label{font:500 14px Inter,'Segoe UI',Arial,sans-serif;fill:#14233e}.body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#536784}.hint{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}.btn{font:600 13px Inter,'Segoe UI',Arial,sans-serif}</style>
+<rect width="1200" height="900" class="bg"/>
+<text x="32" y="48" class="h1">Trạng thái màn hình Người liên hệ</text>
+<text x="32" y="74" class="body">Phản hồi và khoảng trống nghiệp vụ cho US-002</text>
+
+<rect x="32" y="106" width="548" height="326" rx="14" fill="#fff8e8" stroke="#f5c84b"/>
+<text x="58" y="142" class="title" fill="#9a5a00">Định dạng trường — chưa xác nhận</text>
+<text x="58" y="170" class="body">Ràng buộc bắt buộc/tùy chọn và định dạng hợp lệ của Họ tên, Chức danh, Email chưa có nguồn trong docs/02-analysis.</text>
+<text x="58" y="216" class="label">Họ và tên</text><rect x="58" y="230" width="496" height="43" rx="6" fill="#fff" stroke="#d9e2ef"/><text x="74" y="257" class="hint">Không có quy tắc định dạng được xác nhận</text>
+<text x="58" y="332" class="label">Email</text><rect x="58" y="346" width="496" height="43" rx="6" fill="#fff" stroke="#d9e2ef"/><text x="74" y="373" class="hint">Không có quy tắc định dạng được xác nhận</text>
+<text x="58" y="410" class="body">Xem Q-002-02 · nội dung hiển thị không tự suy diễn quy tắc.</text>
+
+<rect x="612" y="106" width="556" height="326" rx="14" class="card"/>
+<rect x="612" y="106" width="556" height="326" rx="14" fill="#15213a" opacity=".08"/>
+<rect x="676" y="170" width="428" height="206" rx="14" fill="#fff" stroke="#d9e2ef"/>
+<circle cx="720" cy="218" r="22" fill="#fff1f2"/><text x="711" y="225" font-family="Inter,'Segoe UI',Arial" font-size="20" fill="#dc2626">!</text>
+<text x="756" y="214" class="title">Xóa Hoàng Thu Lan?</text>
+<text x="756" y="240" class="body">Người liên hệ sẽ bị gỡ khỏi FPT Software.</text>
+<text x="704" y="274" class="hint">Nếu người này đang là PIC, kết quả sau xóa chưa được xác nhận (Q-002-03).</text>
+<rect x="858" y="306" width="92" height="40" rx="6" fill="#fff" stroke="#bfcee0"/><text x="881" y="331" class="btn" fill="#263a59">Hủy</text>
+<rect x="962" y="306" width="112" height="40" rx="6" fill="#dc2626"/><text x="982" y="331" class="btn" fill="#fff">Xóa liên hệ</text>
+
+<rect x="32" y="464" width="350" height="174" rx="14" class="card"/><circle cx="207" cy="510" r="22" fill="#eef2f7"/><text x="199" y="518" font-family="Inter,'Segoe UI',Arial" font-size="22" fill="#8da1c3">＋</text><text x="112" y="554" class="title">Chưa có người liên hệ</text><text x="72" y="580" class="body">Thêm người liên hệ đầu tiên của Công ty này.</text><rect x="120" y="596" width="142" height="34" rx="6" fill="#5236f5"/><text x="145" y="618" class="btn" fill="#fff">Thêm liên hệ</text>
+
+<rect x="425" y="464" width="350" height="174" rx="14" class="card"/><circle cx="600" cy="510" r="22" fill="#fff5f5"/><text x="592" y="518" font-family="Inter,'Segoe UI',Arial" font-size="22" fill="#dc2626">!</text><text x="486" y="554" class="title">Không tìm thấy người liên hệ</text><text x="466" y="580" class="body">Hồ sơ không tồn tại hoặc đã bị xóa.</text><rect x="525" y="596" width="150" height="34" rx="6" fill="#fff" stroke="#bfcee0"/><text x="548" y="618" class="btn" fill="#263a59">Về danh sách</text>
+
+<rect x="818" y="464" width="350" height="174" rx="14" class="card"/><circle cx="993" cy="510" r="22" fill="#fff9e9"/><text x="985" y="518" font-family="Inter,'Segoe UI',Arial" font-size="22" fill="#b66a00">↻</text><text x="906" y="554" class="title">Không thể tải danh sách</text><text x="873" y="580" class="body">Kiểm tra kết nối và thử lại thao tác.</text><rect x="934" y="596" width="118" height="34" rx="6" fill="#fff" stroke="#bfcee0"/><text x="966" y="618" class="btn" fill="#263a59">Thử lại</text>
+
+<rect x="32" y="678" width="1136" height="92" rx="12" fill="#ecfdf5" stroke="#86efac"/><circle cx="76" cy="724" r="20" fill="#22c55e"/><text x="69" y="731" font-family="Inter,'Segoe UI',Arial" font-size="18" font-weight="700" fill="#fff">✓</text><text x="112" y="716" class="title" fill="#166534">Lưu thành công</text><text x="112" y="742" class="body" fill="#166534">Thay đổi người liên hệ của FPT Software đã được ghi nhận.</text>
+
+<text x="32" y="808" class="hint">Loading: dùng skeleton trong vùng bảng/form, giữ nguyên cấu trúc trang và khóa hành động lưu trong lúc xử lý.</text>
+<text x="32" y="832" class="hint">SCR-US002-05 · US-002 · AC-005..007 · Quy tắc bắt buộc-đúng-một-PIC (BR-002) không phụ thuộc định dạng trường còn mở.</text>
+</svg>

@@ -1,76 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-labelledby="title desc">
-<title id="title">US-008 — Việc tiếp theo và ngày hạn</title>
-<desc id="desc">Wireframe nghiệp vụ cho US-008, truy vết AC-019 · AC-020.</desc>
-<style>
-.bg{fill:#F8FAFC}.sidebar{fill:#FFFFFF;stroke:#E2E8F0}.panel{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:1.5}.nav{font:500 15px 'Segoe UI',Arial,sans-serif;fill:#475569}.active{fill:#1D4ED8;font-weight:700}.eyebrow{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#2563EB;letter-spacing:1.2px}.h1{font:700 28px 'Segoe UI',Arial,sans-serif;fill:#0F172A}.meta{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#64748B}.paneltitle{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#1E3A8A}.body{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#334155}.chip{fill:#E0E7FF}.chiptext{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#3730A3}.note{font:500 12px 'Segoe UI',Arial,sans-serif;fill:#64748B}
-</style>
-<rect width="1440" height="820" class="bg"/>
-<rect x="0" y="0" width="190" height="820" class="sidebar"/>
-<rect x="18" y="24" width="40" height="40" rx="12" fill="#2563EB"/>
-<text x="70" y="50" class="paneltitle">AI Native CRM</text>
-<rect x="18" y="128" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="151" class="nav">Dashboard</text>
-<rect x="18" y="175" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="198" class="nav">Công ty</text>
-<rect x="18" y="222" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="245" class="nav">Pipeline</text>
-<rect x="18" y="269" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="292" class="nav">Timeline</text>
-<rect x="18" y="316" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="339" class="nav">AI Insight</text>
-<rect x="18" y="363" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="386" class="nav">Gợi ý</text>
-<rect x="18" y="410" width="154" height="36" rx="9" fill="transparent"/>
-<text x="34" y="433" class="nav">Admin</text>
-<text x="22" y="782" class="note">Wireframe BA · không phải UI final</text>
-<text x="216" y="44" class="eyebrow">US-008 · Sales</text>
-<text x="216" y="84" class="h1">Việc tiếp theo và ngày hạn</text>
-<rect x="216" y="108" width="430" height="34" rx="17" class="chip"/>
-<text x="234" y="130" class="chiptext">AC-019 · AC-020</text>
-<text x="216" y="174" class="meta">Luồng màn hình và trạng thái nghiệp vụ</text>
-<rect x="216" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="216" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="216" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="238" y="234" class="paneltitle">SCR-US008-01 · Chi tiết Cơ hội</text>
-<circle cx="244" cy="278" r="5" fill="#2563EB"/>
-<text x="260" y="284" class="body">Việc tiếp theo</text>
-<circle cx="244" cy="336" r="5" fill="#2563EB"/>
-<text x="260" y="342" class="body">Ngày hạn</text>
-<circle cx="244" cy="394" r="5" fill="#2563EB"/>
-<text x="260" y="400" class="body">Lưu dù thiếu một ô</text>
-<circle cx="244" cy="452" r="5" fill="#2563EB"/>
-<text x="260" y="458" class="body">Cờ cảnh báo khi thiếu</text>
-<circle cx="244" cy="510" r="5" fill="#2563EB"/>
-<text x="260" y="516" class="body">Không chặn thao tác Sales</text>
-<rect x="612" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="612" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="612" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="634" y="234" class="paneltitle">SCR-US008-02 · Danh sách việc phải làm</text>
-<circle cx="640" cy="278" r="5" fill="#2563EB"/>
-<text x="656" y="284" class="body">Chỉ hiện khi đủ hai ô</text>
-<circle cx="640" cy="336" r="5" fill="#2563EB"/>
-<text x="656" y="342" class="body">Sắp/xem theo ngày hạn</text>
-<circle cx="640" cy="394" r="5" fill="#2563EB"/>
-<text x="656" y="400" class="body">Tên cơ hội · Công ty · Việc</text>
-<circle cx="640" cy="452" r="5" fill="#2563EB"/>
-<text x="656" y="458" class="body">Trạng thái quá hạn rõ ràng</text>
-<circle cx="640" cy="510" r="5" fill="#2563EB"/>
-<text x="656" y="516" class="body">Empty: Chưa có việc đủ thông tin</text>
-<rect x="1008" y="196" width="372" height="506" rx="16" class="panel"/>
-<rect x="1008" y="196" width="372" height="64" rx="16" fill="#EFF6FF"/>
-<rect x="1008" y="244" width="372" height="16" fill="#EFF6FF"/>
-<text x="1030" y="234" class="paneltitle">SCR-US008-03 · Trạng thái</text>
-<circle cx="1036" cy="278" r="5" fill="#2563EB"/>
-<text x="1052" y="284" class="body">Đủ: xuất hiện trong danh sách</text>
-<circle cx="1036" cy="336" r="5" fill="#2563EB"/>
-<text x="1052" y="342" class="body">Thiếu: lưu + cờ cảnh báo</text>
-<circle cx="1036" cy="394" r="5" fill="#2563EB"/>
-<text x="1052" y="400" class="body">Bổ sung đủ: tự đủ điều kiện hiển thị</text>
-<circle cx="1036" cy="452" r="5" fill="#2563EB"/>
-<text x="1052" y="458" class="body">Lỗi lưu: giữ dữ liệu</text>
-<circle cx="1036" cy="510" r="5" fill="#2563EB"/>
-<text x="1052" y="516" class="body">Không dùng màu làm tín hiệu duy nhất</text>
-<rect x="216" y="728" width="1164" height="58" rx="12" fill="#F1F5F9"/>
-<text x="238" y="752" class="note">Bao phủ: loading · empty · validation · permission · not-found · recoverable error khi được yêu cầu.</text>
-<text x="238" y="772" class="note">Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780" role="img" aria-labelledby="title desc">
+  <title id="title">US-008 — Việc tiếp theo &amp; ngày hạn</title>
+  <desc id="desc">Sơ đồ luồng màn hình nghiệp vụ cho US-008, truy vết AC-019 · AC-020.</desc>
+  <style>
+    .bg{fill:#f7f9fc}.card{fill:#fff;stroke:#d9e2ef}.line{stroke:#e6ebf2}
+    .h1{font:700 26px Inter,'Segoe UI',Arial,sans-serif;fill:#07152f}
+    .eyebrow{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#5236f5;letter-spacing:1.2px}
+    .sub{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#64748b}
+    .paneltitle{font:700 15px Inter,'Segoe UI',Arial,sans-serif;fill:#263a59}
+    .body{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#3f526f}
+    .chip{fill:#eef0ff;stroke:#c4c8ff}.chiptext{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#4634f2}
+    .note{font:400 12px Inter,'Segoe UI',Arial,sans-serif;fill:#8da1c3}
+    .arrow{stroke:#bfcee0;stroke-width:2;fill:none}
+  </style>
+  <rect width="1400" height="780" class="bg"/>
+
+  <text x="40" y="42" class="eyebrow">US-008 · SALES</text>
+  <text x="40" y="76" class="h1">Việc tiếp theo &amp; ngày hạn của Cơ hội</text>
+  <rect x="40" y="94" width="216" height="30" rx="15" class="chip"/>
+  <text x="58" y="114" class="chiptext">AC-019 · AC-020</text>
+  <text x="40" y="146" class="sub">Luồng màn hình và trạng thái nghiệp vụ · chỉ áp dụng cho cơ hội mở (BR-004)</text>
+
+  <!-- Card 1 -->
+  <rect x="40" y="176" width="416" height="470" rx="14" class="card"/>
+  <rect x="40" y="176" width="416" height="60" rx="14" fill="#eef0ff"/>
+  <rect x="40" y="222" width="416" height="14" fill="#eef0ff"/>
+  <rect x="40" y="176" width="5" height="60" fill="#695cff"/>
+  <text x="64" y="212" class="paneltitle">SCR-US008-01 · Việc tiếp theo của Cơ hội</text>
+  <circle cx="66" cy="266" r="5" fill="#695cff"/><text x="82" y="272" class="body">Việc tiếp theo (mô tả việc cần làm)</text>
+  <circle cx="66" cy="308" r="5" fill="#695cff"/><text x="82" y="314" class="body">Ngày hạn</text>
+  <circle cx="66" cy="350" r="5" fill="#695cff"/><text x="82" y="356" class="body">Lưu được dù thiếu một ô</text>
+  <circle cx="66" cy="392" r="5" fill="#695cff"/><text x="82" y="398" class="body">Cờ cảnh báo hiện ngay khi thiếu</text>
+  <circle cx="66" cy="434" r="5" fill="#695cff"/><text x="82" y="440" class="body">Không chặn thao tác lưu của Sales</text>
+  <circle cx="66" cy="476" r="5" fill="#695cff"/><text x="82" y="482" class="body">Bổ sung sau → tự đủ điều kiện</text>
+
+  <!-- Arrow 1 to 2 -->
+  <path class="arrow" d="M456 411 L488 411" marker-end="url(#arrow)"/>
+
+  <!-- Card 2 -->
+  <rect x="492" y="176" width="416" height="470" rx="14" class="card"/>
+  <rect x="492" y="176" width="416" height="60" rx="14" fill="#eef0ff"/>
+  <rect x="492" y="222" width="416" height="14" fill="#eef0ff"/>
+  <rect x="492" y="176" width="5" height="60" fill="#695cff"/>
+  <text x="516" y="212" class="paneltitle">SCR-US008-02 · Danh sách việc phải làm</text>
+  <circle cx="518" cy="266" r="5" fill="#695cff"/><text x="534" y="272" class="body">Chỉ hiện cơ hội đủ hai ô</text>
+  <circle cx="518" cy="308" r="5" fill="#695cff"/><text x="534" y="314" class="body">Sắp/xem theo ngày hạn</text>
+  <circle cx="518" cy="350" r="5" fill="#695cff"/><text x="534" y="356" class="body">Cột: ngày hạn · việc · cơ hội · công ty</text>
+  <circle cx="518" cy="392" r="5" fill="#695cff"/><text x="534" y="398" class="body">Không chứa cơ hội đang thiếu ô</text>
+  <circle cx="518" cy="434" r="5" fill="#695cff"/><text x="534" y="440" class="body">Empty: chưa có việc đủ điều kiện</text>
+  <circle cx="518" cy="476" r="5" fill="#695cff"/><text x="534" y="482" class="body">Lỗi tải: có nút thử lại</text>
+
+  <!-- Arrow 2 to 3 -->
+  <path class="arrow" d="M908 411 L940 411" marker-end="url(#arrow)"/>
+
+  <!-- Card 3 -->
+  <rect x="944" y="176" width="416" height="470" rx="14" class="card"/>
+  <rect x="944" y="176" width="416" height="60" rx="14" fill="#eef0ff"/>
+  <rect x="944" y="222" width="416" height="14" fill="#eef0ff"/>
+  <rect x="944" y="176" width="5" height="60" fill="#695cff"/>
+  <text x="968" y="212" class="paneltitle">SCR-US008-03 · Trạng thái đủ / thiếu</text>
+  <circle cx="970" cy="266" r="5" fill="#22c55e"/><text x="986" y="272" class="body">Đủ hai ô → có trong danh sách</text>
+  <circle cx="970" cy="308" r="5" fill="#b66a00"/><text x="986" y="314" class="body">Thiếu một ô → lưu + cờ, ẩn khỏi danh sách</text>
+  <circle cx="970" cy="350" r="5" fill="#8da1c3"/><text x="986" y="356" class="body">Trống cả hai → đang chờ PO (Q-008-02)</text>
+  <circle cx="970" cy="392" r="5" fill="#8da1c3"/><text x="986" y="398" class="body">Empty / lỗi tải có thể thử lại</text>
+  <circle cx="970" cy="434" r="5" fill="#8da1c3"/><text x="986" y="440" class="body">Không dùng màu làm tín hiệu duy nhất</text>
+  <circle cx="970" cy="476" r="5" fill="#8da1c3"/><text x="986" y="482" class="body">Lưu thành công → banner xác nhận</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#bfcee0"/>
+    </marker>
+  </defs>
+
+  <rect x="40" y="672" width="1320" height="76" rx="12" fill="#eef6ff"/>
+  <text x="64" y="700" class="body" fill="#1d4ed8">Bao phủ: đủ thông tin · thiếu một ô · trống cả hai (open question) · empty · lỗi có thể thử lại · lưu thành công.</text>
+  <text x="64" y="724" class="note">Chỉ áp dụng cho cơ hội mở (BR-004) · Không quyết định framework, component library, endpoint hoặc cấu trúc triển khai.</text>
 </svg>
